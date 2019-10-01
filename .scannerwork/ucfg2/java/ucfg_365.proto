@@ -1,0 +1,43 @@
+
+Xcom.openstego.desktop.util.UserPreferences#getFloat(Ljava/lang/String;)Ljava/lang/Float;ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javaw w( "7*µ
+3ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.java} }()"ü
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.java} }()
+
+%1float*ú
+4ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.java} }(Å
+˛
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.java} }((
+%1float"/java.lang.Float#parseFloat(Ljava/lang/String;)F*"
+java.lang.Float*
+
+valjava.lang.String*
+3*Æ
+6ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javaz z("ò
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javaz z(
+""*ø
+7ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javax x(“
+œ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javax x(#
+%0java.lang.String"Zcom.openstego.desktop.util.UserPreferences#getString(Ljava/lang/String;)Ljava/lang/String;*.",
+*com.openstego.desktop.util.UserPreferences*
+
+keyjava.lang.StringÃ
+…
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/UserPreferences.javax x($
+valjava.lang.String"__id*
+
+%0java.lang.String*
+4
+6:
+keyjava.lang.StringB.",
+*com.openstego.desktop.util.UserPreferences

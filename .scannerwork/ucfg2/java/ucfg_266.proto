@@ -1,0 +1,22 @@
+
+Wcom.openstego.desktop.plugin.randlsb.RandomLSBPlugin#getDescription()Ljava/lang/String;—
+Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java9 9( "1*â
+1—
+Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java: :(˜
+•
+—
+Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java: :(*
+%0$com.openstego.desktop.util.LabelUtil"__id*G*E6
+4com.openstego.desktop.plugin.randlsb.RandomLSBPlugin"
+	labelUtilðí
+—
+Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java: :(8
+%1java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
+*
+%0$com.openstego.desktop.util.LabelUtil*
+plugin.description2getString(Ljava/lang/String;)"´
+—
+Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java: :(9
+
+%1java.lang.StringB86
+4com.openstego.desktop.plugin.randlsb.RandomLSBPlugin

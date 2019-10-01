@@ -1,0 +1,62 @@
+
+7com.openstego.desktop.plugin.lsb.LSBInputStream#read()I’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javap p("10*¼
+3”
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.java„  „(!"Ÿ
+”
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.java„ „("
+""*½
+
+6’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javay y(Œ
+‰
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javay y(,
+%0&com.openstego.desktop.util.ImageHolder"__id*>*<1
+/com.openstego.desktop.plugin.lsb.LSBInputStream"
+imageÉÆ
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javay y()"
+%1java.awt.image.BufferedImage"Ocom.openstego.desktop.util.ImageHolder#getImage()Ljava/awt/image/BufferedImage;*.
+,
+%0&com.openstego.desktop.util.ImageHolder2
+getImage()Œ
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javay y(@	
+%2int"(java.awt.image.BufferedImage#getRGB(II)I*$
+"
+%1java.awt.image.BufferedImage*
+""*
+""2
+getRGB(II)ª
+§
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javaz z(2
+
+%3byte"Gcom.openstego.desktop.plugin.lsb.LSBInputStream#getCurrBitFromPixel(I)B*31
+/com.openstego.desktop.plugin.lsb.LSBInputStream*
+""*	
+3
+6
+1*¸
+9’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javau u("
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javau u(
+""*ß
+10’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javaq q(¸
+µ
+’
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.javar r($
+bitSet$Array"__id*
+""*	
+6
+9
+1*¼
+1”
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.java‰ ‰("Ÿ
+”
+‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBInputStream.java‰ Š($
+""B31
+/com.openstego.desktop.plugin.lsb.LSBInputStream

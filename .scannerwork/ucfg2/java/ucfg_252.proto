@@ -1,0 +1,85 @@
+
+Acom.openstego.desktop.plugin.randlsb.RandomLSBInputStream#read()Iž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.javaˆ ˆ("7*ž
+3ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java– –(ïì
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java˜ ˜(>	
+%8int"Lcom.openstego.desktop.plugin.randlsb.RandomLSBInputStream#getPixelBit(IIII)I*=;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream*
+""*
+""*
+""*
+""2getPixelBit(IIII)*
+5
+1*Ú
+5ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java‘ ‘(‹
+ˆ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java‘ ‘(
+%0java.util.Random"__id*G*E;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream"
+randûø
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java‘ ‘(4	
+%1int"java.util.Random#nextInt(I)I*
+
+%0java.util.Random*
+""2
+nextInt(I)‹
+ˆ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java’ ’(
+%2java.util.Random"__id*G*E;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream"
+randûø
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java’ ’(5	
+%3int"java.util.Random#nextInt(I)I*
+
+%2java.util.Random*
+""2
+nextInt(I)‹
+ˆ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java“ “(#
+%4java.util.Random"__id*G*E;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream"
+randùö
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java“ “(.	
+%5int"java.util.Random#nextInt(I)I*
+
+%4java.util.Random*22
+nextInt(I)‹
+ˆ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java” ”(
+%6java.util.Random"__id*G*E;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream"
+randûø
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java” ”(=	
+%7int"java.util.Random#nextInt(I)I*
+
+%6java.util.Random*
+""2
+nextInt(I)*
+3
+5*ó
+7ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java‰! ‰("Ä
+Á
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java‰ ‰($
+bitSet$Array"__id*
+""*
+5
+1*Ð
+1ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java› ›("©
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java› œ($
+""B=;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream

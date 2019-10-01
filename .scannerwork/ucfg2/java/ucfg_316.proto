@@ -1,0 +1,67 @@
+
+rcom.openstego.desktop.plugin.dwtkim.DWTKimPlugin#findSubBandMaxCoeff(Lcom/openstego/desktop/util/dwt/ImageTree;I)Dï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÉ É(&"8*‚
+5ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaâ â(Â‚
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaâ2 â(D*
+%4$com.openstego.desktop.util.dwt.Image"Ycom.openstego.desktop.util.dwt.ImageTree#getImage()Lcom/openstego/desktop/util/dwt/Image;*5
+3
+imgTree(com.openstego.desktop.util.dwt.ImageTree2
+getImage()Ô
+Ï
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaâ! â(K
+%5double"Zcom.openstego.desktop.util.dwt.DWTUtil#getPixel(Lcom/openstego/desktop/util/dwt/Image;II)D**"(
+&com.openstego.desktop.util.dwt.DWTUtil*,
+*
+%4$com.openstego.desktop.util.dwt.Image*
+""*
+""Â
+‚
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaâ â(L
+%6double"java.lang.Math#abs(D)D*"
+java.lang.Math*
+
+%5double*
+6*†
+6ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaà à(Â‚
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaà  à(2*
+%2$com.openstego.desktop.util.dwt.Image"Ycom.openstego.desktop.util.dwt.ImageTree#getImage()Lcom/openstego/desktop/util/dwt/Image;*5
+3
+imgTree(com.openstego.desktop.util.dwt.ImageTree2
+getImage()íè
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaà  à(=	
+%3int"0com.openstego.desktop.util.dwt.Image#getWidth()I*,
+*
+%2$com.openstego.desktop.util.dwt.Image2
+getWidth()*
+5
+8*¢
+8ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaá á(Â‚
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaá á(.*
+%0$com.openstego.desktop.util.dwt.Image"Ycom.openstego.desktop.util.dwt.ImageTree#getImage()Lcom/openstego/desktop/util/dwt/Image;*5
+3
+imgTree(com.openstego.desktop.util.dwt.ImageTree2
+getImage()îë
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaá á(:	
+%1int"1com.openstego.desktop.util.dwt.Image#getHeight()I*,
+*
+%0$com.openstego.desktop.util.dwt.Image2getHeight()*
+6
+1*æ
+1ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaê ê("†
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaê ê(
+"":3
+imgTree(com.openstego.desktop.util.dwt.ImageTree:
+""B42
+0com.openstego.desktop.plugin.dwtkim.DWTKimPlugin

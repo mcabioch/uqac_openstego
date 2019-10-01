@@ -1,0 +1,45 @@
+
+icom.openstego.desktop.ui.OpenStegoFrame#getVerifyWmPanel()Lcom/openstego/desktop/ui/VerifyWatermarkPanel;‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java×  ×(0"3*§
+2‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÙ! Ù(;õò
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÙ% Ù(93
+%1-com.openstego.desktop.ui.VerifyWatermarkPanel"-com.openstego.desktop.ui.VerifyWatermarkPanel‡
+„
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÙ! Ù(;
+%2"7com.openstego.desktop.ui.VerifyWatermarkPanel#<init>()V*5
+3
+%1-com.openstego.desktop.ui.VerifyWatermarkPanelŒ
+‰
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÙ Ù(;<)
+'com.openstego.desktop.ui.OpenStegoFrame"
+verifyWmPanel"__id*5
+3
+%1-com.openstego.desktop.ui.VerifyWatermarkPanel*
+1*¨
+3‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaØ Ø(Œ
+‰
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaØ Ø(3
+%0-com.openstego.desktop.ui.VerifyWatermarkPanel"__id*>*<)
+'com.openstego.desktop.ui.OpenStegoFrame"
+verifyWmPanel*
+2
+1*è
+1‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÛ Û(Œ
+‰
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÛ Û(!3
+%3-com.openstego.desktop.ui.VerifyWatermarkPanel"__id*>*<)
+'com.openstego.desktop.ui.OpenStegoFrame"
+verifyWmPanel"Å
+‹
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÛ Û("5
+3
+%3-com.openstego.desktop.ui.VerifyWatermarkPanelB+)
+'com.openstego.desktop.ui.OpenStegoFrame

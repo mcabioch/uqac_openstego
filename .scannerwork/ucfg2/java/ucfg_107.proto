@@ -1,0 +1,51 @@
+
+Gcom.openstego.desktop.plugin.lsb.LSBPlugin#getUsage()Ljava/lang/String;è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaã ã("1*Ã
+1è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaå" å(1Û
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaå& å(/0
+%0*com.openstego.desktop.plugin.lsb.LSBConfig"*com.openstego.desktop.plugin.lsb.LSBConfigÖ
+Ç
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaå" å(1
+%1"4com.openstego.desktop.plugin.lsb.LSBConfig#<init>()V*2
+0
+%0*com.openstego.desktop.plugin.lsb.LSBConfigå
+â
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaå å(2;
+defaultConfig*com.openstego.desktop.plugin.lsb.LSBConfig"__id*2
+0
+%0*com.openstego.desktop.plugin.lsb.LSBConfigÜ
+É
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaç ç(*
+%2$com.openstego.desktop.util.LabelUtil"__id*=*;,
+*com.openstego.desktop.plugin.lsb.LSBPlugin"
+	labelUtil√¿
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaçC ç(k	
+%3int"Fcom.openstego.desktop.plugin.lsb.LSBConfig#getMaxBitsUsedPerChannel()I*=
+;
+defaultConfig*com.openstego.desktop.plugin.lsb.LSBConfig2getMaxBitsUsedPerChannel()É
+Ä
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaç3 ç(l
+%4java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+	
+%3int£†
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaç ç(m
+%5java.lang.String"gcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*,
+*
+%2$com.openstego.desktop.util.LabelUtil*
+plugin.usage*
+
+%4java.lang.Integer20getString(Ljava/lang/String;[Ljava/lang/Object;)"¨
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaç ç(n
+
+%5java.lang.StringB.,
+*com.openstego.desktop.plugin.lsb.LSBPlugin

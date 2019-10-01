@@ -1,0 +1,39 @@
+
+ìcom.openstego.desktop.plugin.lsb.LSBPlugin#getEmbedOptionsUI(Lcom/openstego/desktop/ui/OpenStegoUI;)Lcom/openstego/desktop/ui/PluginEmbedOptionsUI;è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÎ  Î(1"paramAnnotations*˝
+paramAnnotationsè
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÎ1 Î(FÚ
+Ô
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÍ Í(
+%2"
+__annotate*
+java.lang.Override*1
+/
+stegoUI$com.openstego.desktop.ui.OpenStegoUI‹
+Ÿ
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÎ> Î(E/
+stegoUI$com.openstego.desktop.ui.OpenStegoUI"__annotation*
+
+%2*
+1*›
+1è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÏ% Ï(,ÉÄ
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÏ Ï($8
+%02com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUIÓ
+Î
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÏ Ï(-
+%1"bcom.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI#<init>(Lcom/openstego/desktop/ui/OpenStegoUI;)V*:
+8
+%02com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*1
+/
+stegoUI$com.openstego.desktop.ui.OpenStegoUI"Œ
+è
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaÏ Ï(.:
+8
+%02com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI:/
+stegoUI$com.openstego.desktop.ui.OpenStegoUIB.,
+*com.openstego.desktop.plugin.lsb.LSBPlugin

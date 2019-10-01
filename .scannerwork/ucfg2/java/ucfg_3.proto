@@ -1,0 +1,39 @@
+
+Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaM M("1*¬
+
+1†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N(Ú
+×
+†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N(
+%0java.util.Map"__id*1*/&
+$com.openstego.desktop.util.LabelUtil"
+mapã
+à
+†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N(&
+%1java.lang.String"__id*7*5&
+$com.openstego.desktop.util.LabelUtil"
+	namespaceç
+ä
+†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N('
+%2java.util.ResourceBundle"__mapGet*
+
+%0java.util.Map*
+
+%1java.lang.StringÊÇ
+†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N(7
+%3java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%2java.util.ResourceBundle*
+
+keyjava.lang.String2getString(Ljava/lang/String;)"£
+†
+|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.javaN N(8
+
+%3java.lang.String:
+keyjava.lang.StringB(&
+$com.openstego.desktop.util.LabelUtil

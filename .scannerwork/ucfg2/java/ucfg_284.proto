@@ -1,0 +1,492 @@
+
+Ncom.openstego.desktop.ui.HelpAboutDialog#getContent()Ljavax/swing/JEditorPane;ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java4 4(!"3*Á∏
+2ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java6 6(1«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java6# 6(/
+%1java.lang.StringBuffer"java.lang.StringBufferŸ
+÷
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java6 6(1
+%2" java.lang.StringBuffer#<init>()V*
+
+%1java.lang.StringBuffer÷
+”
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java6 6(2
+bufjava.lang.StringBuffer"__id*
+
+%1java.lang.StringBuffer√¿
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java8 8( 
+%3java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+
+<html>2append(Ljava/lang/String;)Å˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java9 9(^
+%4java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*HF
+D  <table width=100% cellspacing=0 cellpadding=0 style='font:serif;'>2append(Ljava/lang/String;)‰·
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java: :(A
+%5java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*+)
+'    <tr style='background-color:white'>2append(Ljava/lang/String;)ÎË
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java; ;(H
+%6java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*20
+.      <td align=left style='padding-left:8px'>2append(Ljava/lang/String;)ÙÒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java< <(Q
+%7java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*;9
+7        <span style='font-size:24px; font-weight:bold'>2append(Ljava/lang/String;)«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java= =($
+%8java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+
+          2append(Ljava/lang/String;)Ä
+˝
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java=, =(5*
+%9$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtil⁄◊
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java=, =(J
+%10java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
+*
+%9$com.openstego.desktop.util.LabelUtil*	
+appName2getString(Ljava/lang/String;)“œ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java= =(K
+%11java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%8java.lang.StringBuffer*
+
+%10java.lang.String2append(Ljava/lang/String;)≈¬
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java= =(]
+%12java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%11java.lang.StringBuffer*	
+</span>2append(Ljava/lang/String;)Ì
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java> >(L
+%13java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*64
+2        <p style='font-size:10px; margin-top:6px'>2append(Ljava/lang/String;)»≈
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java? ?($
+%14java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+
+          2append(Ljava/lang/String;)Å
+˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java?, ?(5+
+%15$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtilﬁ€
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java?, ?(M
+%16java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
++
+%15$com.openstego.desktop.util.LabelUtil*
+
+appVersion2getString(Ljava/lang/String;)”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java? ?(N
+%17java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%14java.lang.StringBuffer*
+
+%16java.lang.String2append(Ljava/lang/String;)¬ø
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java? ?(]
+%18java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%17java.lang.StringBuffer*
+</p>2append(Ljava/lang/String;)…∆
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java@ @(%
+%19java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+      </td>2append(Ljava/lang/String;)‘—
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaA A(0
+%20java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+      <td align=right>2append(Ljava/lang/String;)–Õ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB B(,
+%21java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+        <img src='2append(Ljava/lang/String;)ëé
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB4 B(>
+%22java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*,*
+(com.openstego.desktop.ui.HelpAboutDialog2
+getClass()∂≥
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB4 B(^
+%23java.net.URL"=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;*
+
+%22java.lang.Class*
+/image/About.png2getResource(Ljava/lang/String;)¯ı
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB4 B(i
+%24java.lang.String")java.net.URL#toString()Ljava/lang/String;*
+
+%23java.net.URL2
+toString()”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB B(j
+%25java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%21java.lang.StringBuffer*
+
+%24java.lang.String2append(Ljava/lang/String;)∆√
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaB B(}
+%26java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%25java.lang.StringBuffer*
+
+'/></td>2append(Ljava/lang/String;)«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaC C(#
+%27java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+	    </tr>2append(Ljava/lang/String;)∆√
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaD D("
+%28java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+
+    <tr>2append(Ljava/lang/String;)ıÚ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaE E(Q
+%29java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*;9
+7      <td colspan=2 style='padding:5px;font-size:10px'>2append(Ljava/lang/String;)…∆
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaF F(%
+%30java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+        <p>2append(Ljava/lang/String;)Å
+˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaF- F(6+
+%31$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtil›⁄
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaF- F(M
+%32java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
++
+%31$com.openstego.desktop.util.LabelUtil*
+	copyright2getString(Ljava/lang/String;)”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaF F(N
+%33java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%30java.lang.StringBuffer*
+
+%32java.lang.String2append(Ljava/lang/String;)«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaF F(b
+%34java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%33java.lang.StringBuffer*
+	</p><br/>2append(Ljava/lang/String;)…∆
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaG G(%
+%35java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+        <p>2append(Ljava/lang/String;)Å
+˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaG- G(6+
+%36$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtilÎË
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaG- G([
+%37java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
++
+%36$com.openstego.desktop.util.LabelUtil*
+gui.label.help.sitelink2getString(Ljava/lang/String;)”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaG G(\
+%38java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%35java.lang.StringBuffer*
+
+%37java.lang.String2append(Ljava/lang/String;)«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaG G(p
+%39java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%38java.lang.StringBuffer*
+	</p><br/>2append(Ljava/lang/String;)Ã…
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaH H((
+%40java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+        <p><u>2append(Ljava/lang/String;)Å
+˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaH0 H(9+
+%41$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtilÏÈ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaH0 H(_
+%42java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
++
+%41$com.openstego.desktop.util.LabelUtil*
+gui.label.help.ackHeader2getString(Ljava/lang/String;)”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaH H(`
+%43java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%40java.lang.StringBuffer*
+
+%42java.lang.String2append(Ljava/lang/String;)∆√
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaH H(s
+%44java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%43java.lang.StringBuffer*
+
+</u></p>2append(Ljava/lang/String;)ÙÒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaI I(P
+%45java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*:8
+6        <ol style='margin-left:10px; margin-top:2px;'>2append(Ljava/lang/String;)Ã…
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaJ J((
+%46java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+          <li>2append(Ljava/lang/String;)Å
+˛
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaJ0 J(9+
+%47$com.openstego.desktop.util.LabelUtil"__id*;*9*
+(com.openstego.desktop.ui.HelpAboutDialog"
+	labelUtilÚÔ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaJ0 J(e
+%48java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
++
+%47$com.openstego.desktop.util.LabelUtil*" 
+gui.label.help.acknowledgement2getString(Ljava/lang/String;)”–
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaJ J(f
+%49java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%46java.lang.StringBuffer*
+
+%48java.lang.String2append(Ljava/lang/String;)√¿
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaJ J(v
+%50java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+%49java.lang.StringBuffer*	
+</li>2append(Ljava/lang/String;)À»
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaK K('
+%51java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+        </ol>2append(Ljava/lang/String;)…∆
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaL L(%
+%52java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+      </td>2append(Ljava/lang/String;)«ƒ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaM M(#
+%53java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+	    </tr>2append(Ljava/lang/String;)»≈
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaN N($
+%54java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*
+
+  </table>2append(Ljava/lang/String;)≈¬
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaO O(!
+%55java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+bufjava.lang.StringBuffer*	
+</html>2append(Ljava/lang/String;)åâ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaQ8 Q(F
+%56java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+bufjava.lang.StringBuffer2
+toString() «
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaQ Q(*
+%57javax.swing.JEditorPane"javax.swing.JEditorPane´
+®
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaQ Q(G
+%58"Ejavax.swing.JEditorPane#<init>(Ljava/lang/String;Ljava/lang/String;)V* 
+
+%57javax.swing.JEditorPane*
+	text/html*
+
+%56java.lang.StringÚ
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaQ Q(G7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+content"__id* 
+
+%57javax.swing.JEditorPaneÚ
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaR R(
+%59javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+contentâÜ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaR R(+
+%60void"/javax.swing.text.JTextComponent#setEditable(Z)V* 
+
+%59javax.swing.JEditorPane*
+""2setEditable(Z)Ú
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaS S(
+%61javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+contentú
+ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaS# S(D 
+%62javax.swing.border.Border"Hjavax.swing.BorderFactory#createEmptyBorder()Ljavax/swing/border/Border;*"
+javax.swing.BorderFactoryÃ…
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaS S(E
+%63void">javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V* 
+
+%61javax.swing.JEditorPane*"
+ 
+%62javax.swing.border.Border2&setBorder(Ljavax/swing/border/Border;)Ú
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaT T(
+%64javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+contentòï
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaT' T(6
+%65java.awt.Color"/java.awt.Window#getBackground()Ljava/awt/Color;*,*
+(com.openstego.desktop.ui.HelpAboutDialog2getBackground()≥∞
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaT T(7
+%66void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V* 
+
+%64javax.swing.JEditorPane*
+
+%65java.awt.Color2setBackground(Ljava/awt/Color;)Ú
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaU U(
+%67javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+content¿Ω
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaU. U(7
+%68java.awt.Dimension"java.awt.Dimension„
+‡
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaU* U(A
+%69"java.awt.Dimension#<init>(II)V*
+
+%68java.awt.Dimension*2¬*2¿≈¬
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaU U(B
+%70void">javax.swing.JComponent#setPreferredSize(Ljava/awt/Dimension;)V* 
+
+%67javax.swing.JEditorPane*
+
+%68java.awt.Dimension2&setPreferredSize(Ljava/awt/Dimension;)Ú
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaW W(
+%71javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+contentÌ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaW2 W(C1
+%72*com.openstego.desktop.ui.HelpAboutDialog$1"*com.openstego.desktop.ui.HelpAboutDialog$1È
+Ê
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaW. c(
+%73"java.lang.Object#<init>()V*3
+1
+%72*com.openstego.desktop.ui.HelpAboutDialog$1àÖ
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javaW c(
+%74void"Tjavax.swing.JEditorPane#addHyperlinkListener(Ljavax/swing/event/HyperlinkListener;)V* 
+
+%71javax.swing.JEditorPane*3
+1
+%72*com.openstego.desktop.ui.HelpAboutDialog$12;addHyperlinkListener(Ljavax/swing/event/HyperlinkListener;)*
+1*ç
+3ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java5 5(Ò
+Ó
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.java5 5(
+%0javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+content*
+2
+1*π
+1ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javae e(Ú
+Ô
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javae e(
+%75javax.swing.JEditorPane"__id*9*7*
+(com.openstego.desktop.ui.HelpAboutDialog"	
+content"∞
+ã
+Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/HelpAboutDialog.javae e( 
+
+%75javax.swing.JEditorPaneB,*
+(com.openstego.desktop.ui.HelpAboutDialog

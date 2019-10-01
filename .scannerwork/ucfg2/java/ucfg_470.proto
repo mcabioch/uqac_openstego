@@ -1,0 +1,37 @@
+
+\com.openstego.desktop.plugin.dctlsb.DctLSBPlugin#getWritableFileExtensions()Ljava/util/List;•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.javaž ž(1"1*˜
+1•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.javaŸ" Ÿ('¨
+¥
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.javaŸ" Ÿ(C
+%0java.util.List"mcom.openstego.desktop.plugin.template.image.WMImagePluginTemplate#getWritableFileExtensions()Ljava/util/List;*
+""×
+Ô
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.javaŸ Ÿ(D
+
+formatListjava.util.List"__id*
+
+%0java.util.Listœ™
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.java¢ ¢(!
+%1boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+
+formatListjava.util.List*
+jpeg2remove(Ljava/lang/Object;)›˜
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.java£ £( 
+%2boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+
+formatListjava.util.List*
+jpg2remove(Ljava/lang/Object;)"¸
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBPlugin.java¥ ¥(
+
+
+formatListjava.util.ListB42
+0com.openstego.desktop.plugin.dctlsb.DctLSBPlugin

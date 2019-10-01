@@ -1,0 +1,193 @@
+
+=com.openstego.desktop.plugin.dctlsb.DctLSBInputStream#read()Iò
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.java} }("8"9"1*Í
+3ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javañ ñ(ï
+í
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javañ ñ()
+%21"com.openstego.desktop.util.dct.DCT"__id*B*@7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+dct™ß
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javañ ñ(+
+%22void"4com.openstego.desktop.util.dct.DCT#quantize8x8([[D)V*+
+)
+%21"com.openstego.desktop.util.dct.DCT*
+""2quantize8x8([[D)∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaô< ô(E
+
+%23int"__id*
+""∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaôR ô([
+
+%24int"__id*
+""*	
+8
+9
+1*Ù
+4ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaì ì(ï
+í
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaì ì()
+%19"com.openstego.desktop.util.dct.DCT"__id*B*@7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+dct±Æ
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaì ì(9
+
+%20int"8com.openstego.desktop.util.dct.DCT#isMidFreqCoeff8x8(I)I*+
+)
+%19"com.openstego.desktop.util.dct.DCT*
+""2isMidFreqCoeff8x8(I)*
+3
+5*Å
+
+5ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaí í( Ñ
+Å
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaí% í(.
+%14java.util.Random"__id*C*A7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+randÔÏ
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaí% í(8
+
+%15int"java.util.Random#nextInt()I*
+
+%14java.util.Random2	nextInt()Ê
+„
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaí í(9
+
+%16int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+
+
+%15int∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaí= í(F
+
+%17int"__id*
+""∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaíI í(R
+
+%18int"__id*
+""*
+4*å	
+6ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaé é(ï
+í
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaé é()
+%10"com.openstego.desktop.util.dct.DCT"__id*B*@7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+dct∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaé1 é(:
+
+%11int"__id*
+""∫
+∑
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaéA é(J
+
+%12int"__id*
+""“œ
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaé é(V
+%13void"<com.openstego.desktop.util.dct.DCT#fwdDctBlock8x8([[III[[D)V*+
+)
+%10"com.openstego.desktop.util.dct.DCT*
+""*
+""*
+""*
+""2fwdDctBlock8x8([[III[[D)*
+5*å
+7ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaã ã(£
+†
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaã ã( 5
+%8/com.openstego.desktop.plugin.dctlsb.Coordinates"__id*D*B7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+coordª∏
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaã ã(,
+%9boolean"8com.openstego.desktop.plugin.dctlsb.Coordinates#add(II)Z*7
+5
+%8/com.openstego.desktop.plugin.dctlsb.Coordinates*
+""*
+""2add(II)*
+6
+8*◊
+8ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaâ â(É
+Ä
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaâ â('
+%0java.util.Random"__id*C*A7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+randÌÍ
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaâ â(1	
+%1int"java.util.Random#nextInt()I*
+
+%0java.util.Random2	nextInt()‰
+·
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaâ â(2	
+%2int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+	
+%1intπ
+∂
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaâF â(O	
+%3int"__id*
+""É
+Ä
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaä ä('
+%4java.util.Random"__id*C*A7
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream"
+randÌÍ
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaä ä(1	
+%5int"java.util.Random#nextInt()I*
+
+%4java.util.Random2	nextInt()‰
+·
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaä ä(2	
+%6int"java.lang.Math#abs(I)I*"
+java.lang.Math*
+	
+%5intπ
+∂
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaäG ä(P	
+%7int"__id*
+""*
+7*»
+9ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaÖ Ö("•
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaÖ Ö(
+""*»
+1ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaû û("•
+ö
+ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dctlsb/DctLSBInputStream.javaû û(
+""B97
+5com.openstego.desktop.plugin.dctlsb.DctLSBInputStream

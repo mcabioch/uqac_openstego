@@ -1,0 +1,51 @@
+
+Qcom.openstego.desktop.plugin.randlsb.RandomLSBPlugin#getUsage()Ljava/lang/String;ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.java≠ ≠("1*∞
+1ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaÆ" Æ(1˝˙
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaÆ& Æ(/0
+%0*com.openstego.desktop.plugin.lsb.LSBConfig"*com.openstego.desktop.plugin.lsb.LSBConfigè
+å
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaÆ" Æ(1
+%1"4com.openstego.desktop.plugin.lsb.LSBConfig#<init>()V*2
+0
+%0*com.openstego.desktop.plugin.lsb.LSBConfigñ
+ì
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaÆ Æ(2;
+defaultConfig*com.openstego.desktop.plugin.lsb.LSBConfig"__id*2
+0
+%0*com.openstego.desktop.plugin.lsb.LSBConfigö
+ó
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaØ Ø(*
+%2$com.openstego.desktop.util.LabelUtil"__id*G*E6
+4com.openstego.desktop.plugin.randlsb.RandomLSBPlugin"
+	labelUtilÕ 
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaØC Ø(k	
+%3int"Fcom.openstego.desktop.plugin.lsb.LSBConfig#getMaxBitsUsedPerChannel()I*=
+;
+defaultConfig*com.openstego.desktop.plugin.lsb.LSBConfig2getMaxBitsUsedPerChannel()ç
+ä
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaØ3 Ø(l
+%4java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
+java.lang.Integer*
+	
+%3int≠™
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaØ Ø(m
+%5java.lang.String"gcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*,
+*
+%2$com.openstego.desktop.util.LabelUtil*
+plugin.usage*
+
+%4java.lang.Integer20getString(Ljava/lang/String;[Ljava/lang/Object;)"∂
+ô
+å/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBPlugin.javaØ Ø(n
+
+%5java.lang.StringB86
+4com.openstego.desktop.plugin.randlsb.RandomLSBPlugin

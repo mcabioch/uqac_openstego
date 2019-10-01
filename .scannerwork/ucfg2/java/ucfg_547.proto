@@ -1,0 +1,27 @@
+
+¤com.openstego.desktop.plugin.template.dct.DCTPluginTemplate#getEmbedOptionsUI(Lcom/openstego/desktop/ui/OpenStegoUI;)Lcom/openstego/desktop/ui/PluginEmbedOptionsUI;ž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javaw  w(1"paramAnnotations*ª
+paramAnnotationsž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javaw1 w(F
+þ
+ž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javav v(
+%0"
+__annotate*
+java.lang.Override*1
+/
+stegoUI$com.openstego.desktop.ui.OpenStegoUIë
+è
+ž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javaw> w(E/
+stegoUI$com.openstego.desktop.ui.OpenStegoUI"__annotation*
+
+%0*
+1*Ð
+1ž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javax x("©
+ž
+“/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/dct/DCTPluginTemplate.javax x(
+"":/
+stegoUI$com.openstego.desktop.ui.OpenStegoUIB?=
+;com.openstego.desktop.plugin.template.dct.DCTPluginTemplate

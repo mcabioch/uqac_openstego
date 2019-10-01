@@ -1,0 +1,84 @@
+
+Mcom.openstego.desktop.ui.OpenStegoFrame#getTopMenuBar()Ljavax/swing/JMenuBar;‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javan n(!"3*ã
+2‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javap p(,Á¾
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javap" p(*
+%1javax.swing.JMenuBar"javax.swing.JMenuBarÓ
+Ð
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javap p(,
+%2"javax.swing.JMenuBar#<init>()V*
+
+%1javax.swing.JMenuBarî
+ë
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javap p(,9)
+'com.openstego.desktop.ui.OpenStegoFrame"
+
+topMenuBar"__id*
+
+%1javax.swing.JMenuBarî
+ë
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaq q(
+%3javax.swing.JMenuBar"__id*;*9)
+'com.openstego.desktop.ui.OpenStegoFrame"
+
+topMenuBar®«
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaq  q(-
+%4javax.swing.JMenu"Hcom.openstego.desktop.ui.OpenStegoFrame#getFileMenu()Ljavax/swing/JMenu;*+)
+'com.openstego.desktop.ui.OpenStegoFrame2getFileMenu()½º
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaq q(.
+%5javax.swing.JMenu"@javax.swing.JMenuBar#add(Ljavax/swing/JMenu;)Ljavax/swing/JMenu;*
+
+%3javax.swing.JMenuBar*
+
+%4javax.swing.JMenu2add(Ljavax/swing/JMenu;)î
+ë
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javar r(
+%6javax.swing.JMenuBar"__id*;*9)
+'com.openstego.desktop.ui.OpenStegoFrame"
+
+topMenuBar®«
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javar  r(-
+%7javax.swing.JMenu"Hcom.openstego.desktop.ui.OpenStegoFrame#getHelpMenu()Ljavax/swing/JMenu;*+)
+'com.openstego.desktop.ui.OpenStegoFrame2getHelpMenu()½º
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javar r(.
+%8javax.swing.JMenu"@javax.swing.JMenuBar#add(Ljavax/swing/JMenu;)Ljavax/swing/JMenu;*
+
+%6javax.swing.JMenuBar*
+
+%7javax.swing.JMenu2add(Ljavax/swing/JMenu;)*
+1*ˆ
+3‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javao o(î
+ë
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javao o(
+%0javax.swing.JMenuBar"__id*;*9)
+'com.openstego.desktop.ui.OpenStegoFrame"
+
+topMenuBar*
+2
+1*­
+1‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javat t(î
+ë
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javat t(
+%9javax.swing.JMenuBar"__id*;*9)
+'com.openstego.desktop.ui.OpenStegoFrame"
+
+topMenuBar"ª
+‰
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javat t(
+
+%9javax.swing.JMenuBarB+)
+'com.openstego.desktop.ui.OpenStegoFrame

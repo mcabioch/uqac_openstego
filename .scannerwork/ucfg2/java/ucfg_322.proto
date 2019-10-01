@@ -1,0 +1,171 @@
+
+Icom.openstego.desktop.plugin.dwtkim.DWTKimPlugin$Signature#getSigData()[Bï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java© ©( "20*Ø
+13ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java¥ ¥(äá
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java¥ ¥(5
+
+%9void"'java.io.ObjectOutputStream#writeInt(I)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeInt(I)*
+12*µ
+14ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java≥ ≥(êç
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java≥ ≥(;
+
+%8void"*java.io.ObjectOutputStream#writeDouble(D)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeDouble(D)*
+13*µ
+15ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java≤ ≤(êç
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java≤ ≤(;
+
+%7void"*java.io.ObjectOutputStream#writeDouble(D)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeDouble(D)*
+14*Ø
+16ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java± ±(äá
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java± ±(2
+
+%6void"'java.io.ObjectOutputStream#writeInt(I)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeInt(I)*
+15*ô
+17ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaØ Ø(2Ë
+Â
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaØ Ø(2!
+oosjava.io.ObjectOutputStream"__id*"
+ 
+%2java.io.ObjectOutputStream¯
+ı
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java∞ ∞("
+%4$Array"__id*G*E<
+:com.openstego.desktop.plugin.dwtkim.DWTKimPlugin$Signature"
+sigéã
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java∞ ∞(#
+
+%5void"%java.io.ObjectOutputStream#write([B)V*#
+!
+oosjava.io.ObjectOutputStream*
+
+%4$Array2	write([B)*
+16*ù
+18ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÆ Æ(2Ô
+Ï
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÆ Æ(2%
+baosjava.io.ByteArrayOutputStream"__id*%
+#
+%0java.io.ByteArrayOutputStreamŸ÷
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaØ Ø(, 
+%2java.io.ObjectOutputStream"java.io.ObjectOutputStream™
+ß
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaØ Ø(2
+%3":java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V*"
+ 
+%2java.io.ObjectOutputStream*'
+%
+baosjava.io.ByteArrayOutputStream*
+17*¯
+19ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÆ Æ(2ﬂ‹
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÆ Æ(0#
+%0java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStreamÒ
+Ó
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÆ Æ(2
+%1"'java.io.ByteArrayOutputStream#<init>()V*%
+#
+%0java.io.ByteArrayOutputStream*
+18*«
+3ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaæ æ(*"©
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaæ æ(*
+
+%15$Array*¥
+4ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaæ æ(ëé
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaæ æ()
+%15$Array"-java.io.ByteArrayOutputStream#toByteArray()[B*'
+%
+baosjava.io.ByteArrayOutputStream2toByteArray()*
+3*û
+5ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaº º(˚¯
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaº º(
+%14void"#java.io.ObjectOutputStream#close()V*#
+!
+oosjava.io.ObjectOutputStream2close()*
+4*û
+6ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaª ª(˚¯
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaª ª(
+%13void"#java.io.ObjectOutputStream#flush()V*#
+!
+oosjava.io.ObjectOutputStream2flush()*
+5*∑
+8ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaπ π(ëé
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaπ π(6
+%12void"*java.io.ObjectOutputStream#writeDouble(D)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeDouble(D)*
+6
+8*ƒ
+20ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java™) ™(-–
+Õ
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java™ ™(.%
+baosjava.io.ByteArrayOutputStream"__id*
+""Ã
+…
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java´ ´(*!
+oosjava.io.ObjectOutputStream"__id*
+""*
+19*≤
+11ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java∂ ∂(ãà
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java∂ ∂(/
+%11void"'java.io.ObjectOutputStream#writeInt(I)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeInt(I)*
+6
+8*∞
+12ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaµ µ(ãà
+ï
+à/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaµ µ(6
+%10void"'java.io.ObjectOutputStream#writeInt(I)V*#
+!
+oosjava.io.ObjectOutputStream*
+""2writeInt(I)*
+11B><
+:com.openstego.desktop.plugin.dwtkim.DWTKimPlugin$Signature

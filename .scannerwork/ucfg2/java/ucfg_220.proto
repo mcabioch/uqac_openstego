@@ -1,0 +1,87 @@
+
+Jcom.openstego.desktop.ui.OpenStegoFrame#getMainPanel()Ljavax/swing/JPanel;ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaô ô("3*Œ
+2ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaõ õ()øº
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaõ! õ('
+%1javax.swing.JPanel"javax.swing.JPanel—
+Œ
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaõ õ()
+%2"javax.swing.JPanel#<init>()V*
+
+%1javax.swing.JPanelÌ
+Í
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaõ õ()8)
+'com.openstego.desktop.ui.OpenStegoFrame"
+	mainPanel"__id*
+
+%1javax.swing.JPanelÌ
+Í
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaú ú(
+%3javax.swing.JPanel"__id*:*8)
+'com.openstego.desktop.ui.OpenStegoFrame"
+	mainPanel∑
+¥
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaú% ú(P
+%4javax.swing.border.Border"Ljavax.swing.BorderFactory#createEmptyBorder(IIII)Ljavax/swing/border/Border;*"
+javax.swing.BorderFactory*2*2*2*2ƒ¡
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaú ú(Q
+
+%5void">javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V*
+
+%3javax.swing.JPanel*!
+
+%4javax.swing.border.Border2&setBorder(Ljavax/swing/border/Border;)Ì
+Í
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaù ù(
+%6javax.swing.JPanel"__id*:*8)
+'com.openstego.desktop.ui.OpenStegoFrame"
+	mainPanel¡æ
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaù) ù(3
+%7java.awt.GridLayout"java.awt.GridLayout”
+–
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaù% ù(5
+%8"java.awt.GridLayout#<init>()V*
+
+%7java.awt.GridLayout¥±
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaù ù(6
+
+%9void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%6javax.swing.JPanel*
+
+%7java.awt.GridLayout2#setLayout(Ljava/awt/LayoutManager;)*
+1*â
+3ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaö ö(Ì
+Í
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaö ö(
+%0javax.swing.JPanel"__id*:*8)
+'com.openstego.desktop.ui.OpenStegoFrame"
+	mainPanel*
+2
+1*∞
+1ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaü ü(Ó
+Î
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaü ü(
+%10javax.swing.JPanel"__id*:*8)
+'com.openstego.desktop.ui.OpenStegoFrame"
+	mainPanel"´
+ã
+/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaü ü(
+
+%10javax.swing.JPanelB+)
+'com.openstego.desktop.ui.OpenStegoFrame

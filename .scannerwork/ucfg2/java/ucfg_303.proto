@@ -1,0 +1,42 @@
+
+Ecom.openstego.desktop.DataHidingPlugin#getWatermarkCorrelation([B[B)Dˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java: :(/"paramAnnotations*Ê
+paramAnnotationsˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java:/ :(YÑ
+Î
+ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java9 9(
+%0"
+__annotate*
+java.lang.Override*
+
+origSigData$Array»
+¸
+ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java:7 :(B
+origSigData$Array"__annotation*
+
+%0Ó
+Ð
+ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java9 9(
+%1"
+__annotate*
+java.lang.Override*
+
+watermarkData$Array½
+º
+ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java:K :(X
+watermarkData$Array"__annotation*
+
+%1*
+1*¤
+1ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java; ;("“
+ˆ
+~/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/DataHidingPlugin.java; ;(
+"":
+origSigData$Array:
+watermarkData$ArrayB*(
+&com.openstego.desktop.DataHidingPlugin

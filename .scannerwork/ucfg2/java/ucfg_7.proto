@@ -1,0 +1,205 @@
+
+zcom.openstego.desktop.util.dwt.FilterXMLReader#getFilterGH(Lorg/w3c/dom/Element;)Lcom/openstego/desktop/util/dwt/FilterGH;ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaV V('"14*ï
+13ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javab b(ÒÓ
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javab b((
+
+%10int"!org.w3c.dom.NodeList#getLength()I*
+
+nlorg.w3c.dom.NodeList2getLength()*
+11
+1*Ü"
+14ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaW W(*ÔÏ
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaW  W((-
+%0'com.openstego.desktop.util.dwt.FilterGH"'com.openstego.desktop.util.dwt.FilterGHÅ
+˛
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaW W(*
+%1"1com.openstego.desktop.util.dwt.FilterGH#<init>()V*/
+-
+%0'com.openstego.desktop.util.dwt.FilterGHÉ
+Ä
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaW W(+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH"__id*/
+-
+%0'com.openstego.desktop.util.dwt.FilterGH≈
+¬
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaX X(
+innerElorg.w3c.dom.Element"__id*
+""¡
+æ
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaY Y(
+nlorg.w3c.dom.NodeList"__id*
+""÷
+”
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaZ Z(/
+filter%com.openstego.desktop.util.dwt.Filter"__id*
+""æª
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java\( \(=
+%2java.lang.String"Forg.w3c.dom.Element#getAttribute(Ljava/lang/String;)Ljava/lang/String;*
+
+elorg.w3c.dom.Element*
+id2 getAttribute(Ljava/lang/String;)Ñ
+Å
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java\ \(>	
+%3int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%2java.lang.String»≈
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java\ \(?
+
+%4void"Ccom.openstego.desktop.util.dwt.FilterGH#setId(Ljava/lang/Integer;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*
+	
+%3int2setId(Ljava/lang/Integer;)¿Ω
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java] ](0
+%5java.lang.String"Forg.w3c.dom.Element#getAttribute(Ljava/lang/String;)Ljava/lang/String;*
+
+elorg.w3c.dom.Element*
+name2 getAttribute(Ljava/lang/String;)◊‘
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java] ](1
+
+%6void"Dcom.openstego.desktop.util.dwt.FilterGH#setName(Ljava/lang/String;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*
+
+%5java.lang.String2setName(Ljava/lang/String;)¿Ω
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java^ ^(0
+%7java.lang.String"Forg.w3c.dom.Element#getAttribute(Ljava/lang/String;)Ljava/lang/String;*
+
+elorg.w3c.dom.Element*
+type2 getAttribute(Ljava/lang/String;)◊‘
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.java^ ^(1
+
+%8void"Dcom.openstego.desktop.util.dwt.FilterGH#setType(Ljava/lang/String;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*
+
+%7java.lang.String2setType(Ljava/lang/String;)⁄◊
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaa a(.
+%9org.w3c.dom.NodeList"Rorg.w3c.dom.Element#getElementsByTagName(Ljava/lang/String;)Lorg/w3c/dom/NodeList;*
+
+elorg.w3c.dom.Element*
+
+filter2(getElementsByTagName(Ljava/lang/String;)◊
+‘
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaa a(.
+nlorg.w3c.dom.NodeList"__id*
+
+%9org.w3c.dom.NodeList*
+13
+1*∑
+3ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javas s(óî
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javas s(*
+%18void"Wcom.openstego.desktop.util.dwt.FilterGH#setHi(Lcom/openstego/desktop/util/dwt/Filter;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*1
+/
+filter%com.openstego.desktop.util.dwt.Filter2.setHi(Lcom/openstego/desktop/util/dwt/Filter;)*
+11*∑
+5ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaq q(óî
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javaq q(*
+%17void"Wcom.openstego.desktop.util.dwt.FilterGH#setGi(Lcom/openstego/desktop/util/dwt/Filter;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*1
+/
+filter%com.openstego.desktop.util.dwt.Filter2.setGi(Lcom/openstego/desktop/util/dwt/Filter;)*
+11*µ
+7ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javao o(ïí
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javao o()
+%16void"Vcom.openstego.desktop.util.dwt.FilterGH#setH(Lcom/openstego/desktop/util/dwt/Filter;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*1
+/
+filter%com.openstego.desktop.util.dwt.Filter2-setH(Lcom/openstego/desktop/util/dwt/Filter;)*
+11*µ
+9ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javam m(ïí
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javam m()
+%15void"Vcom.openstego.desktop.util.dwt.FilterGH#setG(Lcom/openstego/desktop/util/dwt/Filter;)V*5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH*1
+/
+filter%com.openstego.desktop.util.dwt.Filter2-setG(Lcom/openstego/desktop/util/dwt/Filter;)*
+11*”
+10ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javae$ e(&èå
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javae$ e(.
+%12org.w3c.dom.Node".org.w3c.dom.NodeList#item(I)Lorg/w3c/dom/Node;*
+
+nlorg.w3c.dom.NodeList*
+""2item(I)ÿ
+’
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javae e(.
+innerElorg.w3c.dom.Element"__id*
+
+%12org.w3c.dom.Nodeì
+ê
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javah h(+,
+%13%com.openstego.desktop.util.dwt.Filter"vcom.openstego.desktop.util.dwt.FilterXMLReader#getFilter(Lorg/w3c/dom/Element;)Lcom/openstego/desktop/util/dwt/Filter;*2"0
+.com.openstego.desktop.util.dwt.FilterXMLReader* 
+
+innerElorg.w3c.dom.Element˛
+˚
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javah h(+/
+filter%com.openstego.desktop.util.dwt.Filter"__id*.
+,
+%13%com.openstego.desktop.util.dwt.Filter¢ü
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javai i(1
+%14void"3com.openstego.desktop.util.dwt.Filter#setHiPass(Z)V*1
+/
+filter%com.openstego.desktop.util.dwt.Filter*
+""2setHiPass(Z)*
+3
+5
+7
+9
+11*ï
+11ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javac c(ÒÓ
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javac  c(.
+
+%11int"!org.w3c.dom.NodeList#getLength()I*
+
+nlorg.w3c.dom.NodeList2getLength()*
+10
+1*Â
+1ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javax x("À
+ë
+Ü/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/dwt/FilterXMLReader.javax x(5
+3
+filterGH'com.openstego.desktop.util.dwt.FilterGH:
+elorg.w3c.dom.ElementB2"0
+.com.openstego.desktop.util.dwt.FilterXMLReader

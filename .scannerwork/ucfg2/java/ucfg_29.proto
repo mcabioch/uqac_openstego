@@ -1,0 +1,36 @@
+
+ecom.openstego.desktop.OpenStego#getDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)[Bƒ
+w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java‡ ‡("1*©
+1ƒ
+w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java‰ ‰(í
+ê
+ƒ
+w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java‰ ‰(+
+%0%com.openstego.desktop.OpenStegoPlugin"__id*/*-!
+com.openstego.desktop.OpenStego"
+plugin”‘
+ƒ
+w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java‰ ‰(d
+%1$Array"kcom.openstego.desktop.OpenStegoPlugin#getDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)[B*-
++
+%0%com.openstego.desktop.OpenStegoPlugin*
+
+	stegoData$Array*#
+!
+stegoFileNamejava.lang.String*
+
+	coverData$Array*#
+!
+coverFileNamejava.lang.String*"
+ 
+diffFileNamejava.lang.String2CgetDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)"–
+ƒ
+w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java‰ ‰(e
+
+%1$Array:
+	stegoData$Array:!
+stegoFileNamejava.lang.String:
+	coverData$Array:!
+coverFileNamejava.lang.String: 
+diffFileNamejava.lang.StringB#!
+com.openstego.desktop.OpenStego

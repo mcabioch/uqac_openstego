@@ -1,0 +1,164 @@
+
+ácom.openstego.desktop.plugin.template.image.DHImagePluginTemplate#getDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)[B§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2 2("paramAnnotations*
+paramAnnotations•
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2 2(ÑÎ
+Ë
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java1 1(
+%4"
+__annotate*
+java.lang.Override*
+
+	stegoData$Array’
+“
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2' 2(0
+	stegoData$Array"__annotation*
+
+%4˘
+ˆ
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java1 1(
+%5"
+__annotate*
+java.lang.Override*#
+!
+stegoFileNamejava.lang.String„
+‡
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java29 2(F!
+stegoFileNamejava.lang.String"__annotation*
+
+%5Î
+Ë
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java1 1(
+%6"
+__annotate*
+java.lang.Override*
+
+	coverData$Array’
+“
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2O 2(X
+	coverData$Array"__annotation*
+
+%6˘
+ˆ
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java1 1(
+%7"
+__annotate*
+java.lang.Override*#
+!
+coverFileNamejava.lang.String„
+‡
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2a 2(n!
+coverFileNamejava.lang.String"__annotation*
+
+%7¯
+ı
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java1 1(
+%8"
+__annotate*
+java.lang.Override*"
+ 
+diffFileNamejava.lang.String„
+‡
+•
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java2w 2(É 
+diffFileNamejava.lang.String"__annotation*
+
+%8*
+1*≥
+1§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java4! 4(%Ó
+Î
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java4 4(&4
+
+stegoImage&com.openstego.desktop.util.ImageHolder"__id*
+""Ó
+Î
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java5 5(&4
+
+coverImage&com.openstego.desktop.util.ImageHolder"__id*
+""Ì
+Í
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java6 6(%3
+	diffImage&com.openstego.desktop.util.ImageHolder"__id*
+""≥
+∞
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java8 8(I,
+%0&com.openstego.desktop.util.ImageHolder"scom.openstego.desktop.util.ImageUtil#byteArrayToImage([BLjava/lang/String;)Lcom/openstego/desktop/util/ImageHolder;*("&
+$com.openstego.desktop.util.ImageUtil*
+
+	stegoData$Array*#
+!
+stegoFileNamejava.lang.Stringñ
+ì
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java8 8(I4
+
+stegoImage&com.openstego.desktop.util.ImageHolder"__id*.
+,
+%0&com.openstego.desktop.util.ImageHolder≥
+∞
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java9 9(I,
+%1&com.openstego.desktop.util.ImageHolder"scom.openstego.desktop.util.ImageUtil#byteArrayToImage([BLjava/lang/String;)Lcom/openstego/desktop/util/ImageHolder;*("&
+$com.openstego.desktop.util.ImageUtil*
+
+	coverData$Array*#
+!
+coverFileNamejava.lang.Stringñ
+ì
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java9 9(I4
+
+coverImage&com.openstego.desktop.util.ImageHolder"__id*.
+,
+%1&com.openstego.desktop.util.ImageHolder†
+ù
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java: :(B,
+%2&com.openstego.desktop.util.ImageHolder"´com.openstego.desktop.util.ImageUtil#getDiffImage(Lcom/openstego/desktop/util/ImageHolder;Lcom/openstego/desktop/util/ImageHolder;)Lcom/openstego/desktop/util/ImageHolder;*("&
+$com.openstego.desktop.util.ImageUtil*6
+4
+
+stegoImage&com.openstego.desktop.util.ImageHolder*6
+4
+
+coverImage&com.openstego.desktop.util.ImageHolderï
+í
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java: :(B3
+	diffImage&com.openstego.desktop.util.ImageHolder"__id*.
+,
+%2&com.openstego.desktop.util.ImageHolder°
+û
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java< <(H
+%3$Array"öcom.openstego.desktop.util.ImageUtil#imageToByteArray(Lcom/openstego/desktop/util/ImageHolder;Ljava/lang/String;Lcom/openstego/desktop/OpenStegoPlugin;)[B*("&
+$com.openstego.desktop.util.ImageUtil*5
+3
+	diffImage&com.openstego.desktop.util.ImageHolder*"
+ 
+diffFileNamejava.lang.String*EC
+Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"∑
+§
+ô/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/template/image/DHImagePluginTemplate.java< <(I
+
+%3$Array:
+	stegoData$Array:!
+stegoFileNamejava.lang.String:
+	coverData$Array:!
+coverFileNamejava.lang.String: 
+diffFileNamejava.lang.StringBEC
+Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate

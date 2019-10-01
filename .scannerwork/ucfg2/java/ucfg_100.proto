@@ -1,0 +1,234 @@
+
+rcom.openstego.desktop.plugin.lsb.LSBPlugin#embedData([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)[Bç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaS S("paramAnnotations*”
+13ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java[H [(IÇ
+ˇ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java\K \(V+
+%6%com.openstego.desktop.OpenStegoConfig"__id*:*8,
+*com.openstego.desktop.plugin.lsb.LSBPlugin"
+config±Æ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java\> \(r	
+%7int"Fcom.openstego.desktop.plugin.lsb.LSBConfig#getMaxBitsUsedPerChannel()I*-
++
+%6%com.openstego.desktop.OpenStegoConfig2getMaxBitsUsedPerChannel()*
+12*≥
+14ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java[% [(2ñ
+ì
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java[% [(E	
+%5int"Bcom.openstego.desktop.plugin.lsb.LSBDataHeader#getMaxHeaderSize()I*2"0
+.com.openstego.desktop.plugin.lsb.LSBDataHeader*
+13*“
+16ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaT T(“
+œ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaU U(!/
+image&com.openstego.desktop.util.ImageHolder"__id*
+""‹
+Ÿ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaV V(%9
+lsbOS0com.openstego.desktop.plugin.lsb.LSBOutputStream"__id*
+""*
+14
+10*‹
+paramAnnotationsç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaS S(uŒ
+À
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaR R(
+%0"
+__annotate*
+java.lang.Override*
+
+msg$Array∏
+µ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaS# S(&
+msg$Array"__annotation*
+
+%0‡
+›
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaR R(
+%1"
+__annotate*
+java.lang.Override*!
+
+msgFileNamejava.lang.String 
+«
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaS/ S(:
+msgFileNamejava.lang.String"__annotation*
+
+%1–
+Õ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaR R(
+%2"
+__annotate*
+java.lang.Override*
+
+cover$Array∫
+∑
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaSC S(H
+cover$Array"__annotation*
+
+%2‚
+ﬂ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaR R(
+%3"
+__annotate*
+java.lang.Override*#
+!
+coverFileNamejava.lang.StringÃ
+…
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaSQ S(^!
+coverFileNamejava.lang.String"__annotation*
+
+%3‚
+ﬂ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaR R(
+%4"
+__annotate*
+java.lang.Override*#
+!
+stegoFileNamejava.lang.StringÃ
+…
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaSg S(t!
+stegoFileNamejava.lang.String"__annotation*
+
+%4*
+16*∑
+3ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae e(U"°
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae e(U
+
+%16$Array*ä
+4ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae@ e(MÔ
+Ï
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae e(T
+%16$Array"öcom.openstego.desktop.util.ImageUtil#imageToByteArray(Lcom/openstego/desktop/util/ImageHolder;Ljava/lang/String;Lcom/openstego/desktop/OpenStegoPlugin;)[B*("&
+$com.openstego.desktop.util.ImageUtil*/
+-
+%15&com.openstego.desktop.util.ImageHolder*#
+!
+stegoFileNamejava.lang.String*.,
+*com.openstego.desktop.plugin.lsb.LSBPlugin*
+3*ã
+5ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae e(Ì
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javae. e(>-
+%15&com.openstego.desktop.util.ImageHolder"ccom.openstego.desktop.plugin.lsb.LSBOutputStream#getImage()Lcom/openstego/desktop/util/ImageHolder;*;
+9
+lsbOS0com.openstego.desktop.plugin.lsb.LSBOutputStream2
+getImage()*
+4*º
+6ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javac c(°û
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javac c(
+%14void"9com.openstego.desktop.plugin.lsb.LSBOutputStream#close()V*;
+9
+lsbOS0com.openstego.desktop.plugin.lsb.LSBOutputStream2close()*
+5*«
+7ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaa a(Tè
+å
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaa a(T9
+lsbOS0com.openstego.desktop.plugin.lsb.LSBOutputStream"__id*9
+7
+%110com.openstego.desktop.plugin.lsb.LSBOutputStreamöó
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javab b(
+%13void"java.io.OutputStream#write([B)V*;
+9
+lsbOS0com.openstego.desktop.plugin.lsb.LSBOutputStream*
+
+msg$Array2	write([B)*
+6*§	
+8ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaa( a(-É
+Ä
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaaH a(S,
+%10%com.openstego.desktop.OpenStegoConfig"__id*:*8,
+*com.openstego.desktop.plugin.lsb.LSBPlugin"
+config˛˚
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaa a('7
+%110com.openstego.desktop.plugin.lsb.LSBOutputStream"0com.openstego.desktop.plugin.lsb.LSBOutputStreamÇ
+ˇ
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaa a(T
+%12"úcom.openstego.desktop.plugin.lsb.LSBOutputStream#<init>(Lcom/openstego/desktop/util/ImageHolder;ILjava/lang/String;Lcom/openstego/desktop/OpenStegoConfig;)V*9
+7
+%110com.openstego.desktop.plugin.lsb.LSBOutputStream*1
+/
+image&com.openstego.desktop.util.ImageHolder*
+""*!
+
+msgFileNamejava.lang.String*.
+,
+%10%com.openstego.desktop.OpenStegoConfig*
+7*ï
+9ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java_ _(H˙
+˜
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java_ _(H/
+image&com.openstego.desktop.util.ImageHolder"__id*.
+,
+%9&com.openstego.desktop.util.ImageHolder*
+8*¥
+10ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java_ _(!ò
+ï
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java_ _(H,
+%9&com.openstego.desktop.util.ImageHolder"scom.openstego.desktop.util.ImageUtil#byteArrayToImage([BLjava/lang/String;)Lcom/openstego/desktop/util/ImageHolder;*("&
+$com.openstego.desktop.util.ImageUtil*
+
+cover$Array*#
+!
+coverFileNamejava.lang.String*
+9*ñ
+11ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java] ](B˙
+˜
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java] ](B/
+image&com.openstego.desktop.util.ImageHolder"__id*.
+,
+%8&com.openstego.desktop.util.ImageHolder*
+8*ı
+12ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java\8 \(rÿ
+’
+ç
+Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java] ](B,
+%8&com.openstego.desktop.util.ImageHolder"ccom.openstego.desktop.util.ImageUtil#generateRandomImage(I)Lcom/openstego/desktop/util/ImageHolder;*("&
+$com.openstego.desktop.util.ImageUtil*
+""*
+11:
+msg$Array:
+msgFileNamejava.lang.String:
+cover$Array:!
+coverFileNamejava.lang.String:!
+stegoFileNamejava.lang.StringB.,
+*com.openstego.desktop.plugin.lsb.LSBPlugin

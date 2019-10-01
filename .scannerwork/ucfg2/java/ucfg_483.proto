@@ -1,0 +1,22 @@
+
+Mcom.openstego.desktop.plugin.dwtxie.DWTXiePlugin#getUsage()Ljava/lang/String;•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtxie/DWTXiePlugin.java© ©("1*Ğ
+1•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtxie/DWTXiePlugin.javaª ª(’
+
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtxie/DWTXiePlugin.javaª ª(*
+%0$com.openstego.desktop.util.LabelUtil"__id*C*A2
+0com.openstego.desktop.plugin.dwtxie.DWTXiePlugin"
+	labelUtilèå
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtxie/DWTXiePlugin.javaª ª(2
+%1java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
+*
+%0$com.openstego.desktop.util.LabelUtil*
+plugin.usage2getString(Ljava/lang/String;)"²
+•
+ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtxie/DWTXiePlugin.javaª ª(3
+
+%1java.lang.StringB42
+0com.openstego.desktop.plugin.dwtxie.DWTXiePlugin

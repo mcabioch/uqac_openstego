@@ -1,0 +1,64 @@
+
+`com.openstego.desktop.ui.EmbedWatermarkPanel#getSignatureFileTextField()Ljavax/swing/JTextField;è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaO O(/"3*î
+2è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaQ* Q(:À»
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaQ. Q(8
+%1javax.swing.JTextField"javax.swing.JTextField›
+⁄
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaQ* Q(:
+%2" javax.swing.JTextField#<init>()V*
+
+%1javax.swing.JTextFieldá
+Ñ
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaQ Q(:J.
+,com.openstego.desktop.ui.EmbedWatermarkPanel"
+signatureFileTextField"__id*
+
+%1javax.swing.JTextFieldá
+Ñ
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaR R('
+%3javax.swing.JTextField"__id*L*J.
+,com.openstego.desktop.ui.EmbedWatermarkPanel"
+signatureFileTextFieldÆ
+´
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaR3 R(P	
+%4int"__id*
+""ÑÅ
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaR R(Q
+
+%5void"%javax.swing.JTextField#setColumns(I)V*
+
+%3javax.swing.JTextField*
+	
+%4int2setColumns(I)*
+1*ß
+3è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaP P(á
+Ñ
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaP P('
+%0javax.swing.JTextField"__id*L*J.
+,com.openstego.desktop.ui.EmbedWatermarkPanel"
+signatureFileTextField*
+2
+1*‘
+1è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaT T(á
+Ñ
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaT T(*
+%6javax.swing.JTextField"__id*L*J.
+,com.openstego.desktop.ui.EmbedWatermarkPanel"
+signatureFileTextField"≤
+è
+Ñ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedWatermarkPanel.javaT T(+
+
+%6javax.swing.JTextFieldB0.
+,com.openstego.desktop.ui.EmbedWatermarkPanel

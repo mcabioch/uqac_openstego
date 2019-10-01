@@ -1,0 +1,33 @@
+
+Lcom.openstego.desktop.plugin.randlsb.RandomLSBInputStream#getPixelBit(IIII)Iž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java± ±("1*ë	
+1ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java² ²(¢
+Ÿ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java² ²(,
+%0&com.openstego.desktop.util.ImageHolder"__id*H*F;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream"
+imageÕÒ
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java² ²(&"
+%1java.awt.image.BufferedImage"Ocom.openstego.desktop.util.ImageHolder#getImage()Ljava/awt/image/BufferedImage;*.
+,
+%0&com.openstego.desktop.util.ImageHolder2
+getImage()›˜
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java² ²(3	
+%2int"(java.awt.image.BufferedImage#getRGB(II)I*$
+"
+%1java.awt.image.BufferedImage*
+""*
+""2
+getRGB(II)"©
+ž
+‘/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/randlsb/RandomLSBInputStream.java² ²(U
+"":
+"":
+"":
+"":
+""B=;
+9com.openstego.desktop.plugin.randlsb.RandomLSBInputStream

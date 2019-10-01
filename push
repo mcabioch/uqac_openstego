@@ -10,6 +10,6 @@ git add .
 git commit -m "$1"
 git push
 
-
+sonar-scanner -Dsonar.projectKey=mcabioch_uqac_openstego -Dsonar.organization=mcabioch -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=9e4f842c6abc04e4c174754bc15eccad467a90c8 -Dsonar.java.binaries=bin
 
 exit 0

@@ -13,8 +13,6 @@ jobs:
             - name: Test
               run: echo 'This is only a test !'
               id: test
-            - run: ls -al
             - run: cd ../ && git clone https://github.com/mcabioch/uqac_openstego.git
-            - run: ls -al
-#            - run: cd uqac_openstego ls -al 
-#            - run: ./compile
+            - run: git checkout actions
+            - run: ./compile

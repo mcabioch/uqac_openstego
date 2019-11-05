@@ -16,4 +16,4 @@ jobs:
             - run: ls -al ../
             - name: Time test
               run: ls -al ../uqac_openstego
-#              run: ./compile
+#           - run: ./compile

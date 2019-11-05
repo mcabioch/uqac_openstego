@@ -14,9 +14,7 @@ jobs:
               run: echo 'This is only a test !'
               id: test
             - run: ls -al
-            - run: cd ../
+            - run: cd ../ && git clone https://github.com/mcabioch/uqac_openstego.git
             - run: ls -al
-#            - run: git clone https://github.com/mcabioch/uqac_openstego.git
-#            - run: ls -al uqac_openstego/
 #            - run: cd uqac_openstego ls -al 
 #            - run: ./compile

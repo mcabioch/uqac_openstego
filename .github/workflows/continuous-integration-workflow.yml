@@ -10,7 +10,7 @@ jobs:
                 os: [ubuntu-16.04, ubuntu-18.04, windows-latest]
 
         steps:
-            - run: cd .. && git clone https://github.com/mcabioch/uqac_openstego.git
+            - run: cd .. & git clone https://github.com/mcabioch/uqac_openstego.git
             - run: git checkout actions
             - run: ./compile
-            - run: cd src/ && java com/openstego/desktop/OpenStego --help
+            - run: cd src/ & java com/openstego/desktop/OpenStego --help

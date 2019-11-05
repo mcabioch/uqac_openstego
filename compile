@@ -43,7 +43,7 @@ cd src/
 
 files=`listJava ${mainfile_dir}`
 
-javac --release 7 -cp "${libs}" ${files}
+javac -cp "${libs}" ${files}
 
 javacOut=$?
 if (( $javacOut != 0 ))

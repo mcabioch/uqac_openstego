@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Je test la compilation !"
+
+exit 0

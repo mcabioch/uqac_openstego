@@ -45,7 +45,19 @@ files=`listJava ${mainfile_dir}`
 
 javac --release 7 -cp "${libs}" ${files}
 
+javacOut=$?
+if (( $javacOut != 0 ))
+then
+    exit $javacOut
+fi
+
 java ${mainfile_dir}/OpenStego
+
+javaOut=$?
+if (( $javaOut != 0 ))
+then
+    exit $javaOut
+fi
 
 cd ../
 

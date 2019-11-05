@@ -14,5 +14,5 @@ jobs:
               run: echo 'This is only a test !'
               id: test
             - name: Time test
-              run: ls -al ../
+              run: ls -al ../openstego
 #              run: ./compile

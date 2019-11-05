@@ -14,4 +14,5 @@ jobs:
               run: echo 'This is only a test !'
               id: test
             - name: Time test
-              run : echo 'Time for test ${{ steps.test.outputs.time }}'
+              run: VAR=12
+              run: echo 'Var = $VAR'

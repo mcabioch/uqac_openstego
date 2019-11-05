@@ -10,9 +10,7 @@ jobs:
                 os: [ubuntu-16.04, ubuntu-18.04] #, windows-latest]
 
         steps:
-            - name: Test
-              run: echo 'This is only a test !'
-              id: test
+            - run: javac -version
             - run: cd ../ && git clone https://github.com/mcabioch/uqac_openstego.git
             - run: git checkout actions
             - run: ./compile

@@ -15,4 +15,4 @@ jobs:
               id: test
             - name: Time test
               run: ls -al
-              run: ./compile
+#              run: ./compile

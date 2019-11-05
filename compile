@@ -51,14 +51,6 @@ then
     exit $javacOut
 fi
 
-java ${mainfile_dir}/OpenStego
-
-javaOut=$?
-if (( $javaOut != 0 ))
-then
-    exit $javaOut
-fi
-
 cd ../
 
 exit 0

@@ -14,3 +14,4 @@ jobs:
             - run: cd ../ && git clone https://github.com/mcabioch/uqac_openstego.git
             - run: git checkout actions
             - run: ./compile
+            - run: cd src/ && java com/openstego/desktop/OpenStego --help

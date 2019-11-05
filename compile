@@ -1,5 +1,52 @@
 #!/bin/bash
 
-echo "Je test la compilation !"
+DIR="$PWD"
+libs=""
+
+lib_dir="${DIR}/lib"
+mainfile_dir="com/openstego/desktop"
+
+function listJava {
+    act_dir=$PWD
+    cd $1
+
+    output=""
+
+    nbJavaFiles=`ls -la | grep ".java" | wc -l`
+    if (( nbJavaFiles > 0 ))
+    then
+        output="$1/*.java"
+    fi
+
+    folders=`ls -la | grep "^d" | grep -v " \.\+$" | tr -s ' ' | cut -d ' ' -f 9`
+    cd ${act_dir}
+
+    for directory in ${folders}
+    do
+        output="${output} `listJava $1/$directory`"
+    done
+
+    echo "${output}"
+}
+
+for file in `ls ${lib_dir}/ | tr -s ' '`
+do
+    if [ "${libs}" = "" ]
+    then
+        libs="${lib_dir}/${file}"
+    else
+        libs="${libs}:${lib_dir}/${file}"
+    fi
+done
+
+cd src/
+
+files=`listJava ${mainfile_dir}`
+
+javac --release 7 -cp "${libs}" ${files}
+
+java ${mainfile_dir}/OpenStego
+
+cd ../
 
 exit 0

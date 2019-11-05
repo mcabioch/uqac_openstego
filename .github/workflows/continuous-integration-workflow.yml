@@ -15,4 +15,4 @@ jobs:
               id: test
             - name: Time test
               run: VAR=12
-              run: echo 'Var = $VAR'
+              run: echo 'Var = ${{ VAR }}'

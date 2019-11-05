@@ -14,5 +14,4 @@ jobs:
               run: echo 'This is only a test !'
               id: test
             - name: Time test
-              run: VAR=12
-              run: echo 'Var = ${{ VAR }}'
+              run: ./compile

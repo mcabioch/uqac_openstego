@@ -3,5 +3,5 @@ projectKey=mcabioch_uqac_openstego
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.884
 dashboardUrl=https://sonarcloud.io/dashboard?id=mcabioch_uqac_openstego
-ceTaskId=AW2ItgDPeWHkXVU8-6Ft
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW2ItgDPeWHkXVU8-6Ft
+ceTaskId=AW2IyRPLeWHkXVU8-6I8
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW2IyRPLeWHkXVU8-6I8

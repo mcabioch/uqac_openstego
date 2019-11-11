@@ -1,64 +1,0 @@
-
-Qcom.openstego.desktop.ui.EmbedPanel#getMsgFileTextField()Ljavax/swing/JTextField;á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaå å()"3*æ
-2á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaé$ é(4√¿
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaé( é(2
-%1javax.swing.JTextField"javax.swing.JTextField’
-“
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaé$ é(4
-%2" javax.swing.JTextField#<init>()V*
-
-%1javax.swing.JTextField
-Ì
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaé é(4;%
-#com.openstego.desktop.ui.EmbedPanel"
-msgFileTextField"__id*
-
-%1javax.swing.JTextField
-Ì
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaè è(!
-%3javax.swing.JTextField"__id*=*;%
-#com.openstego.desktop.ui.EmbedPanel"
-msgFileTextField¶
-£
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaè- è(J	
-%4int"__id*
-""¸˘
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaè è(K
-
-%5void"%javax.swing.JTextField#setColumns(I)V*
-
-%3javax.swing.JTextField*
-	
-%4int2setColumns(I)*
-1*à
-3á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaç ç(
-Ì
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaç ç(!
-%0javax.swing.JTextField"__id*=*;%
-#com.openstego.desktop.ui.EmbedPanel"
-msgFileTextField*
-2
-1*≠
-1á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaë ë(
-Ì
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaë ë($
-%6javax.swing.JTextField"__id*=*;%
-#com.openstego.desktop.ui.EmbedPanel"
-msgFileTextField"™
-á
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaë ë(%
-
-%6javax.swing.JTextFieldB'%
-#com.openstego.desktop.ui.EmbedPanel

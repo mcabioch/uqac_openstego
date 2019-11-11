@@ -1,22 +1,0 @@
-
-Mcom.openstego.desktop.plugin.lsb.LSBPlugin#getDescription()Ljava/lang/String;ç
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaB B( "1*∞
-1ç
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaC C(Ñ
-Å
-ç
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaC C(*
-%0$com.openstego.desktop.util.LabelUtil"__id*=*;,
-*com.openstego.desktop.plugin.lsb.LSBPlugin"
-	labelUtilÊ„
-ç
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaC C(8
-%1java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
-*
-%0$com.openstego.desktop.util.LabelUtil*
-plugin.description2getString(Ljava/lang/String;)"™
-ç
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaC C(9
-
-%1java.lang.StringB.,
-*com.openstego.desktop.plugin.lsb.LSBPlugin

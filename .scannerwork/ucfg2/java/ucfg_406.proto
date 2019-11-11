@@ -1,44 +1,0 @@
-
-com.openstego.desktop.ui.OpenStegoUI#getDefaultPlugin(Lcom/openstego/desktop/OpenStegoPlugin$Purpose;)Lcom/openstego/desktop/OpenStegoPlugin;ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.java— —(,"3*»
-2ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaš š( í
-ê
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaš š(=+
-%2%com.openstego.desktop.OpenStegoPlugin"scom.openstego.desktop.util.PluginManager#getPluginByName(Ljava/lang/String;)Lcom/openstego/desktop/OpenStegoPlugin;*,"*
-(com.openstego.desktop.util.PluginManager*
-	RandomLSB"º
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaš š(>-
-+
-%2%com.openstego.desktop.OpenStegoPlugin*¾
-3ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.java™ ™(Ñ
-Î
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.java™ ™(.3
-%0-com.openstego.desktop.OpenStegoPlugin$Purpose"__id*
-""Ñ
-Î
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.java™ ™(:3
-%1-com.openstego.desktop.OpenStegoPlugin$Purpose"__id*
-""*
-2
-1*º
-1ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaœ œ( ì
-é
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaœ œ(<+
-%3%com.openstego.desktop.OpenStegoPlugin"scom.openstego.desktop.util.PluginManager#getPluginByName(Ljava/lang/String;)Lcom/openstego/desktop/OpenStegoPlugin;*,"*
-(com.openstego.desktop.util.PluginManager*
-
-DWTDugad"º
-ˆ
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoUI.javaœ œ(=-
-+
-%3%com.openstego.desktop.OpenStegoPlugin:8
-purpose-com.openstego.desktop.OpenStegoPlugin$PurposeB(&
-$com.openstego.desktop.ui.OpenStegoUI

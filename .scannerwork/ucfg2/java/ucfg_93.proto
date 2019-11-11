@@ -1,31 +1,0 @@
-
-scom.openstego.desktop.util.PluginManager#getPluginByName(Ljava/lang/String;)Lcom/openstego/desktop/OpenStegoPlugin;ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaá" á(1"1*Õ
-1ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaà à(Ï
-È
-ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaà à(
-%0java.util.Map"__id*<*:*
-(com.openstego.desktop.util.PluginManager"
-
-pluginsMapàÖ
-ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaà à(0
-%1java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*
-
-namejava.lang.String2toUpperCase()˚
-¯
-ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaà à(1+
-%2%com.openstego.desktop.OpenStegoPlugin"__mapGet*
-
-%0java.util.Map*
-
-%1java.lang.String"ø
-ç
-Ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/PluginManager.javaà à(2-
-+
-%2%com.openstego.desktop.OpenStegoPlugin:
-namejava.lang.StringB,"*
-(com.openstego.desktop.util.PluginManager

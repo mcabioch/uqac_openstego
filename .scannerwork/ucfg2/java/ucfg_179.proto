@@ -1,22 +1,0 @@
-
-Qcom.openstego.desktop.plugin.dwtdugad.DWTDugadPlugin#getUsage()Ljava/lang/String;™
-Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtdugad/DWTDugadPlugin.java± ±("1*ä
-1™
-Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtdugad/DWTDugadPlugin.java² ²(š
-—
-™
-Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtdugad/DWTDugadPlugin.java² ²(*
-%0$com.openstego.desktop.util.LabelUtil"__id*G*E6
-4com.openstego.desktop.plugin.dwtdugad.DWTDugadPlugin"
-	labelUtilìé
-™
-Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtdugad/DWTDugadPlugin.java² ²(2
-%1java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
-*
-%0$com.openstego.desktop.util.LabelUtil*
-plugin.usage2getString(Ljava/lang/String;)"¶
-™
-Œ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtdugad/DWTDugadPlugin.java² ²(3
-
-%1java.lang.StringB86
-4com.openstego.desktop.plugin.dwtdugad.DWTDugadPlugin

@@ -1,45 +1,0 @@
-
-`com.openstego.desktop.ui.OpenStegoFrame#getExtractPanel()Lcom/openstego/desktop/ui/ExtractPanel;‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java³ ³('"3*þ
-2‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaµ  µ(2åâ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaµ$ µ(0+
-%1%com.openstego.desktop.ui.ExtractPanel"%com.openstego.desktop.ui.ExtractPanel÷
-ô
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaµ  µ(2
-%2"/com.openstego.desktop.ui.ExtractPanel#<init>()V*-
-+
-%1%com.openstego.desktop.ui.ExtractPanelƒ
-€
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaµ µ(2;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-extractPanel"__id*-
-+
-%1%com.openstego.desktop.ui.ExtractPanel*
-1*Ÿ
-3‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java´ ´(ƒ
-€
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java´ ´(+
-%0%com.openstego.desktop.ui.ExtractPanel"__id*=*;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-extractPanel*
-2
-1*×
-1‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java· ·(ƒ
-€
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java· ·( +
-%3%com.openstego.desktop.ui.ExtractPanel"__id*=*;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-extractPanel"½
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java· ·(!-
-+
-%3%com.openstego.desktop.ui.ExtractPanelB+)
-'com.openstego.desktop.ui.OpenStegoFrame

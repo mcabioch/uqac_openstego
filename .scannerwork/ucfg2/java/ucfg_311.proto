@@ -1,57 +1,0 @@
-
-Vcom.openstego.desktop.plugin.dwtkim.DWTKimPlugin#extractData([BLjava/lang/String;[B)[B•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java± ±("paramAnnotations*Ç
-paramAnnotations•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java± ±(YÜ
-Ù
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java° °(
-%0"
-__annotate*
-java.lang.Override*
-
-	stegoData$ArrayÆ
-Ã
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java±% ±(.
-	stegoData$Array"__annotation*
-
-%0ê
-ç
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java° °(
-%1"
-__annotate*
-java.lang.Override*#
-!
-stegoFileNamejava.lang.StringÔ
-Ñ
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java±7 ±(D!
-stegoFileNamejava.lang.String"__annotation*
-
-%1Þ
-Û
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java° °(
-%2"
-__annotate*
-java.lang.Override*
-
-origSigData$ArrayÈ
-Å
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java±M ±(X
-origSigData$Array"__annotation*
-
-%2*
-1*¾
-1•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java² ²(" 
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.java² ²(
-"":
-	stegoData$Array:!
-stegoFileNamejava.lang.String:
-origSigData$ArrayB42
-0com.openstego.desktop.plugin.dwtkim.DWTKimPlugin

@@ -1,42 +1,0 @@
-
-Ocom.openstego.desktop.plugin.dwtkim.DWTKimPlugin#getWatermarkCorrelation([B[B)D•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÏ Ï()"paramAnnotations*‹
-paramAnnotations•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÏ) Ï(SÞ
-Û
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÎ Î(
-%0"
-__annotate*
-java.lang.Override*
-
-origSigData$ArrayÈ
-Å
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÏ1 Ï(<
-origSigData$Array"__annotation*
-
-%0à
-Ý
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÎ Î(
-%1"
-__annotate*
-java.lang.Override*
-
-watermarkData$ArrayÊ
-Ç
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÏE Ï(R
-watermarkData$Array"__annotation*
-
-%1*
-1*¾
-1•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÑ Ñ(" 
-•
-ˆ/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/dwtkim/DWTKimPlugin.javaÑ Ñ(
-"":
-origSigData$Array:
-watermarkData$ArrayB42
-0com.openstego.desktop.plugin.dwtkim.DWTKimPlugin

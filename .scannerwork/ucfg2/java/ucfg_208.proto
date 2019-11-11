@@ -1,78 +1,0 @@
-
-Ucom.openstego.desktop.ui.OpenStegoFrame#getHelpAboutMenuItem()Ljavax/swing/JMenuItem;‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¥ ¥()"3*ù
-2‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§3 §(<ÿ
-ü
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§3 §(<*
-%1$com.openstego.desktop.util.LabelUtil"__id*:*8)
-'com.openstego.desktop.ui.OpenStegoFrame"
-	labelUtilåâ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§3 §(]
-%2java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
-*
-%1$com.openstego.desktop.util.LabelUtil*
-gui.menu.help.about2getString(Ljava/lang/String;)ÅÂ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§) §(2
-%3javax.swing.JMenuItem"javax.swing.JMenuItemƒ
-€
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§% §(^
-%4"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*
-
-%3javax.swing.JMenuItem*
-
-%2java.lang.Stringø
-õ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java§ §(^@)
-'com.openstego.desktop.ui.OpenStegoFrame"
-helpAboutMenuItem"__id*
-
-%3javax.swing.JMenuItemø
-õ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¨ ¨("
-%5javax.swing.JMenuItem"__id*B*@)
-'com.openstego.desktop.ui.OpenStegoFrame"
-helpAboutMenuItemª
-§
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¨/ ¨(<	
-%6int"__id*
-""…‚
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¨ ¨(=
-
-%7void"*javax.swing.AbstractButton#setMnemonic(I)V*
-
-%5javax.swing.JMenuItem*
-	
-%6int2setMnemonic(I)*
-1*”
-3‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¦ ¦(ø
-õ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.java¦ ¦("
-%0javax.swing.JMenuItem"__id*B*@)
-'com.openstego.desktop.ui.OpenStegoFrame"
-helpAboutMenuItem*
-2
-1*¼
-1‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaª ª(ø
-õ
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaª ª(%
-%8javax.swing.JMenuItem"__id*B*@)
-'com.openstego.desktop.ui.OpenStegoFrame"
-helpAboutMenuItem"­
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaª ª(&
-
-%8javax.swing.JMenuItemB+)
-'com.openstego.desktop.ui.OpenStegoFrame

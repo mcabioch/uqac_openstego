@@ -1,51 +1,0 @@
-
-Ycom.openstego.desktop.OpenStego#getDiff(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)[Bƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java• •("1*Â
-1ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java– –(¥
-¢
-ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java– –(9
-%0$Array"Dcom.openstego.desktop.util.CommonUtil#getFileBytes(Ljava/io/File;)[B*)"'
-%com.openstego.desktop.util.CommonUtil*
-
-	stegoFilejava.io.Fileóð
-ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java–; –(N
-%1java.lang.String"(java.io.File#getName()Ljava/lang/String;*
-
-	stegoFilejava.io.File2	getName()¥
-¢
-ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java–P –(r
-%2$Array"Dcom.openstego.desktop.util.CommonUtil#getFileBytes(Ljava/io/File;)[B*)"'
-%com.openstego.desktop.util.CommonUtil*
-
-	coverFilejava.io.Fileôñ
-„
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java–t –(‡
-%3java.lang.String"(java.io.File#getName()Ljava/lang/String;*
-
-	coverFilejava.io.File2	getName()àÝ
-ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java– —(
-%4$Array"ecom.openstego.desktop.OpenStego#getDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)[B*#!
-com.openstego.desktop.OpenStego*
-
-%0$Array*
-
-%1java.lang.String*
-
-%2$Array*
-
-%3java.lang.String*"
- 
-diffFileNamejava.lang.String2CgetDiff([BLjava/lang/String;[BLjava/lang/String;Ljava/lang/String;)"–
-ƒ
-w/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStego.java– —(
-
-%4$Array:
-	stegoFilejava.io.File:
-	coverFilejava.io.File: 
-diffFileNamejava.lang.StringB#!
-com.openstego.desktop.OpenStego

@@ -1,45 +1,0 @@
-
-^com.openstego.desktop.ui.GenerateSignaturePanel#getInputKeyTextField()Ljavax/swing/JTextField;’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java1 1(*"3*Ü
-2’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java3% 3(5ÎË
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java3) 3(3
-%1javax.swing.JTextField"javax.swing.JTextFieldà
-Ý
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java3% 3(5
-%2" javax.swing.JTextField#<init>()V*
-
-%1javax.swing.JTextFieldˆ
-…
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java3 3(5H1
-/com.openstego.desktop.ui.GenerateSignaturePanel"
-inputKeyTextField"__id*
-
-%1javax.swing.JTextField*
-1*«
-3’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java2 2(ˆ
-…
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java2 2("
-%0javax.swing.JTextField"__id*J*H1
-/com.openstego.desktop.ui.GenerateSignaturePanel"
-inputKeyTextField*
-2
-1*Û
-1’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java5 5(ˆ
-…
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java5 5(%
-%3javax.swing.JTextField"__id*J*H1
-/com.openstego.desktop.ui.GenerateSignaturePanel"
-inputKeyTextField"µ
-’
-‡/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/GenerateSignaturePanel.java5 5(&
-
-%3javax.swing.JTextFieldB31
-/com.openstego.desktop.ui.GenerateSignaturePanel

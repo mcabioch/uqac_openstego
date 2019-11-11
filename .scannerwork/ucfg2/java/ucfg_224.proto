@@ -1,45 +1,0 @@
-
-gcom.openstego.desktop.ui.OpenStegoFrame#getEmbedWmPanel()Lcom/openstego/desktop/ui/EmbedWatermarkPanel;‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaË Ë(."3*¡
-2‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÍ  Í(9óð
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÍ$ Í(72
-%1,com.openstego.desktop.ui.EmbedWatermarkPanel",com.openstego.desktop.ui.EmbedWatermarkPanel…
-‚
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÍ  Í(9
-%2"6com.openstego.desktop.ui.EmbedWatermarkPanel#<init>()V*4
-2
-%1,com.openstego.desktop.ui.EmbedWatermarkPanelŠ
-‡
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÍ Í(9;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-embedWmPanel"__id*4
-2
-%1,com.openstego.desktop.ui.EmbedWatermarkPanel*
-1*¦
-3‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÌ Ì(Š
-‡
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÌ Ì(2
-%0,com.openstego.desktop.ui.EmbedWatermarkPanel"__id*=*;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-embedWmPanel*
-2
-1*å
-1‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÏ Ï(Š
-‡
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÏ Ï( 2
-%3,com.openstego.desktop.ui.EmbedWatermarkPanel"__id*=*;)
-'com.openstego.desktop.ui.OpenStegoFrame"
-embedWmPanel"Ä
-‹
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaÏ Ï(!4
-2
-%3,com.openstego.desktop.ui.EmbedWatermarkPanelB+)
-'com.openstego.desktop.ui.OpenStegoFrame

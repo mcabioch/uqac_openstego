@@ -1,64 +1,0 @@
-
-acom.openstego.desktop.ui.VerifyWatermarkPanel#getSignatureFileTextField()Ljavax/swing/JTextField;ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaM M(/"3*ù
-2ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaO* O(:Ã…
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaO. O(8
-%1javax.swing.JTextField"javax.swing.JTextFieldﬁ
-€
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaO* O(:
-%2" javax.swing.JTextField#<init>()V*
-
-%1javax.swing.JTextFieldâ
-Ü
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaO O(:K/
--com.openstego.desktop.ui.VerifyWatermarkPanel"
-signatureFileTextField"__id*
-
-%1javax.swing.JTextFieldâ
-Ü
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaP P('
-%3javax.swing.JTextField"__id*M*K/
--com.openstego.desktop.ui.VerifyWatermarkPanel"
-signatureFileTextFieldØ
-¨
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaP3 P(P	
-%4int"__id*
-""ÖÇ
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaP P(Q
-
-%5void"%javax.swing.JTextField#setColumns(I)V*
-
-%3javax.swing.JTextField*
-	
-%4int2setColumns(I)*
-1*™
-3ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaN N(â
-Ü
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaN N('
-%0javax.swing.JTextField"__id*M*K/
--com.openstego.desktop.ui.VerifyWatermarkPanel"
-signatureFileTextField*
-2
-1*ÿ
-1ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaR R(â
-Ü
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaR R(*
-%6javax.swing.JTextField"__id*M*K/
--com.openstego.desktop.ui.VerifyWatermarkPanel"
-signatureFileTextField"≥
-ê
-Ö/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/VerifyWatermarkPanel.javaR R(+
-
-%6javax.swing.JTextFieldB1/
--com.openstego.desktop.ui.VerifyWatermarkPanel

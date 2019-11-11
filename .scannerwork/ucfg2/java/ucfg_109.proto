@@ -1,286 +1,0 @@
-
-bcom.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI#<init>(Lcom/openstego/desktop/ui/OpenStegoUI;)Vï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java< <("5*ô
-3ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java\ \(Ö
-Ç
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java\ \(3
-%20java.lang.Integer"/java.lang.Integer#valueOf(I)Ljava/lang/Integer;*"
-java.lang.Integer*
-""Î
-Ë
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java\ \(3
-%21"
-__arraySet*
-
-maxBitsList$Array*
-""*
-
-%20java.lang.Integer*
-3
-1*û<
-5ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java= =(ó
-î
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java= =(A4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"	
-stegoUI"__id*1
-/
-stegoUI$com.openstego.desktop.ui.OpenStegoUI‹
-Ÿ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java? ?(51
-gridBagConstraintsjava.awt.GridBagConstraints"__id*
-""∆
-√
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java@ @(
-labeljavax.swing.JLabel"__id*
-""±Æ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaA  A(.
-%0$Array"$Array»
-≈
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaA A(/
-maxBitsList$Array"__id*
-
-%0$Array—Œ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaC C(#
-%1java.awt.GridBagLayout"java.awt.GridBagLayout„
-‡
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaC C(%
-%2" java.awt.GridBagLayout#<init>()V*
-
-%1java.awt.GridBagLayout›⁄
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaC C(&
-
-%3void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-
-%1java.awt.GridBagLayout2#setLayout(Ljava/awt/LayoutManager;)€ÿ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaE! E(3!
-%4java.awt.GridBagConstraints"java.awt.GridBagConstraintsÌ
-Í
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaE E(5
-%5"%java.awt.GridBagConstraints#<init>()V*#
-!
-%4java.awt.GridBagConstraints˘
-ˆ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaE E(51
-gridBagConstraintsjava.awt.GridBagConstraints"__id*#
-!
-%4java.awt.GridBagConstraints√¿
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaJ( J(.
-%6java.awt.Insets"java.awt.InsetsÒ
-Ó
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaJ$ J(:
-%7"java.awt.Insets#<init>(IIII)V*
-
-%6java.awt.Insets*2*2*2*2˘
-ˆ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaJ J(:=
-1
-gridBagConstraintsjava.awt.GridBagConstraints"
-insets"__id*
-
-%6java.awt.Insetsî
-ë
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaM M($*
-%8$com.openstego.desktop.util.LabelUtil"__id*E*C4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-	labelUtil˚¯
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaM M(Q
-%9java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*,
-*
-%8$com.openstego.desktop.util.LabelUtil*#!
-gui.label.option.useRandomImage2getString(Ljava/lang/String;) «
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaM M(
-%10javax.swing.JLabel"javax.swing.JLabelâ
-Ü
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaM M(R
-%11".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
-
-%10javax.swing.JLabel*
-
-%9java.lang.String€
-ÿ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaM M(R
-labeljavax.swing.JLabel"__id*
-
-%10javax.swing.JLabel¢ü
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaN N(&
-%12void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-
-labeljavax.swing.JLabel*3
-1
-gridBagConstraintsjava.awt.GridBagConstraints2+add(Ljava/awt/Component;Ljava/lang/Object;)ï
-í
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaQ Q($+
-%13$com.openstego.desktop.util.LabelUtil"__id*E*C4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-	labelUtilÄ˝
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaQ Q(T
-%14java.lang.String"Tcom.openstego.desktop.util.LabelUtil#getString(Ljava/lang/String;)Ljava/lang/String;*-
-+
-%13$com.openstego.desktop.util.LabelUtil*&$
-"gui.label.option.maxBitsPerChannel2getString(Ljava/lang/String;) «
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaQ Q(
-%15javax.swing.JLabel"javax.swing.JLabelä
-á
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaQ Q(U
-%16".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
-
-%15javax.swing.JLabel*
-
-%14java.lang.String€
-ÿ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaQ Q(U
-labeljavax.swing.JLabel"__id*
-
-%15javax.swing.JLabel¢ü
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaR R(&
-%17void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-
-labeljavax.swing.JLabel*3
-1
-gridBagConstraintsjava.awt.GridBagConstraints2+add(Ljava/awt/Component;Ljava/lang/Object;)é
-ã
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaX X("
-%18javax.swing.JCheckBox"__id*M*K4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-randomImgCheckBox£†
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaX X(7
-%19void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-
-%18javax.swing.JCheckBox*3
-1
-gridBagConstraintsjava.awt.GridBagConstraints2+add(Ljava/awt/Component;Ljava/lang/Object;)*
-3
-1*µ
-0 "≠
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javaj j(
-implicit return*’"
-1ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java^6 ^(A–Õ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java^# ^(5
-%22javax.swing.JComboBox"javax.swing.JComboBoxè
-å
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java^ ^(B
-%23"2javax.swing.JComboBox#<init>([Ljava/lang/Object;)V*
-
-%22javax.swing.JComboBox*
-
-maxBitsList$Arrayå
-â
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java^ ^(BI4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-maxBitsComboBox"__id*
-
-%22javax.swing.JComboBoxå
-â
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java_ _(
-%24javax.swing.JComboBox"__id*K*I4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-maxBitsComboBox «
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java_2 _(;
-%25java.awt.Dimension"java.awt.DimensionÎ
-Ë
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java_. _(C
-%26"java.awt.Dimension#<init>(II)V*
-
-%25java.awt.Dimension*2(*2Õ 
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java_ _(D
-%27void">javax.swing.JComponent#setPreferredSize(Ljava/awt/Dimension;)V*
-
-%24javax.swing.JComboBox*
-
-%25java.awt.Dimension2&setPreferredSize(Ljava/awt/Dimension;)å
-â
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java` `( 
-%28javax.swing.JComboBox"__id*K*I4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-maxBitsComboBox£†
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.java` `(5
-%29void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-
-%28javax.swing.JComboBox*3
-1
-gridBagConstraintsjava.awt.GridBagConstraints2+add(Ljava/awt/Component;Ljava/lang/Object;)éã
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javab, b(:;
-%304com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI$1"4com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI$1˝
-˙
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javab( g(	
-%31"java.lang.Object#<init>()V*=
-;
-%304com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI$1î
-ë
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javab g(
-2
-changeListener javax.swing.event.ChangeListener"__id*=
-;
-%304com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI$1é
-ã
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javah h(
-%32javax.swing.JCheckBox"__id*M*K4
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI"
-randomImgCheckBoxàÖ
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javah h(@
-%33void"Qjavax.swing.AbstractButton#addChangeListener(Ljavax/swing/event/ChangeListener;)V*
-
-%32javax.swing.JCheckBox*4
-2
-changeListener javax.swing.event.ChangeListener25addChangeListener(Ljavax/swing/event/ChangeListener;)´
-®
-ï
-ä/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBEmbedOptionsUI.javai i(
-%34void"Icom.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI#useRandomImgChanged()V*64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI*
-0:/
-stegoUI$com.openstego.desktop.ui.OpenStegoUIB64
-2com.openstego.desktop.plugin.lsb.LSBEmbedOptionsUI

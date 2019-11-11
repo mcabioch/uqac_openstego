@@ -1,59 +1,0 @@
-
-Mcom.openstego.desktop.ui.EmbedPanel#getStegoFileButton()Ljavax/swing/JButton;‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÍ Í(%"3*š
-
-2‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÏ# Ï(0½º
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÏ' Ï(.
-%1javax.swing.JButton"javax.swing.JButtonÏ
-Ì
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÏ# Ï(0
-%2"javax.swing.JButton#<init>()V*
-
-%1javax.swing.JButtonì
-é
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÏ Ï(0:%
-#com.openstego.desktop.ui.EmbedPanel"
-stegoFileButton"__id*
-
-%1javax.swing.JButtonì
-é
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÐ Ð( 
-%3javax.swing.JButton"__id*<*:%
-#com.openstego.desktop.ui.EmbedPanel"
-stegoFileButton•’
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÐ Ð(/
-
-%4void"7javax.swing.AbstractButton#setText(Ljava/lang/String;)V*
-
-%3javax.swing.JButton*
-...2setText(Ljava/lang/String;)*
-1*„
-3‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÎ Î(ì
-é
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÎ Î( 
-%0javax.swing.JButton"__id*<*:%
-#com.openstego.desktop.ui.EmbedPanel"
-stegoFileButton*
-2
-1*¦
-1‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÒ Ò(ì
-é
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÒ Ò(#
-%5javax.swing.JButton"__id*<*:%
-#com.openstego.desktop.ui.EmbedPanel"
-stegoFileButton"§
-‡
-{/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/EmbedPanel.javaÒ Ò($
-
-%5javax.swing.JButtonB'%
-#com.openstego.desktop.ui.EmbedPanel

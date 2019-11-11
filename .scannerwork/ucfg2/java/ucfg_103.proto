@@ -1,277 +1,0 @@
-
-Vcom.openstego.desktop.plugin.lsb.LSBPlugin#getWritableFileExtensions()Ljava/util/List;è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∂ ∂(1"17*Ò
-
-13è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¬ ¬(!ä
-á
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¬ ¬(!
-%5java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsŸ
-÷
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¬ ¬((
-%6java.lang.String"
-__arrayGet*
-
-%5java.util.List*
-""—
-Œ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¬ ¬((
-formatjava.lang.String"__id*
-
-%6java.lang.Stringø
-º
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java√ √(:
-%7java.util.Iterator"Ujavax.imageio.ImageIO#getImageWritersBySuffix(Ljava/lang/String;)Ljava/util/Iterator;*"
-javax.imageio.ImageIO*
-
-formatjava.lang.String”
-–
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java√ √(:
-iterjava.util.Iterator"__id*
-
-%7java.util.Iterator*
-12*æ
-15è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaª ª(¢
-ü
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaª ª()
-%2java.util.List"mcom.openstego.desktop.plugin.template.image.DHImagePluginTemplate#getWritableFileExtensions()Ljava/util/List;*
-""ø
-º
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaº º(
-formatjava.lang.String"__id*
-""∏
-µ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaΩ Ω("
-	compTypes$Array"__id*
-""ø
-º
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaæ æ(*
-iterjava.util.Iterator"__id*
-""–
-Õ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaø ø(*+
-
-writeParamjavax.imageio.ImageWriteParam"__id*
-""ä
-á
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¡ ¡(!
-%3java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsÿ’
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java¡ ¡((	
-%4int"java.util.List#size()I*
-
-%3java.util.List2size()*
-13
-1*–
-16è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∏ ∏(ä
-á
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∏ ∏(
-%1java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormats"™
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∏ ∏( 
-
-%1java.util.List*≠
-17è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∑ ∑(ä
-á
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java∑ ∑(
-%0java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormats*
-15
-16*”
-1è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java⁄ ⁄(ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java⁄ ⁄(
-%19java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsèå
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java⁄ ⁄("
-%20boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
-
-%19java.util.List*
-gif2remove(Ljava/lang/Object;)ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java€ €(
-%21java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsêç
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java€ €(#
-%22boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
-
-%21java.util.List*
-wbmp2remove(Ljava/lang/Object;)ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java› ›(
-%23java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsèå
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java› ›("
-%24boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
-
-%23java.util.List*
-tif2remove(Ljava/lang/Object;)ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaﬁ ﬁ(
-%25java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsêç
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaﬁ ﬁ(#
-%26boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
-
-%25java.util.List*
-tiff2remove(Ljava/lang/Object;)ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java‡ ‡(
-%27java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormats"´
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java‡ ‡(
-
-%27java.util.List*ä
-3è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java’ ’(ã
-à
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java’ ’(
-%17java.util.List"__id*W*UC
-Acom.openstego.desktop.plugin.template.image.DHImagePluginTemplate"
-writeFormatsﬁ
-€
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java’ ’(&
-%18java.lang.String"__arrayRemove*
-
-%17java.util.List*
-""*
-12*…
-5è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java“ “(•¢
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java“ “(6
-%16boolean"6javax.imageio.ImageWriteParam#isCompressionLossless()Z*-
-+
-
-writeParamjavax.imageio.ImageWriteParam2isCompressionLossless()*
-
-13
-3
-1*–
-7è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java   ("’
-“
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java 6  (B
-%14java.lang.String"
-__arrayGet*
-
-	compTypes$Array*2 €ÿ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java   (C
-%15void"Ejavax.imageio.ImageWriteParam#setCompressionType(Ljava/lang/String;)V*-
-+
-
-writeParamjavax.imageio.ImageWriteParam*
-
-%14java.lang.String2&setCompressionType(Ljava/lang/String;)*
-5*·
-8è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java» »(@¡
-æ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java» »(@
-	compTypes$Array"__id*
-
-%13$Array*
-5
-7*œ
-9è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java»  »(*≤Ø
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java»  »(@
-%13$Array"Fjavax.imageio.ImageWriteParam#getCompressionTypes()[Ljava/lang/String;*-
-+
-
-writeParamjavax.imageio.ImageWriteParam2getCompressionTypes()*
-8*¸
-10è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java« «(Ø
-¨
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java«2 «(O
-
-%11int"__id*
-""¨©
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java« «(P
-%12void"4javax.imageio.ImageWriteParam#setCompressionMode(I)V*-
-+
-
-writeParamjavax.imageio.ImageWriteParam*
-
-
-%11int2setCompressionMode(I)*
-9*Â
-11è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java≈ ≈("âÜ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java≈ ≈()
-%9javax.imageio.ImageWriter"+java.util.Iterator#next()Ljava/lang/Object;*
-
-iterjava.util.Iterator2next()«ƒ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java≈ ≈(A$
-%10javax.imageio.ImageWriteParam"Ojavax.imageio.ImageWriter#getDefaultWriteParam()Ljavax/imageio/ImageWriteParam;*!
-
-%9javax.imageio.ImageWriter2getDefaultWriteParam()
-Ì
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.java≈ ≈(A+
-
-writeParamjavax.imageio.ImageWriteParam"__id*&
-$
-%10javax.imageio.ImageWriteParam*
-10*í
-12è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaƒ ƒ(ÏÈ
-è
-Ç/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/plugin/lsb/LSBPlugin.javaƒ ƒ(!
-%8boolean"java.util.Iterator#hasNext()Z*
-
-iterjava.util.Iterator2	hasNext()*
-13
-11
-1B.,
-*com.openstego.desktop.plugin.lsb.LSBPlugin

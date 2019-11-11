@@ -1,35 +1,0 @@
-
-Dcom.openstego.desktop.util.CommonUtil#getFileBytes(Ljava/io/File;)[B‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaJ J(%"5*ª
-3‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL L(="š
-‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL L(=
-
-%2$Array*Ë
-4‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL L(<¶
-³
-‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL L(<
-%2$Array"Mcom.openstego.desktop.util.CommonUtil#getStreamBytes(Ljava/io/InputStream;)[B*)"'
-%com.openstego.desktop.util.CommonUtil*
-
-%0java.io.FileInputStream*
-3*Ú
-5‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL L(!ÅÂ
-‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL& L(5
-%0java.io.FileInputStream"java.io.FileInputStreamý
-ú
-‡
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/CommonUtil.javaL" L(;
-%1"/java.io.FileInputStream#<init>(Ljava/io/File;)V*
-
-%0java.io.FileInputStream*
-
-filejava.io.File*
-4:
-filejava.io.FileB)"'
-%com.openstego.desktop.util.CommonUtil

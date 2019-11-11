@@ -1,30 +1,0 @@
-
-Hcom.openstego.desktop.OpenStegoPlugin#checkMark([BLjava/lang/String;[B)Dâ
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStegoPlugin.javaî î(!"1*ë
-1â
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStegoPlugin.javaï ï(&èå
-â
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStegoPlugin.javaï4 ï(f
-%0$Array"Kcom.openstego.desktop.OpenStegoPlugin#extractData([BLjava/lang/String;[B)[B*)'
-%com.openstego.desktop.OpenStegoPlugin*
-
-	stegoData$Array*#
-!
-stegoFileNamejava.lang.String*
-
-origSigData$Array2#extractData([BLjava/lang/String;[B)÷”
-â
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStegoPlugin.javaï ï(g
-%1double"Dcom.openstego.desktop.OpenStegoPlugin#getWatermarkCorrelation([B[B)D*)'
-%com.openstego.desktop.OpenStegoPlugin*
-
-origSigData$Array*
-
-%0$Array2getWatermarkCorrelation([B[B)"î
-â
-}/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/OpenStegoPlugin.javaï ï(h
-"":
-	stegoData$Array:!
-stegoFileNamejava.lang.String:
-origSigData$ArrayB)'
-%com.openstego.desktop.OpenStegoPlugin

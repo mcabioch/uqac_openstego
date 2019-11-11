@@ -1,98 +1,0 @@
-
-Gcom.openstego.desktop.ui.OpenStegoFrame#getHeader()Ljavax/swing/JLabel;ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaå å("3*ú
-2ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaé é(&øº
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaé é($
-%1javax.swing.JLabel"javax.swing.JLabel—
-Œ
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaé é(&
-%2"javax.swing.JLabel#<init>()V*
-
-%1javax.swing.JLabelÍ
-Á
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaé é(&5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-header"__id*
-
-%1javax.swing.JLabelÍ
-Á
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaè è(
-%3javax.swing.JLabel"__id*7*5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-headerÍ
-Á
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaè  è(+
-%4javax.swing.JLabel"__id*7*5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-header˙˜
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaè  è(5
-%5java.awt.Font"+java.awt.Component#getFont()Ljava/awt/Font;*
-
-%4javax.swing.JLabel2	getFont()™
-ß
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaèA è(J	
-%6int"__id*
-""Í
-Á
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaèL è(W
-%7javax.swing.JLabel"__id*7*5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-header˙˜
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaèL è(a
-%8java.awt.Font"+java.awt.Component#getFont()Ljava/awt/Font;*
-
-%7javax.swing.JLabel2	getFont()ﬁ€
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaèL è(m
-%9float"java.awt.Font#getSize2D()F*
-
-%8java.awt.Font2getSize2D()êç
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaè  è(s
-%10java.awt.Font"+java.awt.Font#deriveFont(IF)Ljava/awt/Font;*
-
-%5java.awt.Font*
-	
-%6int*
-""2deriveFont(IF)ûõ
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaè è(t
-%11void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
-
-%3javax.swing.JLabel*
-
-%10java.awt.Font2setFont(Ljava/awt/Font;)*
-1*Ü
-3ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaç ç(Í
-Á
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaç ç(
-%0javax.swing.JLabel"__id*7*5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-header*
-2
-1*≠
-1ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaë ë(Î
-Ë
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaë ë(
-%12javax.swing.JLabel"__id*7*5)
-'com.openstego.desktop.ui.OpenStegoFrame"
-header"´
-ã
-/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/ui/OpenStegoFrame.javaë ë(
-
-%12javax.swing.JLabelB+)
-'com.openstego.desktop.ui.OpenStegoFrame

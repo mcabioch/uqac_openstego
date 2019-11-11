@@ -1,76 +1,0 @@
-
-jcom.openstego.desktop.util.LabelUtil#getInstance(Ljava/lang/String;)Lcom/openstego/desktop/util/LabelUtil;†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java- -('"3*œ
-2†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java2! 2(*ÞÛ
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java2 2( *
-%2$com.openstego.desktop.util.LabelUtil"$com.openstego.desktop.util.LabelUtil£
- 
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java2 2(+
-%3"@com.openstego.desktop.util.LabelUtil#<init>(Ljava/lang/String;)V*,
-*
-%2$com.openstego.desktop.util.LabelUtil*
-
-	namespacejava.lang.Stringî
-ë
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java2 2(+,
-util$com.openstego.desktop.util.LabelUtil"__id*,
-*
-%2$com.openstego.desktop.util.LabelUtilã
-à
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java3 3(
-%4java.util.Map"__id*:*8&
-$com.openstego.desktop.util.LabelUtil"
-namespaceMapª
-§
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java3 3(-*
-%5$com.openstego.desktop.util.LabelUtil"__mapSet*
-
-%4java.util.Map*
-
-	namespacejava.lang.String*.
-,
-util$com.openstego.desktop.util.LabelUtil*
-1*³
-3†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java. .(È
-Å
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java. .(,
-util$com.openstego.desktop.util.LabelUtil"__id*
-""ã
-à
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java0 0(
-%0java.util.Map"__id*:*8&
-$com.openstego.desktop.util.LabelUtil"
-namespaceMapú
-÷
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java0 0(**
-%1$com.openstego.desktop.util.LabelUtil"__mapGet*
-
-%0java.util.Map*
-
-	namespacejava.lang.Stringî
-ë
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java0 0(*,
-util$com.openstego.desktop.util.LabelUtil"__id*,
-*
-%1$com.openstego.desktop.util.LabelUtil*
-2
-1*È
-1†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java6 6("¹
-†
-|/home/mathias/Bureau/Mes_Documents/Logiciels/EclipseIndigo/workspace/openstego/src/com/openstego/desktop/util/LabelUtil.java6 6(.
-,
-util$com.openstego.desktop.util.LabelUtil:
-	namespacejava.lang.StringB("&
-$com.openstego.desktop.util.LabelUtil

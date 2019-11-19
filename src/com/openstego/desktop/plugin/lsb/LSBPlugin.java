@@ -132,10 +132,8 @@ public class LSBPlugin extends DHImagePluginTemplate {
         int bytesRead = 0;
         byte[] data = null;
         LSBDataHeader header = null;
-        LSBInputStream lsbIS = null;
 
-        try {
-            lsbIS = new LSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config);
+        try (LSBInputStream lsbIS = new LSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config)) {
             header = lsbIS.getDataHeader();
             data = new byte[header.getDataLength()];
 
@@ -149,14 +147,6 @@ public class LSBPlugin extends DHImagePluginTemplate {
             throw osEx;
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
-        } finally {
-            if (lsbIS != null) {
-                try {
-                    lsbIS.close();
-                } catch (Exception e) {
-                    // Ignore
-                }
-            }
         }
     }
 

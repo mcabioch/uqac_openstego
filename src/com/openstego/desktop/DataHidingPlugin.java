@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @see WatermarkingPlugin
  */
-public abstract class DataHidingPlugin extends OpenStegoPlugin {
+public abstract class DataHidingPlugin extends CommonPluginTemplateGetters {
     // ------------- Metadata Methods -------------
 
     /**

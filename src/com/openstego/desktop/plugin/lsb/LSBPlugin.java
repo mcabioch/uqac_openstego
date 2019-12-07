@@ -44,7 +44,7 @@ public class LSBPlugin extends DHImagePluginTemplate {
      */
     public LSBPlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.LSBPluginLabels");
-        new LSBErrors(); // Initialize error codes
+        LSBErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**

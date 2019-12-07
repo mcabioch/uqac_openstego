@@ -90,7 +90,7 @@ public class LSBConfig extends OpenStegoConfig {
         while (keys.hasNext()) {
             key = keys.next();
             if (key.equals(MAX_BITS_USED_PER_CHANNEL)) {
-                value = propMap.get(key).toString().trim();
+                value = propMap.get(key).trim();
                 try {
                     this.maxBitsUsedPerChannel = Integer.parseInt(value);
                 } catch (NumberFormatException nfEx) {

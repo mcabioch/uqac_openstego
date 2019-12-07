@@ -148,7 +148,7 @@ public class CommonUtil {
         StringTokenizer tokenizer = null;
         String fileName = null;
         String dirName = null;
-        List<File> output = new ArrayList<File>();
+        List<File> output = new ArrayList<>();
         File fileDir = null;
         File[] arrFile = null;
 

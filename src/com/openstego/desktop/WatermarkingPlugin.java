@@ -26,7 +26,7 @@ public abstract class WatermarkingPlugin extends CommonPluginTemplateGetters {
      */
     @Override
     public final List<Purpose> getPurposes() {
-        List<Purpose> purposes = new ArrayList<Purpose>();
+        List<Purpose> purposes = new ArrayList<>();
         purposes.add(Purpose.WATERMARKING);
         return purposes;
     }

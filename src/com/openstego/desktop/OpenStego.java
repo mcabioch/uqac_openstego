@@ -237,7 +237,7 @@ public class OpenStego {
         }
 
         byte[] msg = null;
-        List<Object> output = new ArrayList<Object>();
+        List<Object> output = new ArrayList<>();
 
         try {
             // Add file name as first element of output list

@@ -21,7 +21,7 @@ public class CmdLineParser {
     /**
      * Stores the list of non-standard arguments
      */
-    private List<String> nonStdArgList = new ArrayList<String>();
+    private List<String> nonStdArgList = new ArrayList<>();
 
     /**
      * Flag to indicate whether non-standard options are mixed within standard options or not

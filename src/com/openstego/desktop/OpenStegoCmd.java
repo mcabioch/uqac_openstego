@@ -155,7 +155,7 @@ public class OpenStegoCmd {
 
                     CommonUtil.writeFile(
                         stego.embedData((msgFileName == null || msgFileName.equals("-")) ? null : new File(msgFileName),
-                            coverFileList.isEmpty() ? null : (File) coverFileList.get(0),
+                            coverFileList.isEmpty() ? null : coverFileList.get(0),
                             (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName),
                         (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName);
                 }
@@ -190,7 +190,7 @@ public class OpenStegoCmd {
 
                     CommonUtil.writeFile(
                         stego.embedMark((sigFileName == null || sigFileName.equals("-")) ? null : new File(sigFileName),
-                            coverFileList.isEmpty() ? null : (File) coverFileList.get(0),
+                            coverFileList.isEmpty() ? null : coverFileList.get(0),
                             (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName),
                         (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName);
                 }

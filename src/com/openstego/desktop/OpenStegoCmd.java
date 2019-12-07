@@ -264,13 +264,14 @@ public class OpenStegoCmd {
                 stegoFileList = CommonUtil.parseFileList(stegoFileName, ";");
                 // If only one stegofile is provided then use stegofile name given by the user
                 if (stegoFileList.size() == 1) {
-                    System.out.println(stego.checkMark(stegoFileList.get(0), new File(sigFileName)));
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO, stego.checkMark(stegoFileList.get(0), new File(sigFileName)));
                 }
                 // Else loop through all stegofiles and calculate correlation value for each
                 else {
                     for (int i = 0; i < stegoFileList.size(); i++) {
                         stegoFileName = (stegoFileList.get(i)).getName();
-                        System.out.println(stegoFileName + "\t" + stego.checkMark(stegoFileList.get(i), new File(sigFileName)));
+                        Logger.getLogger("com.openstego.desktop").log(Level.INFO,
+                            stegoFileName + "\t" + stego.checkMark(stegoFileList.get(i), new File(sigFileName)));
                     }
                 }
             } else if (command.equals("gensig")) {
@@ -296,18 +297,19 @@ public class OpenStegoCmd {
             } else if (command.equals("readformats")) {
                 List<String> formats = plugin.getReadableFileExtensions();
                 for (int i = 0; i < formats.size(); i++) {
-                    System.out.println(formats.get(i));
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO, formats.get(i));
                 }
             } else if (command.equals("writeformats")) {
                 List<String> formats = plugin.getWritableFileExtensions();
                 for (int i = 0; i < formats.size(); i++) {
-                    System.out.println(formats.get(i));
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO, formats.get(i));
                 }
             } else if (command.equals("algorithms")) {
                 List<OpenStegoPlugin> plugins = PluginManager.getPlugins();
                 for (int i = 0; i < plugins.size(); i++) {
                     plugin = plugins.get(i);
-                    System.out.println(plugin.getName() + " " + plugin.getPurposesLabel() + " - " + plugin.getDescription());
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO,
+                        plugin.getName() + " " + plugin.getPurposesLabel() + " - " + plugin.getDescription());
                 }
             } else if (command.equals("help")) {
                 if (plugin == null) {

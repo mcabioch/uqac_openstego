@@ -276,6 +276,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -354,6 +355,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     outputFileName = (String) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -549,6 +551,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -648,6 +651,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     tblData = (Object[][]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);

@@ -82,7 +82,7 @@ public class OpenStegoCmd {
                     plugin = plugins.get(0);
                 } else if (plugins.size() > 1) {
                     optionList = parser.getParsedOptionsAsList();
-                    if (optionList.size() > 0) {
+                    if (!optionList.isEmpty()) {
                         command = (optionList.get(0)).getName();
                         if (command.equals("embed") || command.equals("extract")) {
                             plugins = PluginManager.getDataHidingPlugins();
@@ -120,7 +120,7 @@ public class OpenStegoCmd {
             }
 
             // Non-standard options are not allowed
-            if (parser.getNonStdOptions().size() > 0) {
+            if (!parser.getNonStdOptions().isEmpty()) {
                 displayUsage();
                 return;
             }
@@ -148,14 +148,14 @@ public class OpenStegoCmd {
                 coverFileList = CommonUtil.parseFileList(coverFileName, ";");
                 // If no coverfile or only one coverfile is provided then use stegofile name given by the user
                 if (coverFileList.size() <= 1) {
-                    if (coverFileList.size() == 0 && coverFileName != null && !coverFileName.equals("-")) {
+                    if (coverFileList.isEmpty() && coverFileName != null && !coverFileName.equals("-")) {
                         System.err.println(labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
                         return;
                     }
 
                     CommonUtil.writeFile(
                         stego.embedData((msgFileName == null || msgFileName.equals("-")) ? null : new File(msgFileName),
-                            coverFileList.size() == 0 ? null : (File) coverFileList.get(0),
+                            coverFileList.isEmpty() ? null : (File) coverFileList.get(0),
                             (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName),
                         (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName);
                 }
@@ -183,14 +183,14 @@ public class OpenStegoCmd {
                 coverFileList = CommonUtil.parseFileList(coverFileName, ";");
                 // If no coverfile or only one coverfile is provided then use stegofile name given by the user
                 if (coverFileList.size() <= 1) {
-                    if (coverFileList.size() == 0 && coverFileName != null && !coverFileName.equals("-")) {
+                    if (coverFileList.isEmpty() && coverFileName != null && !coverFileName.equals("-")) {
                         System.err.println(labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
                         return;
                     }
 
                     CommonUtil.writeFile(
                         stego.embedMark((sigFileName == null || sigFileName.equals("-")) ? null : new File(sigFileName),
-                            coverFileList.size() == 0 ? null : (File) coverFileList.get(0),
+                            coverFileList.isEmpty() ? null : (File) coverFileList.get(0),
                             (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName),
                         (stegoFileName == null || stegoFileName.equals("-")) ? null : stegoFileName);
                 }

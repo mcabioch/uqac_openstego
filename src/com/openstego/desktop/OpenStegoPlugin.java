@@ -73,7 +73,7 @@ public abstract class OpenStegoPlugin {
         LabelUtil labelUtil = LabelUtil.getInstance(OpenStego.NAMESPACE);
         List<Purpose> purposes = getPurposes();
 
-        if (purposes == null || purposes.size() == 0) {
+        if (purposes == null || purposes.isEmpty()) {
             return "";
         }
 

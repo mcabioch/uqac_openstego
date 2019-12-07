@@ -22,6 +22,13 @@ import com.openstego.desktop.util.cmd.PasswordInput;
  */
 public class OpenStegoCmd {
     /**
+     * Private constructor to prevent instantiation
+     */
+    private OpenStegoCmd() {
+        throw new IllegalStateException("Utility class");
+    }
+
+    /**
      * LabelUtil instance to retrieve labels
      */
     private static LabelUtil labelUtil = LabelUtil.getInstance(OpenStego.NAMESPACE);

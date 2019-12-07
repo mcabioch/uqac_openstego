@@ -120,17 +120,17 @@ public class OpenStegoException extends Exception {
     /**
      * Map to store error code to message key mapping
      */
-    private static Map<String, String> errMsgKeyMap = new HashMap<String, String>();
+    private static final Map<String, String> errMsgKeyMap = new HashMap<String, String>();
 
     /**
      * Error code for the exception
      */
-    private int errorCode = 0;
+    private final int errorCode;
 
     /**
      * Namespace for the exception
      */
-    private String namespace = null;
+    private final String namespace;
 
     /*
      * Initialize the error code - message key map

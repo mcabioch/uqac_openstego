@@ -88,7 +88,7 @@ public class OpenStegoConfig {
      * @throws OpenStegoException
      */
     public OpenStegoConfig(CmdLineOptions options) throws OpenStegoException {
-        Map<String, String> map = new HashMap<String, String>();
+        Map<String, String> map = new HashMap<>();
 
         if (options.getOption("-c") != null) // compress
         {

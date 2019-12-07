@@ -26,7 +26,7 @@ public abstract class DataHidingPlugin extends CommonPluginTemplateGetters {
      */
     @Override
     public final List<Purpose> getPurposes() {
-        List<Purpose> purposes = new ArrayList<Purpose>();
+        List<Purpose> purposes = new ArrayList<>();
         purposes.add(Purpose.DATA_HIDING);
         return purposes;
     }

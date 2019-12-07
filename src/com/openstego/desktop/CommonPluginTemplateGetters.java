@@ -71,7 +71,7 @@ public abstract class CommonPluginTemplateGetters extends OpenStegoPlugin {
 
         String format = null;
         String[] formats = null;
-        readFormats = new ArrayList<String>();
+        readFormats = new ArrayList<>();
 
         formats = ImageIO.getReaderFormatNames();
         for (int i = 0; i < formats.length; i++) {
@@ -102,7 +102,7 @@ public abstract class CommonPluginTemplateGetters extends OpenStegoPlugin {
 
         String format = null;
         String[] formats = null;
-        writeFormats = new ArrayList<String>();
+        writeFormats = new ArrayList<>();
 
         formats = ImageIO.getWriterFormatNames();
         for (int i = 0; i < formats.length; i++) {

@@ -276,6 +276,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -354,6 +355,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     outputFileName = (String) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -545,6 +547,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -644,6 +647,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     tblData = (Object[][]) get();
                 } catch (InterruptedException exc) {
                     exc.printStackTrace();
+                    Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
                     handleException(exc);
@@ -896,7 +900,7 @@ public class OpenStegoUI extends OpenStegoFrame {
      */
     private List<String> getExtensionsList(OpenStegoPlugin plugin, int flag) throws OpenStegoException {
         List<String> list = null;
-        List<String> output = new ArrayList<String>();
+        List<String> output = new ArrayList<>();
 
         if (flag == READ_EXTENSIONS) {
             list = plugin.getReadableFileExtensions();

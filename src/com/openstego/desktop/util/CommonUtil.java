@@ -103,17 +103,8 @@ public class CommonUtil {
      * @throws OpenStegoException
      */
     public static void writeFile(byte[] fileData, File file) throws OpenStegoException {
-        OutputStream os = null;
-
-        try {
-            // If file is not provided, then write the data to stdout
-            if (file == null) {
-                os = System.out;
-            } else {
-                os = new FileOutputStream(file);
-            }
+        try (OutputStream os = (file == null) ? System.out : new FileOutputStream(file)) {
             os.write(fileData);
-            os.close();
         } catch (IOException ioEx) {
             throw new OpenStegoException(ioEx);
         }
@@ -148,7 +139,7 @@ public class CommonUtil {
         StringTokenizer tokenizer = null;
         String fileName = null;
         String dirName = null;
-        List<File> output = new ArrayList<File>();
+        List<File> output = new ArrayList<>();
         File fileDir = null;
         File[] arrFile = null;
 

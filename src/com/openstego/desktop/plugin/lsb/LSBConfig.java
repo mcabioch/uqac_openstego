@@ -63,7 +63,7 @@ public class LSBConfig extends OpenStegoConfig {
     public LSBConfig(CmdLineOptions options) throws OpenStegoException {
         super(options);
 
-        Map<String, String> map = new HashMap<String, String>();
+        Map<String, String> map = new HashMap<>();
         if (options.getOption("-b") != null) // maxBitsUsedPerChannel
         {
             map.put(MAX_BITS_USED_PER_CHANNEL, options.getOptionValue("-b"));

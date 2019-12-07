@@ -137,7 +137,7 @@ public class ImageUtil {
      * @return List with three elements of two-dimensional int's - R, G and B
      */
     public static List<int[][]> getRgbFromImage(BufferedImage image) {
-        List<int[][]> rgb = new ArrayList<int[][]>();
+        List<int[][]> rgb = new ArrayList<>();
         int[][] r = null;
         int[][] g = null;
         int[][] b = null;
@@ -173,11 +173,11 @@ public class ImageUtil {
      * @return List with three elements of two-dimensional int's - Y, U and V
      */
     public static List<int[][]> getYuvFromImage(BufferedImage image) {
-        List<int[][]> yuv = new ArrayList<int[][]>();
+        List<int[][]> yuv = new ArrayList<>();
         int[][] y = null;
         int[][] u = null;
         int[][] v = null;
-        int [][] aa = null;
+        int[][] aa = null;
         int a = 0;
         int r = 0;
         int g = 0;

@@ -20,12 +20,12 @@ public class CmdLineOptions {
     /**
      * Map to store the standard command-line options as map
      */
-    private Map<String, CmdLineOption> map = new HashMap<String, CmdLineOption>();
+    private Map<String, CmdLineOption> map = new HashMap<>();
 
     /**
      * Map to store the standard command-line options as list
      */
-    private List<CmdLineOption> list = new ArrayList<CmdLineOption>();
+    private List<CmdLineOption> list = new ArrayList<>();
 
     /**
      * Default constructor

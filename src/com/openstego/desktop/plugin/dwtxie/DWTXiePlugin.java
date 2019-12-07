@@ -183,7 +183,7 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
      */
     @Override
     public byte[] extractData(byte[] stegoData, String stegoFileName, byte[] origSigData) throws OpenStegoException {
-        List<Integer> sigBitList = new ArrayList<Integer>();
+        List<Integer> sigBitList = new ArrayList<>();
         ImageHolder image = null;
         DWT dwt = null;
         ImageTree dwtTree = null;

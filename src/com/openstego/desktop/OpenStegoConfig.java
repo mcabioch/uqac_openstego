@@ -138,7 +138,7 @@ public class OpenStegoConfig {
         while (keys.hasNext()) {
             key = keys.next();
             if (key.equals(USE_COMPRESSION)) {
-                value = propMap.get(key).toString().trim();
+                value = propMap.get(key).trim();
                 if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("y") || value.equals("1")) {
                     this.useCompression = true;
                 } else if (value.equalsIgnoreCase("false") || value.equalsIgnoreCase("n") || value.equals("0")) {
@@ -147,7 +147,7 @@ public class OpenStegoConfig {
                     throw new OpenStegoException(null, OpenStego.NAMESPACE, OpenStegoException.INVALID_USE_COMPR_VALUE, value);
                 }
             } else if (key.equals(USE_ENCRYPTION)) {
-                value = propMap.get(key).toString().trim();
+                value = propMap.get(key).trim();
                 if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("y") || value.equals("1")) {
                     this.useEncryption = true;
                 } else if (value.equalsIgnoreCase("false") || value.equalsIgnoreCase("n") || value.equals("0")) {
@@ -156,9 +156,9 @@ public class OpenStegoConfig {
                     throw new OpenStegoException(null, OpenStego.NAMESPACE, OpenStegoException.INVALID_USE_ENCRYPT_VALUE, value);
                 }
             } else if (key.equals(PASSWORD)) {
-                this.password = propMap.get(key).toString();
+                this.password = propMap.get(key);
             } else if (key.equals(ENCRYPTION_ALGORITHM)) {
-                this.encryptionAlgorithm = propMap.get(key).toString();
+                this.encryptionAlgorithm = propMap.get(key);
             }
         }
     }

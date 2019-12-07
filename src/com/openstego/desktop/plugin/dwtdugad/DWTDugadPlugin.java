@@ -42,7 +42,7 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "DWTDUGAD";
+    public static final String NAMESPACE = "DWTDUGAD";
 
     private static final String SIG_MARKER = "DGSG";
     private static final String WM_MARKER = "DGWM";

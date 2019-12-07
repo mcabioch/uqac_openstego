@@ -74,21 +74,18 @@ public class RandomLSBPlugin extends LSBPlugin {
     public byte[] embedData(byte[] msg, String msgFileName, byte[] cover, String coverFileName, String stegoFileName) throws OpenStegoException {
         int numOfPixels = 0;
         ImageHolder image = null;
-        RandomLSBOutputStream lsbOS = null;
 
-        try {
-            // Generate random image, if input image is not provided
-            if (cover == null) {
-                numOfPixels = (int) (LSBDataHeader.getMaxHeaderSize() * 8 / 3.0);
-                numOfPixels += (int) (msg.length * 8 / (3.0 * ((LSBConfig) this.config).getMaxBitsUsedPerChannel()));
-                image = ImageUtil.generateRandomImage(numOfPixels);
-            } else {
-                image = ImageUtil.byteArrayToImage(cover, coverFileName);
-            }
-            lsbOS = new RandomLSBOutputStream(image, msg.length, msgFileName, this.config);
+        // Generate random image, if input image is not provided
+        if (cover == null) {
+            numOfPixels = (int) (LSBDataHeader.getMaxHeaderSize() * 8 / 3.0);
+            numOfPixels += (int) (msg.length * 8 / (3.0 * ((LSBConfig) this.config).getMaxBitsUsedPerChannel()));
+            image = ImageUtil.generateRandomImage(numOfPixels);
+        } else {
+            image = ImageUtil.byteArrayToImage(cover, coverFileName);
+        }
+
+        try (RandomLSBOutputStream lsbOS = new RandomLSBOutputStream(image, msg.length, msgFileName, this.config)) {
             lsbOS.write(msg);
-            lsbOS.close();
-
             return ImageUtil.imageToByteArray(lsbOS.getImage(), stegoFileName, this);
         } catch (IOException ioEx) {
             throw new OpenStegoException(ioEx);
@@ -105,19 +102,10 @@ public class RandomLSBPlugin extends LSBPlugin {
      */
     @Override
     public String extractMsgFileName(byte[] stegoData, String stegoFileName) throws OpenStegoException {
-        RandomLSBInputStream lsbIS = null;
-
-        try {
-            lsbIS = new RandomLSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config);
+        try (RandomLSBInputStream lsbIS = new RandomLSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config)) {
             return lsbIS.getDataHeader().getFileName();
-        } finally {
-            if (lsbIS != null) {
-                try {
-                    lsbIS.close();
-                } catch (Exception e) {
-                    // Ignore
-                }
-            }
+        } catch (IOException ioEx) {
+            throw new OpenStegoException(ioEx);
         }
     }
 
@@ -135,10 +123,8 @@ public class RandomLSBPlugin extends LSBPlugin {
         int bytesRead = 0;
         byte[] data = null;
         LSBDataHeader header = null;
-        RandomLSBInputStream lsbIS = null;
 
-        try {
-            lsbIS = new RandomLSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config);
+        try (RandomLSBInputStream lsbIS = new RandomLSBInputStream(ImageUtil.byteArrayToImage(stegoData, stegoFileName), this.config)) {
             header = lsbIS.getDataHeader();
             data = new byte[header.getDataLength()];
 
@@ -152,14 +138,6 @@ public class RandomLSBPlugin extends LSBPlugin {
             throw osEx;
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
-        } finally {
-            if (lsbIS != null) {
-                try {
-                    lsbIS.close();
-                } catch (Exception e) {
-                    // Ignore
-                }
-            }
         }
     }
 

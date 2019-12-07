@@ -62,7 +62,7 @@ public class CmdLineParser {
             // Standard option
             {
                 // If non-standard option is already parsed then standard option should not be provided now
-                if (!this.nonStdMixedWithStdOptions && this.nonStdArgList.size() > 0) {
+                if (!this.nonStdMixedWithStdOptions && !this.nonStdArgList.isEmpty()) {
                     this.nonStdMixedWithStdOptions = true;
                 }
 

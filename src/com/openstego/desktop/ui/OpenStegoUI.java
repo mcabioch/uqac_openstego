@@ -162,7 +162,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         if (coverFileList.size() <= 1) {
             // If user has provided a wildcard for cover file name, and parser returns zero length, then it means that
             // there are no matching files with that wildcard
-            if (coverFileList.size() == 0 && !getEmbedPanel().getCoverFileTextField().getText().trim().equals("")) {
+            if (coverFileList.isEmpty() && !getEmbedPanel().getCoverFileTextField().getText().trim().equals("")) {
                 JOptionPane.showMessageDialog(this,
                     labelUtil.getString("gui.msg.err.dhEmbed.coverFileNotFound", getEmbedPanel().getCoverFileTextField().getText()),
                     labelUtil.getString("gui.msg.title.err"), JOptionPane.ERROR_MESSAGE);
@@ -451,7 +451,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         if (inputFileList.size() <= 1) {
             // If user has provided a wildcard for file name, and parser returns zero length, then it means that
             // there are no matching files with that wildcard
-            if (inputFileList.size() == 0 && !getEmbedWmPanel().getFileForWmTextField().getText().trim().equals("")) {
+            if (inputFileList.isEmpty() && !getEmbedWmPanel().getFileForWmTextField().getText().trim().equals("")) {
                 JOptionPane.showMessageDialog(this,
                     labelUtil.getString("gui.msg.err.wmEmbed.inputFileNotFound", getEmbedWmPanel().getFileForWmTextField().getText()),
                     labelUtil.getString("gui.msg.title.err"), JOptionPane.ERROR_MESSAGE);
@@ -587,7 +587,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         // If user has provided a wildcard for file name, and parser returns zero length, then it means that
         // there are no matching files with that wildcard
         inputFileList = CommonUtil.parseFileList(getVerifyWmPanel().getInputFileTextField().getText(), ";");
-        if (inputFileList.size() == 0 && !getVerifyWmPanel().getInputFileTextField().getText().trim().equals("")) {
+        if (inputFileList.isEmpty() && !getVerifyWmPanel().getInputFileTextField().getText().trim().equals("")) {
             JOptionPane.showMessageDialog(this,
                 labelUtil.getString("gui.msg.err.wmVerify.inputFileNotFound", getVerifyWmPanel().getInputFileTextField().getText()),
                 labelUtil.getString("gui.msg.title.err"), JOptionPane.ERROR_MESSAGE);
@@ -1113,7 +1113,7 @@ public class OpenStegoUI extends OpenStegoFrame {
             @Override
             public boolean accept(File file) {
                 if (file != null) {
-                    if (this.allowedExts == null || this.allowedExts.size() == 0 || file.isDirectory()) {
+                    if (this.allowedExts == null || this.allowedExts.isEmpty() || file.isDirectory()) {
                         return true;
                     }
 

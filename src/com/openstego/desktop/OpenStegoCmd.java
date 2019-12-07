@@ -34,6 +34,56 @@ public class OpenStegoCmd {
     private static LabelUtil labelUtil = LabelUtil.getInstance(OpenStego.NAMESPACE);
 
     /**
+     * Command option for embed
+     */
+    public static final String COMMAND_EMBED = "embed";
+
+    /**
+     * Command option for extract
+     */
+    public static final String COMMAND_EXTRACT = "extract";
+
+    /**
+     * Command option for gensig
+     */
+    public static final String COMMAND_GENSIG = "gensig";
+
+    /**
+     * Command option for embedmark
+     */
+    public static final String COMMAND_EMBEDMARK = "embedmark";
+
+    /**
+     * Command option for checkmark
+     */
+    public static final String COMMAND_CHECKMARK = "checkmark";
+
+    /**
+     * Command option for diff
+     */
+    public static final String COMMAND_DIFF = "diff";
+
+    /**
+     * Command option for help
+     */
+    public static final String COMMAND_HELP = "help";
+
+    /**
+     * Command option for algorithms
+     */
+    public static final String COMMAND_ALGORITHMS = "algorithms";
+
+    /**
+     * Command option for readformats
+     */
+    public static final String COMMAND_READFORMATS = "readformats";
+
+    /**
+     * Command option for writeformats
+     */
+    public static final String COMMAND_WRITEFORMATS = "writeformats";
+
+    /**
      * Main method for processing command line
      *
      * @param args Command line arguments
@@ -84,12 +134,12 @@ public class OpenStegoCmd {
                     optionList = parser.getParsedOptionsAsList();
                     if (!optionList.isEmpty()) {
                         command = (optionList.get(0)).getName();
-                        if (command.equals("embed") || command.equals("extract")) {
+                        if (command.equals(COMMAND_EMBED) || command.equals(COMMAND_EXTRACT)) {
                             plugins = PluginManager.getDataHidingPlugins();
                             if (plugins.size() == 1) {
                                 plugin = plugins.get(0);
                             }
-                        } else if (command.equals("gensig") || command.equals("embedmark") || command.equals("checkmark")) {
+                        } else if (command.equals(COMMAND_GENSIG) || command.equals(COMMAND_EMBEDMARK) || command.equals(COMMAND_CHECKMARK)) {
                             plugins = PluginManager.getWatermarkingPlugins();
                             if (plugins.size() == 1) {
                                 plugin = plugins.get(0);
@@ -126,7 +176,7 @@ public class OpenStegoCmd {
             }
 
             // Check that algorithm is selected
-            if (!command.equals("help") && !command.equals("algorithms")) {
+            if (!command.equals(COMMAND_HELP) && !command.equals(COMMAND_ALGORITHMS)) {
                 if (plugin == null) {
                     throw new OpenStegoException(null, OpenStego.NAMESPACE, OpenStegoException.NO_PLUGIN_SPECIFIED);
                 } else {
@@ -135,7 +185,7 @@ public class OpenStegoCmd {
                 }
             }
 
-            if (command.equals("embed")) {
+            if (command.equals(COMMAND_EMBED)) {
                 msgFileName = options.getOptionValue("-mf");
                 coverFileName = options.getOptionValue("-cf");
                 stegoFileName = options.getOptionValue("-sf");
@@ -175,7 +225,7 @@ public class OpenStegoCmd {
                         System.err.println(labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
                     }
                 }
-            } else if (command.equals("embedmark")) {
+            } else if (command.equals(COMMAND_EMBEDMARK)) {
                 sigFileName = options.getOptionValue("-gf");
                 coverFileName = options.getOptionValue("-cf");
                 stegoFileName = options.getOptionValue("-sf");
@@ -210,7 +260,7 @@ public class OpenStegoCmd {
                         System.err.println(labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
                     }
                 }
-            } else if (command.equals("extract")) {
+            } else if (command.equals(COMMAND_EXTRACT)) {
                 stegoFileName = options.getOptionValue("-sf");
                 extractDir = options.getOptionValue("-xd");
 
@@ -257,7 +307,7 @@ public class OpenStegoCmd {
 
                 CommonUtil.writeFile((byte[]) msgData.get(1), extractFileName);
                 System.err.println(labelUtil.getString("cmd.msg.fileExtracted", extractFileName));
-            } else if (command.equals("checkmark")) {
+            } else if (command.equals(COMMAND_CHECKMARK)) {
                 stegoFileName = options.getOptionValue("-sf");
                 sigFileName = options.getOptionValue("-gf");
 
@@ -278,7 +328,7 @@ public class OpenStegoCmd {
                         System.out.println(stegoFileName + "\t" + stego.checkMark(stegoFileList.get(i), new File(sigFileName)));
                     }
                 }
-            } else if (command.equals("gensig")) {
+            } else if (command.equals(COMMAND_GENSIG)) {
                 // Check if we need to prompt for password
                 if (stego.getConfig().getPassword() == null) {
                     stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString("cmd.msg.enterPassword") + " "));
@@ -287,7 +337,7 @@ public class OpenStegoCmd {
                 signatureFileName = options.getOptionValue("-gf");
                 CommonUtil.writeFile(stego.generateSignature(),
                     (signatureFileName == null || signatureFileName.equals("-")) ? null : signatureFileName);
-            } else if (command.equals("diff")) {
+            } else if (command.equals(COMMAND_DIFF)) {
                 coverFileName = options.getOptionValue("-cf");
                 stegoFileName = options.getOptionValue("-sf");
                 extractDir = options.getOptionValue("-xd");
@@ -298,23 +348,23 @@ public class OpenStegoCmd {
                 }
 
                 CommonUtil.writeFile(stego.getDiff(new File(stegoFileName), new File(coverFileName), extractFileName), extractFileName);
-            } else if (command.equals("readformats")) {
+            } else if (command.equals(COMMAND_READFORMATS)) {
                 List<String> formats = plugin.getReadableFileExtensions();
                 for (int i = 0; i < formats.size(); i++) {
                     System.out.println(formats.get(i));
                 }
-            } else if (command.equals("writeformats")) {
+            } else if (command.equals(COMMAND_WRITEFORMATS)) {
                 List<String> formats = plugin.getWritableFileExtensions();
                 for (int i = 0; i < formats.size(); i++) {
                     System.out.println(formats.get(i));
                 }
-            } else if (command.equals("algorithms")) {
+            } else if (command.equals(COMMAND_ALGORITHMS)) {
                 List<OpenStegoPlugin> plugins = PluginManager.getPlugins();
                 for (int i = 0; i < plugins.size(); i++) {
                     plugin = plugins.get(i);
                     System.out.println(plugin.getName() + " " + plugin.getPurposesLabel() + " - " + plugin.getDescription());
                 }
-            } else if (command.equals("help")) {
+            } else if (command.equals(COMMAND_HELP)) {
                 if (plugin == null) {
                     displayUsage();
                     return;
@@ -362,16 +412,16 @@ public class OpenStegoCmd {
         CmdLineOptions options = new CmdLineOptions();
 
         // Commands
-        options.add("embed", "--embed", CmdLineOption.TYPE_COMMAND, false);
-        options.add("extract", "--extract", CmdLineOption.TYPE_COMMAND, false);
-        options.add("gensig", "--gensig", CmdLineOption.TYPE_COMMAND, false);
-        options.add("embedmark", "--embedmark", CmdLineOption.TYPE_COMMAND, false);
-        options.add("checkmark", "--checkmark", CmdLineOption.TYPE_COMMAND, false);
-        options.add("diff", "--diff", CmdLineOption.TYPE_COMMAND, false);
-        options.add("readformats", "--readformats", CmdLineOption.TYPE_COMMAND, false);
-        options.add("writeformats", "--writeformats", CmdLineOption.TYPE_COMMAND, false);
-        options.add("algorithms", "--algorithms", CmdLineOption.TYPE_COMMAND, false);
-        options.add("help", "--help", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_EMBED, "--embed", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_EXTRACT, "--extract", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_GENSIG, "--gensig", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_EMBEDMARK, "--embedmark", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_CHECKMARK, "--checkmark", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_DIFF, "--diff", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_READFORMATS, "--readformats", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_WRITEFORMATS, "--writeformats", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_ALGORITHMS, "--algorithms", CmdLineOption.TYPE_COMMAND, false);
+        options.add(COMMAND_HELP, "--help", CmdLineOption.TYPE_COMMAND, false);
 
         // Plugin options
         options.add("-a", "--algorithm", CmdLineOption.TYPE_OPTION, true);

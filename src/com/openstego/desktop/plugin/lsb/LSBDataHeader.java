@@ -166,7 +166,7 @@ public class LSBDataHeader {
         System.arraycopy(HEADER_VERSION, 0, out, currIndex, versionLen);
         currIndex += versionLen;
 
-        out[currIndex++] = (byte) ((this.dataLength & 0x000000FF));
+        out[currIndex++] = (byte) (this.dataLength & 0x000000FF);
         out[currIndex++] = (byte) ((this.dataLength & 0x0000FF00) >> 8);
         out[currIndex++] = (byte) ((this.dataLength & 0x00FF0000) >> 16);
         out[currIndex++] = (byte) ((this.dataLength & 0xFF000000) >> 32);

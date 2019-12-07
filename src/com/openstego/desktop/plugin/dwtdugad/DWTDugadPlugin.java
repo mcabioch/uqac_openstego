@@ -11,6 +11,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -223,6 +224,37 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
     }
 
     /**
+     * Method to compute ok and n one time instead of duplicate code
+     *
+     * @param ois
+     * @param ok
+     * @param n
+     * @param alpha
+     * @return A List<Integer> that contains ok then n
+     * @throws IOException
+     */
+    private List<Integer> computeOkN(ObjectInputStream ois, int ok, int n, double alpha) throws IOException {
+        int m = 0;
+        double z = 0.0;
+        double v = 0.0;
+
+        try {
+            m = ois.readInt();
+            z = ois.readDouble();
+            v = ois.readDouble();
+            if (m != 0) {
+                ok += (z > v * alpha / 1.0) ? 1 : 0;
+            } else {
+                n--;
+            }
+        } catch (IOException ioEx) {
+            throw ioEx;
+        }
+
+        return Arrays.asList(ok, n);
+    }
+
+    /**
      * Method to check the correlation between original signature and the extracted watermark
      *
      * @param origSigData Original signature data
@@ -237,10 +269,6 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
         int level;
         int n;
         int ok = 0;
-        int m = 0;
-        double z = 0.0;
-        double v = 0.0;
-        // double diff = 0.0;
         double alpha;
 
         try {
@@ -255,38 +283,21 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
             n = level * 3;
 
             for (int i = 0; i < level; i++) {
+                List<Integer> list;
                 // HL subband
-                m = ois.readInt();
-                z = ois.readDouble();
-                v = ois.readDouble();
-                if (m != 0) {
-                    ok += (z > v * alpha / 1.0) ? 1 : 0;
-                    // diff += ((z - v * alpha) / (1.0 * m));
-                } else {
-                    n--;
-                }
+                list = computeOkN(ois, ok, n, alpha);
+                ok = list.get(0);
+                n = list.get(1);
 
                 // LH subband
-                m = ois.readInt();
-                z = ois.readDouble();
-                v = ois.readDouble();
-                if (m != 0) {
-                    ok += (z > v * alpha / 1.0) ? 1 : 0;
-                    // diff += ((z - v * alpha) / (1.0 * m));
-                } else {
-                    n--;
-                }
+                list = computeOkN(ois, ok, n, alpha);
+                ok = list.get(0);
+                n = list.get(1);
 
                 // HH subband
-                m = ois.readInt();
-                z = ois.readDouble();
-                v = ois.readDouble();
-                if (m != 0) {
-                    ok += (z > v * alpha / 1.0) ? 1 : 0;
-                    // diff += ((z - v * alpha) / (1.0 * m));
-                } else {
-                    n--;
-                }
+                list = computeOkN(ois, ok, n, alpha);
+                ok = list.get(0);
+                n = list.get(1);
             }
         } catch (IOException ioEx) {
             throw new OpenStegoException(ioEx);

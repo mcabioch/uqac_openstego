@@ -513,17 +513,15 @@ public class OpenStegoUI extends OpenStegoFrame {
                         outputFileName = outputFileName + "." + plugin.getWritableFileExtensions().get(0);
                     }
 
-                    if ((new File(outputFileName)).exists()) {
-                        if (JOptionPane.showConfirmDialog(this.parent, labelUtil.getString("gui.msg.warn.fileExists", outputFileName),
-                            labelUtil.getString("gui.msg.title.warn"), JOptionPane.YES_NO_OPTION,
-                            JOptionPane.WARNING_MESSAGE) == JOptionPane.NO_OPTION) {
-                            if (inputFileList.size() == 1) {
-                                this.cancel(true);
-                                return null;
-                            }
-                            skipCount++;
-                            continue;
+                    if ((new File(outputFileName)).exists() && JOptionPane.showConfirmDialog(this.parent,
+                        labelUtil.getString("gui.msg.warn.fileExists", outputFileName), labelUtil.getString("gui.msg.title.warn"),
+                        JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE) == JOptionPane.NO_OPTION) {
+                        if (inputFileList.size() == 1) {
+                            this.cancel(true);
+                            return null;
                         }
+                        skipCount++;
+                        continue;
                     }
 
                     processCount++;
@@ -787,10 +785,8 @@ public class OpenStegoUI extends OpenStegoFrame {
                 }
             }
             // Check for valid extension for signature file
-            if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_GSG_SIGFILE)) {
-                if (!fileName.toLowerCase().endsWith(SIG_FILE_EXTENSION)) {
-                    fileName = fileName + SIG_FILE_EXTENSION;
-                }
+            if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_GSG_SIGFILE) && !fileName.toLowerCase().endsWith(SIG_FILE_EXTENSION)) {
+                fileName = fileName + SIG_FILE_EXTENSION;
             }
             textField.setText(fileName);
         }
@@ -1116,7 +1112,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                     }
 
                     for (int i = 0; i < this.allowedExts.size(); i++) {
-                        if (file.getName().toLowerCase().endsWith(this.allowedExts.get(i).toString())) {
+                        if (file.getName().toLowerCase().endsWith(this.allowedExts.get(i))) {
                             return true;
                         }
                     }

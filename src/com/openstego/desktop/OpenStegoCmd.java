@@ -8,6 +8,8 @@ package com.openstego.desktop;
 
 import java.io.File;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import com.openstego.desktop.util.CommonUtil;
 import com.openstego.desktop.util.LabelUtil;
@@ -322,12 +324,12 @@ public class OpenStegoCmd {
             }
         } catch (OpenStegoException osEx) {
             if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {
-                osEx.printStackTrace();
+                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
             } else {
                 System.err.println(osEx.getMessage());
             }
         } catch (Exception ex) {
-            ex.printStackTrace();
+            Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, ex.getMessage(), ex);
         }
     }
 

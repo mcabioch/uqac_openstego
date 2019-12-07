@@ -15,6 +15,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
@@ -440,12 +442,12 @@ public class OpenStego {
             }
         } catch (OpenStegoException osEx) {
             if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {
-                osEx.printStackTrace(System.err);
+                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
             } else {
-                System.err.println(osEx.getMessage());
+                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
             }
         } catch (Exception ex) {
-            ex.printStackTrace(System.err);
+            Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, ex.getMessage(), ex);
         }
     }
 }

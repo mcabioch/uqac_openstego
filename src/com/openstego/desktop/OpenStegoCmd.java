@@ -264,7 +264,8 @@ public class OpenStegoCmd {
                 stegoFileList = CommonUtil.parseFileList(stegoFileName, ";");
                 // If only one stegofile is provided then use stegofile name given by the user
                 if (stegoFileList.size() == 1) {
-                    Logger.getLogger("com.openstego.desktop").log(Level.INFO, stego.checkMark(stegoFileList.get(0), new File(sigFileName)));
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO,
+                        Double.toString(stego.checkMark(stegoFileList.get(0), new File(sigFileName))));
                 }
                 // Else loop through all stegofiles and calculate correlation value for each
                 else {
@@ -325,11 +326,7 @@ public class OpenStegoCmd {
                 return;
             }
         } catch (OpenStegoException osEx) {
-            if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {
-                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
-            } else {
-                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
-            }
+            Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
         } catch (Exception ex) {
             Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, ex.getMessage(), ex);
         }

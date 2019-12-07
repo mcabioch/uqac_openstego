@@ -441,11 +441,7 @@ public class OpenStego {
                 OpenStegoCmd.execute(args);
             }
         } catch (OpenStegoException osEx) {
-            if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {
-                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
-            } else {
-                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
-            }
+            Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
         } catch (Exception ex) {
             Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, ex.getMessage(), ex);
         }

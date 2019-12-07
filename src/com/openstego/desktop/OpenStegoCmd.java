@@ -367,7 +367,6 @@ public class OpenStegoCmd {
             } else if (command.equals(COMMAND_HELP)) {
                 if (plugin == null) {
                     displayUsage();
-                    return;
                 } else
                 // Show plugin-specific help
                 {
@@ -375,7 +374,6 @@ public class OpenStegoCmd {
                 }
             } else {
                 displayUsage();
-                return;
             }
         } catch (OpenStegoException osEx) {
             if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {

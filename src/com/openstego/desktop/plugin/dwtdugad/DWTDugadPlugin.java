@@ -392,7 +392,9 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
          * @param rand Randomizer to use for generating watermark data
          */
         public Signature(Random rand) {
-            double x, x1, x2;
+            double x;
+            double x1;
+            double x2;
             this.watermark = new double[this.watermarkLength];
 
             for (int i = 0; i < this.watermarkLength; i += 2) {

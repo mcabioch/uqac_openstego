@@ -45,7 +45,7 @@ public class RandomLSBPlugin extends LSBPlugin {
      */
     @Override
     public String getName() {
-        return "RandomLSB";
+        return NAMESPACE;
     }
 
     /**

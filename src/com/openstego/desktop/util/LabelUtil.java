@@ -19,12 +19,12 @@ public class LabelUtil {
     /**
      * Static variable to hold the map of labels loaded from resource files
      */
-    private static Map<String, ResourceBundle> map = new HashMap<String, ResourceBundle>();
+    private static Map<String, ResourceBundle> map = new HashMap<>();
 
     /**
      * Static variable to store the namespace map
      */
-    private static Map<String, LabelUtil> namespaceMap = new HashMap<String, LabelUtil>();
+    private static Map<String, LabelUtil> namespaceMap = new HashMap<>();
 
     /**
      * Method to add new namespace using resource bundle

@@ -87,7 +87,7 @@ public class StringUtil {
      */
     public static List<String> getStringLines(String input) throws OpenStegoException {
         String str = null;
-        List<String> stringList = new ArrayList<String>();
+        List<String> stringList = new ArrayList<>();
         BufferedReader reader = null;
 
         try {

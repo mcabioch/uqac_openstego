@@ -91,7 +91,7 @@ public class LSBEmbedOptionsUI extends PluginEmbedOptionsUI {
         for (int i = 0; i < 8; i++) {
             maxBitsList[i] = Integer.valueOf(i + 1);
         }
-        this.maxBitsComboBox = new JComboBox<Integer>(maxBitsList);
+        this.maxBitsComboBox = new JComboBox<>(maxBitsList);
         this.maxBitsComboBox.setPreferredSize(new Dimension(40, 20));
         add(this.maxBitsComboBox, gridBagConstraints);
 

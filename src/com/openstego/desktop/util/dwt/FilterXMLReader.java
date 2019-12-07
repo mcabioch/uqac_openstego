@@ -36,7 +36,7 @@ public class FilterXMLReader {
      * @return Map of filters with key being Integer object for filter ID
      */
     public static Map<Integer, FilterGH> parse(String fileURI) {
-        Map<Integer, FilterGH> filterGHMap = new HashMap<Integer, FilterGH>();
+        Map<Integer, FilterGH> filterGHMap = new HashMap<>();
         DocumentBuilder db = null;
         Document dom = null;
         Element el = null;

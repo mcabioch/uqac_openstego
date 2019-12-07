@@ -167,6 +167,13 @@ public class HelpAboutDialog extends JDialog {
      * Helper class to launch browser. This code is copied from: http://www.centerkey.com/java/browser/
      */
     static class BareBonesBrowserLaunch {
+        /**
+         * Private constructor to prevent instantiation
+         */
+        private BareBonesBrowserLaunch() {
+            throw new IllegalStateException("Utility class");
+        }
+
         private static final String[] browsers = { "firefox", "google-chrome", "opera", "epiphany", "konqueror", "conkeror", "midori", "kazehakase",
                 "mozilla" };
 

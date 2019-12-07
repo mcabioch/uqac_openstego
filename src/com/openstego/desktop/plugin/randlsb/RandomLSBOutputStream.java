@@ -62,7 +62,7 @@ public class RandomLSBOutputStream extends OutputStream {
     /**
      * Array for bits in the image
      */
-    private boolean bitWritten[][][][] = null;
+    private boolean[][][][] bitWritten = null;
 
     /**
      * Random number generator

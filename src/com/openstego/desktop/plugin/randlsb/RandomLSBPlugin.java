@@ -24,7 +24,7 @@ public class RandomLSBPlugin extends LSBPlugin {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "RandomLSB";
+    public static final String NAMESPACE = "RandomLSB";
 
     /**
      * LabelUtil instance to retrieve labels

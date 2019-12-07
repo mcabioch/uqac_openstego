@@ -55,7 +55,7 @@ public class RandomLSBInputStream extends InputStream {
     /**
      * Array for bits in the image
      */
-    private boolean bitRead[][][][] = null;
+    private boolean[][][][] bitRead = null;
 
     /**
      * Random number generator

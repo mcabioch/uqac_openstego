@@ -405,11 +405,9 @@ public class OpenStegoUI extends OpenStegoFrame {
 
         config.setPassword(inputKey);
         openStego = new OpenStego(plugin, config);
-        if (sigFile.exists()) {
-            if (JOptionPane.showConfirmDialog(this, labelUtil.getString("gui.msg.warn.fileExists", sigFileName),
-                labelUtil.getString("gui.msg.title.warn"), JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE) == JOptionPane.NO_OPTION) {
-                return;
-            }
+        if (sigFile.exists() && JOptionPane.showConfirmDialog(this, labelUtil.getString("gui.msg.warn.fileExists", sigFileName),
+            labelUtil.getString("gui.msg.title.warn"), JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE) == JOptionPane.NO_OPTION) {
+            return;
         }
 
         sigData = openStego.generateSignature();

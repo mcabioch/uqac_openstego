@@ -50,7 +50,7 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
      */
     public DWTXiePlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.DWTXiePluginLabels");
-        new DWTXieErrors(); // Initialize error codes
+        DWTXieErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**
@@ -103,7 +103,7 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
         int cols = 0;
         int rows = 0;
         int n = 0;
-        double temp = 0.0;
+        double temp;
 
         // Cover file is mandatory
         if (cover == null) {

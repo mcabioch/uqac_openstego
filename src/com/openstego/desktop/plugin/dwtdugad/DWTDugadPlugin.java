@@ -53,7 +53,7 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
      */
     public DWTDugadPlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.DWTDugadPluginLabels");
-        new DWTDugadErrors(); // Initialize error codes
+        DWTDugadErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**
@@ -234,21 +234,17 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
      * @throws IOException
      */
     private List<Integer> computeOkN(ObjectInputStream ois, int ok, int n, double alpha) throws IOException {
-        int m = 0;
-        double z = 0.0;
-        double v = 0.0;
+        int m;
+        double z;
+        double v;
 
-        try {
-            m = ois.readInt();
-            z = ois.readDouble();
-            v = ois.readDouble();
-            if (m != 0) {
-                ok += (z > v * alpha / 1.0) ? 1 : 0;
-            } else {
-                n--;
-            }
-        } catch (IOException ioEx) {
-            throw ioEx;
+        m = ois.readInt();
+        z = ois.readDouble();
+        v = ois.readDouble();
+        if (m != 0) {
+            ok += (z > v * alpha / 1.0) ? 1 : 0;
+        } else {
+            n--;
         }
 
         return Arrays.asList(ok, n);

@@ -37,7 +37,7 @@ public class LSBPlugin extends DHImagePluginTemplate {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "LSB";
+    public static final String NAMESPACE = "LSB";
 
     /**
      * Default constructor

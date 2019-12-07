@@ -144,7 +144,7 @@ public class OpenStegoCmd {
                 // If no coverfile or only one coverfile is provided then use stegofile name given by the user
                 if (coverFileList.size() <= 1) {
                     if (coverFileList.size() == 0 && coverFileName != null && !coverFileName.equals("-")) {
-                        System.err.println(labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
+                        Logger.getLogger("com.openstego.desktop").log(Level.INFO, labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
                         return;
                     }
 
@@ -158,7 +158,7 @@ public class OpenStegoCmd {
                 else {
                     // If stego file name is provided, then warn user that it will be ignored
                     if (stegoFileName != null && !stegoFileName.equals("-")) {
-                        System.err.println(labelUtil.getString("cmd.warn.stegoFileIgnored"));
+                        Logger.getLogger("com.openstego.desktop").log(Level.WARNING, labelUtil.getString("cmd.warn.stegoFileIgnored"));
                     }
 
                     // Loop through all cover files
@@ -167,7 +167,7 @@ public class OpenStegoCmd {
                         CommonUtil.writeFile(stego.embedData((msgFileName == null || msgFileName.equals("-")) ? null : new File(msgFileName),
                             coverFileList.get(i), coverFileName), coverFileName);
 
-                        System.err.println(labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
+                        Logger.getLogger("com.openstego.desktop").log(Level.INFO, labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
                     }
                 }
             } else if (command.equals("embedmark")) {
@@ -179,7 +179,7 @@ public class OpenStegoCmd {
                 // If no coverfile or only one coverfile is provided then use stegofile name given by the user
                 if (coverFileList.size() <= 1) {
                     if (coverFileList.size() == 0 && coverFileName != null && !coverFileName.equals("-")) {
-                        System.err.println(labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
+                        Logger.getLogger("com.openstego.desktop").log(Level.INFO, labelUtil.getString("cmd.msg.coverFileNotFound", coverFileName));
                         return;
                     }
 
@@ -193,7 +193,7 @@ public class OpenStegoCmd {
                 else {
                     // If stego file name is provided, then warn user that it will be ignored
                     if (stegoFileName != null && !stegoFileName.equals("-")) {
-                        System.err.println(labelUtil.getString("cmd.warn.stegoFileIgnored"));
+                        Logger.getLogger("com.openstego.desktop").log(Level.WARNING, labelUtil.getString("cmd.warn.stegoFileIgnored"));
                     }
 
                     // Loop through all cover files
@@ -202,7 +202,7 @@ public class OpenStegoCmd {
                         CommonUtil.writeFile(stego.embedMark((sigFileName == null || sigFileName.equals("-")) ? null : new File(sigFileName),
                             coverFileList.get(i), coverFileName), coverFileName);
 
-                        System.err.println(labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
+                        Logger.getLogger("com.openstego.desktop").log(Level.INFO, labelUtil.getString("cmd.msg.coverProcessed", coverFileName));
                     }
                 }
             } else if (command.equals("extract")) {
@@ -225,14 +225,14 @@ public class OpenStegoCmd {
                                 msgData = stego.extractData(new File(stegoFileName));
                             } catch (OpenStegoException inEx) {
                                 if (inEx.getErrorCode() == OpenStegoException.INVALID_PASSWORD) {
-                                    System.err.println(inEx.getMessage());
+                                    Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, inEx.getMessage(), inEx);
                                     return;
                                 } else {
                                     throw inEx;
                                 }
                             }
                         } else {
-                            System.err.println(osEx.getMessage());
+                            Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
                             return;
                         }
                     } else {
@@ -251,7 +251,7 @@ public class OpenStegoCmd {
                 }
 
                 CommonUtil.writeFile((byte[]) msgData.get(1), extractFileName);
-                System.err.println(labelUtil.getString("cmd.msg.fileExtracted", extractFileName));
+                Logger.getLogger("com.openstego.desktop").log(Level.INFO, labelUtil.getString("cmd.msg.fileExtracted", extractFileName));
             } else if (command.equals("checkmark")) {
                 stegoFileName = options.getOptionValue("-sf");
                 sigFileName = options.getOptionValue("-gf");
@@ -316,7 +316,7 @@ public class OpenStegoCmd {
                 } else
                 // Show plugin-specific help
                 {
-                    System.err.println(plugin.getUsage());
+                    Logger.getLogger("com.openstego.desktop").log(Level.INFO, plugin.getUsage());
                 }
             } else {
                 displayUsage();
@@ -326,7 +326,7 @@ public class OpenStegoCmd {
             if (osEx.getErrorCode() == OpenStegoException.UNHANDLED_EXCEPTION) {
                 Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
             } else {
-                System.err.println(osEx.getMessage());
+                Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, osEx.getMessage(), osEx);
             }
         } catch (Exception ex) {
             Logger.getLogger("com.openstego.desktop").log(Level.SEVERE, ex.getMessage(), ex);

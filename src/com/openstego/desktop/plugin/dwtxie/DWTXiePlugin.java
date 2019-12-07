@@ -195,7 +195,6 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
         int[][] luminance = null;
         int cols = 0;
         int rows = 0;
-        // int n = 0;
 
         image = ImageUtil.byteArrayToImage(stegoData, stegoFileName);
         ImageUtil.makeImageSquare(image);
@@ -237,7 +236,6 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
 
                 // Apply inverse watermarking transformation to get the bit value
                 sigBitList.add(invWmTransform(sig.embeddingStrength, pixel1.value, pixel2.value, pixel3.value));
-                // n++;
             }
         }
         sig.setWatermark(convertBitListToByteArray(sigBitList));

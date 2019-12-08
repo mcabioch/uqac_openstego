@@ -28,12 +28,6 @@ public class CmdLineOptions {
     private List<CmdLineOption> list = new ArrayList<>();
 
     /**
-     * Default constructor
-     */
-    public CmdLineOptions() {
-    }
-
-    /**
      * Method to add the command-line option
      *
      * @param option Command-line option

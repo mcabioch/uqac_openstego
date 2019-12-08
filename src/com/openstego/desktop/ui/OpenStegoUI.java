@@ -800,7 +800,10 @@ public class OpenStegoUI extends OpenStegoFrame {
                     fileName = fileName + SIG_FILE_EXTENSION;
                 }
             }
-            textField.setText(fileName);
+
+            if (textField != null) {
+                textField.setText(fileName);
+            }
         }
     }
 
@@ -914,6 +917,8 @@ public class OpenStegoUI extends OpenStegoFrame {
             list = plugin.getReadableFileExtensions();
         } else if (flag == WRITE_EXTENSIONS) {
             list = plugin.getWritableFileExtensions();
+        } else {
+            return output;
         }
 
         for (int i = 0; i < list.size(); i++) {

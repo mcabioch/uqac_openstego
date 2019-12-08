@@ -51,7 +51,7 @@ public class HelpAboutDialog extends JDialog {
      */
     public JEditorPane getContent() {
         if (this.content == null) {
-            StringBuffer buf = new StringBuffer();
+            StringBuilder buf = new StringBuilder();
 
             buf.append("<html>");
             buf.append("  <table width=100% cellspacing=0 cellpadding=0 style='font:serif;'>");

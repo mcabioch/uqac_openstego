@@ -571,10 +571,8 @@ public class OpenStegoUI extends OpenStegoFrame {
 
     /**
      * This method checks for watermark in the selected file
-     *
-     * @throws OpenStegoException
      */
-    private void checkMark() throws OpenStegoException {
+    private void checkMark() {
         List<File> inputFileList = null;
 
         // START: Input Validations
@@ -879,7 +877,7 @@ public class OpenStegoUI extends OpenStegoFrame {
      */
     private String getExtensionsString(OpenStegoPlugin plugin, int flag) throws OpenStegoException {
         List<String> list = null;
-        StringBuffer output = new StringBuffer();
+        StringBuilder output = new StringBuilder();
 
         list = getExtensionsList(plugin, flag);
         for (int i = 0; i < list.size(); i++) {
@@ -1066,7 +1064,7 @@ public class OpenStegoUI extends OpenStegoFrame {
 
             if (retVal == JFileChooser.APPROVE_OPTION) {
                 if (multiSelect) {
-                    StringBuffer fileList = new StringBuffer();
+                    StringBuilder fileList = new StringBuilder();
                     files = chooser.getSelectedFiles();
                     for (int i = 0; i < files.length; i++) {
                         if (i != 0) {

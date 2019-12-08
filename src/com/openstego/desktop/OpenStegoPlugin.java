@@ -69,7 +69,7 @@ public abstract class OpenStegoPlugin {
      * @return Display lable for purpose(s) of the plugin
      */
     public final String getPurposesLabel() {
-        StringBuffer sbf = new StringBuffer();
+        StringBuilder sbf = new StringBuilder();
         LabelUtil labelUtil = LabelUtil.getInstance(OpenStego.NAMESPACE);
         List<Purpose> purposes = getPurposes();
 

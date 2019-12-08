@@ -990,26 +990,32 @@ public class OpenStegoUI extends OpenStegoFrame {
 
         @Override
         public void windowActivated(WindowEvent ev) {
+            // Do nothing
         }
 
         @Override
         public void windowClosed(WindowEvent ev) {
+            // Do nothing
         }
 
         @Override
         public void windowDeactivated(WindowEvent ev) {
+            // Do nothing
         }
 
         @Override
         public void windowDeiconified(WindowEvent ev) {
+            // Do nothing
         }
 
         @Override
         public void windowIconified(WindowEvent ev) {
+            // Do nothing
         }
 
         @Override
         public void windowOpened(WindowEvent ev) {
+            // Do nothing
         }
     }
 

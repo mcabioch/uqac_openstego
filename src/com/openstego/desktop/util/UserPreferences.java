@@ -49,7 +49,9 @@ public class UserPreferences {
         if (!prefFile.exists()) {
 
             try {
-                prefFile.createNewFile();
+                if (!prefFile.createNewFile()) {
+                    throw new IOException("File not created");
+                }
             } catch (IOException e) {
                 throw new OpenStegoException(e);
             }

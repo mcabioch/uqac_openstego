@@ -21,13 +21,13 @@ public class LSBDataHeader {
     /**
      * Magic string at the start of the header to identify OpenStego embedded data
      */
-    public static final byte[] DATA_STAMP = "OPENSTEGO".getBytes();
+    protected static final byte[] DATA_STAMP = "OPENSTEGO".getBytes();
 
     /**
      * Header version to distinguish between various versions of data embedding. This should be changed to next
      * version, in case the logic of embedding data is changed.
      */
-    public static final byte[] HEADER_VERSION = new byte[] { (byte) 2 };
+    protected static final byte[] HEADER_VERSION = new byte[] { (byte) 2 };
 
     /**
      * Length of the fixed portion of the header

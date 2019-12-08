@@ -35,7 +35,7 @@ public class OpenStegoConfig {
      * <p>
      * Password for encryption in case "useEncryption" is set to true
      */
-    public static final String PASSWORD_KEY = "password";
+    public static final String PW_KEY = "password";
 
     /**
      * Key string for configuration item - encryptionAlgorithm
@@ -122,7 +122,7 @@ public class OpenStegoConfig {
 
         if (options.getOption("-p") != null) // password
         {
-            map.put(PASSWORD_KEY, options.getOptionValue("-p"));
+            map.put(PW_KEY, options.getOptionValue("-p"));
         }
 
         if (options.getOption("-A") != null) // cryptalgo
@@ -153,7 +153,7 @@ public class OpenStegoConfig {
             } else if (key.equals(USE_ENCRYPTION_KEY)) {
                 value = propMap.get(key).trim();
                 this.useEncryption = determineBooleanEquivalent(value, OpenStegoException.INVALID_USE_ENCRYPT_VALUE);
-            } else if (key.equals(PASSWORD_KEY)) {
+            } else if (key.equals(PW_KEY)) {
                 this.password = propMap.get(key);
             } else if (key.equals(ENCRYPTION_ALGORITHM_KEY)) {
                 this.encryptionAlgorithm = propMap.get(key);
@@ -163,7 +163,7 @@ public class OpenStegoConfig {
 
     /**
      * From a string value, determine a boolean equivalent
-     * 
+     *
      * @param value String containing a boolean as text
      * @param errorCode error code thrown if string can't be determined
      * @return boolean equivalent

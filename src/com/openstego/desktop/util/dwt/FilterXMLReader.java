@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -46,7 +47,10 @@ public class FilterXMLReader {
         FilterGH filterGH = null;
 
         try {
-            db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            dbFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+
+            db = dbFactory.newDocumentBuilder();
 
             // Parse to get DOM representation of the XML file
             dom = db.parse(FilterXMLReader.class.getResourceAsStream(fileURI));

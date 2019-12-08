@@ -85,7 +85,7 @@ public class OpenStegoCmd {
      */
     public static final String COMMAND_WRITEFORMATS = "writeformats";
 
-    private static final String LABEL_ENTERPASSWORD = "cmd.msg.enterPassword";
+    private static final String LABEL_ENTERPW = "cmd.msg.enterPassword";
     private static final String LOGGER_NAME = "com.openstego.desktop";
 
     /**
@@ -197,7 +197,7 @@ public class OpenStegoCmd {
 
                 // Check if we need to prompt for password
                 if (stego.getConfig().isUseEncryption() && stego.getConfig().getPassword() == null) {
-                    stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPASSWORD) + " "));
+                    stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPW) + " "));
                 }
 
                 coverFileList = CommonUtil.parseFileList(coverFileName, ";");
@@ -279,7 +279,7 @@ public class OpenStegoCmd {
                 } catch (OpenStegoException osEx) {
                     if (osEx.getErrorCode() == OpenStegoException.INVALID_PASSWORD || osEx.getErrorCode() == OpenStegoException.NO_VALID_PLUGIN) {
                         if (stego.getConfig().getPassword() == null) {
-                            stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPASSWORD) + " "));
+                            stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPW) + " "));
 
                             try {
                                 msgData = stego.extractData(new File(stegoFileName));
@@ -337,7 +337,7 @@ public class OpenStegoCmd {
             } else if (command.equals(COMMAND_GENSIG)) {
                 // Check if we need to prompt for password
                 if (stego.getConfig().getPassword() == null) {
-                    stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPASSWORD) + " "));
+                    stego.getConfig().setPassword(PasswordInput.readPassword(labelUtil.getString(LABEL_ENTERPW) + " "));
                 }
 
                 signatureFileName = options.getOptionValue("-gf");

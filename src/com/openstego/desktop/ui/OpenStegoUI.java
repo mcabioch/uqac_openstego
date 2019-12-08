@@ -744,7 +744,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         } else if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_GSG_SIGFILE)) {
             title = labelUtil.getString("gui.filer.title.wmGenSig.sigFile");
             filterDesc = labelUtil.getString(LABEL_FILTER_SIGFILES, "*" + SIG_FILE_EXTENSION);
-            allowedExts = Arrays.asList(new String[] { SIG_FILE_EXTENSION });
+            allowedExts = Arrays.asList(SIG_FILE_EXTENSION);
             textField = getGenSigPanel().getSignatureFileTextField();
         } else if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_EMB_INPFILE)) {
             title = labelUtil.getString("gui.filer.title.wmEmbed.fileForWm");
@@ -755,7 +755,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         } else if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_EMB_SIGFILE)) {
             title = labelUtil.getString("gui.filer.title.wmEmbed.sigFile");
             filterDesc = labelUtil.getString(LABEL_FILTER_SIGFILES, "*" + SIG_FILE_EXTENSION);
-            allowedExts = Arrays.asList(new String[] { SIG_FILE_EXTENSION });
+            allowedExts = Arrays.asList(SIG_FILE_EXTENSION);
             textField = getEmbedWmPanel().getSignatureFileTextField();
         } else if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_EMB_OUTFILE)) {
             title = labelUtil.getString("gui.filer.title.wmEmbed.outputWmFile");
@@ -775,7 +775,7 @@ public class OpenStegoUI extends OpenStegoFrame {
         } else if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_VER_SIGFILE)) {
             title = labelUtil.getString("gui.filer.title.wmExtract.sigFile");
             filterDesc = labelUtil.getString(LABEL_FILTER_SIGFILES, "*" + SIG_FILE_EXTENSION);
-            allowedExts = Arrays.asList(new String[] { SIG_FILE_EXTENSION });
+            allowedExts = Arrays.asList(SIG_FILE_EXTENSION);
             textField = getVerifyWmPanel().getSignatureFileTextField();
         }
 
@@ -783,10 +783,9 @@ public class OpenStegoUI extends OpenStegoFrame {
         if (fileName != null) {
             // Check for valid extension for output file
             if ((action.equals(OpenStegoFrame.ActionCommands.BROWSE_DH_EMB_STGFILE) && (coverFileListSize <= 1))
-                    || (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_EMB_OUTFILE) && (wmInputFileListSize <= 1))) {
-                if (!plugin.getWritableFileExtensions().contains(fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase())) {
-                    fileName = fileName + "." + plugin.getWritableFileExtensions().get(0);
-                }
+                    || (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_EMB_OUTFILE) && (wmInputFileListSize <= 1))
+                            && !plugin.getWritableFileExtensions().contains(fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase())) {
+                fileName = fileName + "." + plugin.getWritableFileExtensions().get(0);
             }
             // Check for valid extension for signature file
             if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_GSG_SIGFILE) && !fileName.toLowerCase().endsWith(SIG_FILE_EXTENSION)) {

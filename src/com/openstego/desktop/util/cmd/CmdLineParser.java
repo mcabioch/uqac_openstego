@@ -44,7 +44,7 @@ public class CmdLineParser {
         while (i < args.length) {
             arg = args[i];
             value = null;
-            index = arg.indexOf("=");
+            index = arg.indexOf('=');
 
             // If arg is of the form "name=value", split it
             if (index >= 0) {

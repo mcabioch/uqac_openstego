@@ -65,14 +65,8 @@ public class FilterXMLReader {
             }
 
             return filterGHMap;
-        } catch (ParserConfigurationException pcEx) {
-            pcEx.printStackTrace();
-            throw new IllegalArgumentException("Invalid Filter XML file");
-        } catch (SAXException saxEx) {
-            saxEx.printStackTrace();
-            throw new IllegalArgumentException("Invalid Filter XML file");
-        } catch (IOException ioEx) {
-            ioEx.printStackTrace();
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            e.printStackTrace();
             throw new IllegalArgumentException("Invalid Filter XML file");
         }
     }
@@ -102,7 +96,7 @@ public class FilterXMLReader {
 
                 // Create the object
                 filter = getFilter(innerEl);
-                filter.setHiPass(!((i & 1) == 1));
+                filter.setHiPass((i & 1) != 1);
 
                 // Set the object in filterGH
                 if (i == 0) {

@@ -153,7 +153,7 @@ public class RandomLSBInputStream extends InputStream {
         }
 
         return ((bitSet[0] << 7) + (bitSet[1] << 6) + (bitSet[2] << 5) + (bitSet[3] << 4) + (bitSet[4] << 3) + (bitSet[5] << 2) + (bitSet[6] << 1)
-                + (bitSet[7] << 0));
+                + bitSet[7]);
     }
 
     /**

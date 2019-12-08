@@ -791,7 +791,10 @@ public class OpenStegoUI extends OpenStegoFrame {
             if (action.equals(OpenStegoFrame.ActionCommands.BROWSE_WM_GSG_SIGFILE) && !fileName.toLowerCase().endsWith(SIG_FILE_EXTENSION)) {
                 fileName = fileName + SIG_FILE_EXTENSION;
             }
-            textField.setText(fileName);
+
+            if (textField != null) {
+                textField.setText(fileName);
+            }
         }
     }
 
@@ -905,6 +908,8 @@ public class OpenStegoUI extends OpenStegoFrame {
             list = plugin.getReadableFileExtensions();
         } else if (flag == WRITE_EXTENSIONS) {
             list = plugin.getWritableFileExtensions();
+        } else {
+            return output;
         }
 
         for (int i = 0; i < list.size(); i++) {

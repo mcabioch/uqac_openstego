@@ -62,7 +62,7 @@ public class RandomLSBOutputStream extends OutputStream {
     /**
      * Array for bits in the image
      */
-    private boolean bitWritten[][][][] = null;
+    private boolean[][][][] bitWritten = null;
 
     /**
      * Random number generator
@@ -88,19 +88,16 @@ public class RandomLSBOutputStream extends OutputStream {
         this.imgHeight = image.getImage().getHeight();
         this.config = config;
 
-        switch (image.getImage().getType()) {
-            case BufferedImage.TYPE_INT_RGB:
-                this.image = image;
-                break;
-
-            default:
-                BufferedImage newImg = new BufferedImage(this.imgWidth, this.imgHeight, BufferedImage.TYPE_INT_RGB);
-                this.image = new ImageHolder(newImg, image.getMetadata());
-                for (int x = 0; x < this.imgWidth; x++) {
-                    for (int y = 0; y < this.imgHeight; y++) {
-                        newImg.setRGB(x, y, image.getImage().getRGB(x, y));
-                    }
+        if (image.getImage().getType() == BufferedImage.TYPE_INT_RGB) {
+            this.image = image;
+        } else {
+            BufferedImage newImg = new BufferedImage(this.imgWidth, this.imgHeight, BufferedImage.TYPE_INT_RGB);
+            this.image = new ImageHolder(newImg, image.getMetadata());
+            for (int x = 0; x < this.imgWidth; x++) {
+                for (int y = 0; y < this.imgHeight; y++) {
+                    newImg.setRGB(x, y, image.getImage().getRGB(x, y));
                 }
+            }
         }
 
         this.channelBitsUsed = 1;

@@ -205,26 +205,32 @@ public abstract class WorkerTask extends SwingWorker<Object, Void> {
 
         @Override
         public void focusGained(FocusEvent fe) {
+            // Do nothing
         }
 
         @Override
         public void mouseClicked(MouseEvent arg0) {
+            // Do nothing
         }
 
         @Override
         public void mouseEntered(MouseEvent arg0) {
+            // Do nothing
         }
 
         @Override
         public void mouseExited(MouseEvent arg0) {
+            // Do nothing
         }
 
         @Override
         public void mousePressed(MouseEvent arg0) {
+            // Do nothing
         }
 
         @Override
         public void mouseReleased(MouseEvent arg0) {
+            // Do nothing
         }
     }
 }

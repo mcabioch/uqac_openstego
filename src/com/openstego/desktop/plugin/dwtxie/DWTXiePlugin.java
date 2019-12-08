@@ -43,14 +43,14 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "DWTXIE";
+    public static final String NAMESPACE = "DWTXIE";
 
     /**
      * Default constructor
      */
     public DWTXiePlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.DWTXiePluginLabels");
-        new DWTXieErrors(); // Initialize error codes
+        DWTXieErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**
@@ -103,7 +103,7 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
         int cols = 0;
         int rows = 0;
         int n = 0;
-        double temp = 0.0;
+        double temp;
 
         // Cover file is mandatory
         if (cover == null) {
@@ -195,7 +195,6 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
         int[][] luminance = null;
         int cols = 0;
         int rows = 0;
-        // int n = 0;
 
         image = ImageUtil.byteArrayToImage(stegoData, stegoFileName);
         ImageUtil.makeImageSquare(image);
@@ -237,7 +236,6 @@ public class DWTXiePlugin extends WMImagePluginTemplate {
 
                 // Apply inverse watermarking transformation to get the bit value
                 sigBitList.add(invWmTransform(sig.embeddingStrength, pixel1.value, pixel2.value, pixel3.value));
-                // n++;
             }
         }
         sig.setWatermark(convertBitListToByteArray(sigBitList));

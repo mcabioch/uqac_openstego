@@ -21,28 +21,38 @@ public class OpenStegoConfig {
      * <p>
      * Flag to indicate whether compression should be used or not
      */
-    public static final String USE_COMPRESSION = "useCompression";
+    public static final String USE_COMPRESSION_KEY = "useCompression";
 
     /**
      * Key string for configuration item - useEncryption
      * <p>
      * Flag to indicate whether encryption should be used or not
      */
-    public static final String USE_ENCRYPTION = "useEncryption";
+    public static final String USE_ENCRYPTION_KEY = "useEncryption";
 
     /**
      * Key string for configuration item - password
      * <p>
      * Password for encryption in case "useEncryption" is set to true
      */
-    public static final String PASSWORD = "password";
+    public static final String PASSWORD_KEY = "password";
 
     /**
      * Key string for configuration item - encryptionAlgorithm
      * <p>
      * Algorithm to be used for encryption
      */
-    public static final String ENCRYPTION_ALGORITHM = "encryptionAlgorithm";
+    public static final String ENCRYPTION_ALGORITHM_KEY = "encryptionAlgorithm";
+
+    /**
+     * Value if true
+     */
+    public static final String TRUE_VALUE = "true";
+
+    /**
+     * Value if false
+     */
+    public static final String FALSE_VALUE = "false";
 
     /**
      * Flag to indicate whether compression should be used or not
@@ -92,32 +102,32 @@ public class OpenStegoConfig {
 
         if (options.getOption("-c") != null) // compress
         {
-            map.put(USE_COMPRESSION, "true");
+            map.put(USE_COMPRESSION_KEY, TRUE_VALUE);
         }
 
         if (options.getOption("-C") != null) // nocompress
         {
-            map.put(USE_COMPRESSION, "false");
+            map.put(USE_COMPRESSION_KEY, FALSE_VALUE);
         }
 
         if (options.getOption("-e") != null) // encrypt
         {
-            map.put(USE_ENCRYPTION, "true");
+            map.put(USE_ENCRYPTION_KEY, TRUE_VALUE);
         }
 
         if (options.getOption("-E") != null) // noencrypt
         {
-            map.put(USE_ENCRYPTION, "false");
+            map.put(USE_ENCRYPTION_KEY, FALSE_VALUE);
         }
 
         if (options.getOption("-p") != null) // password
         {
-            map.put(PASSWORD, options.getOptionValue("-p"));
+            map.put(PASSWORD_KEY, options.getOptionValue("-p"));
         }
 
         if (options.getOption("-A") != null) // cryptalgo
         {
-            map.put(ENCRYPTION_ALGORITHM, options.getOptionValue("-A"));
+            map.put(ENCRYPTION_ALGORITHM_KEY, options.getOptionValue("-A"));
         }
 
         addProperties(map);
@@ -137,29 +147,35 @@ public class OpenStegoConfig {
         keys = propMap.keySet().iterator();
         while (keys.hasNext()) {
             key = keys.next();
-            if (key.equals(USE_COMPRESSION)) {
-                value = propMap.get(key).toString().trim();
-                if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("y") || value.equals("1")) {
-                    this.useCompression = true;
-                } else if (value.equalsIgnoreCase("false") || value.equalsIgnoreCase("n") || value.equals("0")) {
-                    this.useCompression = false;
-                } else {
-                    throw new OpenStegoException(null, OpenStego.NAMESPACE, OpenStegoException.INVALID_USE_COMPR_VALUE, value);
-                }
-            } else if (key.equals(USE_ENCRYPTION)) {
-                value = propMap.get(key).toString().trim();
-                if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("y") || value.equals("1")) {
-                    this.useEncryption = true;
-                } else if (value.equalsIgnoreCase("false") || value.equalsIgnoreCase("n") || value.equals("0")) {
-                    this.useEncryption = false;
-                } else {
-                    throw new OpenStegoException(null, OpenStego.NAMESPACE, OpenStegoException.INVALID_USE_ENCRYPT_VALUE, value);
-                }
-            } else if (key.equals(PASSWORD)) {
-                this.password = propMap.get(key).toString();
-            } else if (key.equals(ENCRYPTION_ALGORITHM)) {
-                this.encryptionAlgorithm = propMap.get(key).toString();
+            if (key.equals(USE_COMPRESSION_KEY)) {
+                value = propMap.get(key).trim();
+                this.useCompression = determineBooleanEquivalent(value, OpenStegoException.INVALID_USE_COMPR_VALUE);
+            } else if (key.equals(USE_ENCRYPTION_KEY)) {
+                value = propMap.get(key).trim();
+                this.useEncryption = determineBooleanEquivalent(value, OpenStegoException.INVALID_USE_ENCRYPT_VALUE);
+            } else if (key.equals(PASSWORD_KEY)) {
+                this.password = propMap.get(key);
+            } else if (key.equals(ENCRYPTION_ALGORITHM_KEY)) {
+                this.encryptionAlgorithm = propMap.get(key);
             }
+        }
+    }
+
+    /**
+     * From a string value, determine a boolean equivalent
+     * 
+     * @param value String containing a boolean as text
+     * @param errorCode error code thrown if string can't be determined
+     * @return boolean equivalent
+     * @throws OpenStegoException
+     */
+    private boolean determineBooleanEquivalent(String value, int errorCode) throws OpenStegoException {
+        if (value.equalsIgnoreCase(TRUE_VALUE) || value.equalsIgnoreCase("y") || value.equals("1")) {
+            return true;
+        } else if (value.equalsIgnoreCase(FALSE_VALUE) || value.equalsIgnoreCase("n") || value.equals("0")) {
+            return false;
+        } else {
+            throw new OpenStegoException(null, OpenStego.NAMESPACE, errorCode, value);
         }
     }
 

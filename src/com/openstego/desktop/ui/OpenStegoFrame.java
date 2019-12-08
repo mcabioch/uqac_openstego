@@ -49,7 +49,7 @@ import com.openstego.desktop.util.LabelUtil;
  */
 public class OpenStegoFrame extends JFrame {
     private static final long serialVersionUID = -880718904125121559L;
-    private static final boolean toggleUiHack = false;
+    private static final boolean TOGGLE_UI_HACK = false;
 
     /**
      * LabelUtil instance to retrieve labels
@@ -64,6 +64,16 @@ public class OpenStegoFrame extends JFrame {
      * Number of columns for password fields
      */
     public static final int PWD_FIELD_SIZE = 15;
+
+    /**
+     * Embed Icon resource
+     */
+    public static final String RESOURCE_EMBED_ICON = "/image/EmbedIcon.png";
+
+    /**
+     * Extract Icon resource
+     */
+    public static final String RESOURCE_EXTRACT_ICON = "/image/ExtractIcon.png";
 
     private JMenuBar topMenuBar;
     private JMenu fileMenu;
@@ -249,7 +259,7 @@ public class OpenStegoFrame extends JFrame {
             c.gridy = gridy++;
             this.accordion.add(getVerifyWmButton(), c);
 
-            c.gridy = gridy++;
+            c.gridy = gridy;
             c.weighty = 1.0;
             this.accordion.add(new JPanel(), c);
         }
@@ -280,8 +290,8 @@ public class OpenStegoFrame extends JFrame {
     public JToggleButton getEmbedButton() {
         if (this.embedButton == null) {
             this.embedButton = new JToggleButton(labelUtil.getString("gui.label.tab.dhEmbed"),
-                    new ImageIcon(getClass().getResource("/image/EmbedIcon.png")), true);
-            if (toggleUiHack) {
+                    new ImageIcon(getClass().getResource(RESOURCE_EMBED_ICON)), true);
+            if (TOGGLE_UI_HACK) {
                 this.embedButton.setUI(new MetalToggleButtonUI());
             }
             this.embedButton.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -300,8 +310,8 @@ public class OpenStegoFrame extends JFrame {
     public JToggleButton getExtractButton() {
         if (this.extractButton == null) {
             this.extractButton = new JToggleButton(labelUtil.getString("gui.label.tab.dhExtract"),
-                    new ImageIcon(getClass().getResource("/image/ExtractIcon.png")));
-            if (toggleUiHack) {
+                    new ImageIcon(getClass().getResource(RESOURCE_EXTRACT_ICON)));
+            if (TOGGLE_UI_HACK) {
                 this.extractButton.setUI(new MetalToggleButtonUI());
             }
             this.extractButton.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -320,8 +330,8 @@ public class OpenStegoFrame extends JFrame {
     public JToggleButton getGenSigButton() {
         if (this.genSigButton == null) {
             this.genSigButton = new JToggleButton(labelUtil.getString("gui.label.tab.wmGenSig"),
-                    new ImageIcon(getClass().getResource("/image/EmbedIcon.png"))); // TODO
-            if (toggleUiHack) {
+                    new ImageIcon(getClass().getResource(RESOURCE_EMBED_ICON)));
+            if (TOGGLE_UI_HACK) {
                 this.genSigButton.setUI(new MetalToggleButtonUI());
             }
             this.genSigButton.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -340,8 +350,8 @@ public class OpenStegoFrame extends JFrame {
     public JToggleButton getSignWmButton() {
         if (this.signWmButton == null) {
             this.signWmButton = new JToggleButton(labelUtil.getString("gui.label.tab.wmEmbed"),
-                    new ImageIcon(getClass().getResource("/image/EmbedIcon.png")));
-            if (toggleUiHack) {
+                    new ImageIcon(getClass().getResource(RESOURCE_EMBED_ICON)));
+            if (TOGGLE_UI_HACK) {
                 this.signWmButton.setUI(new MetalToggleButtonUI());
             }
             this.signWmButton.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -360,8 +370,8 @@ public class OpenStegoFrame extends JFrame {
     public JToggleButton getVerifyWmButton() {
         if (this.verifyWmButton == null) {
             this.verifyWmButton = new JToggleButton(labelUtil.getString("gui.label.tab.wmVerify"),
-                    new ImageIcon(getClass().getResource("/image/ExtractIcon.png")));
-            if (toggleUiHack) {
+                    new ImageIcon(getClass().getResource(RESOURCE_EXTRACT_ICON)));
+            if (TOGGLE_UI_HACK) {
                 this.verifyWmButton.setUI(new MetalToggleButtonUI());
             }
             this.verifyWmButton.setVerticalTextPosition(SwingConstants.BOTTOM);
@@ -500,7 +510,7 @@ public class OpenStegoFrame extends JFrame {
      * initialize the form.
      */
     private void initialize() {
-        if (toggleUiHack) {
+        if (TOGGLE_UI_HACK) {
             UIManager.put("ToggleButton.select", new MetalLookAndFeel().getDefaults().getColor("ToggleButton.select").darker());
         }
         this.setContentPane(getMainContentPane());
@@ -549,105 +559,112 @@ public class OpenStegoFrame extends JFrame {
     /**
      * Enumeration for button actions
      */
-    public interface ActionCommands {
+    public final class ActionCommands {
+        /**
+         * Private constructor to prevent instantiation
+         */
+        private ActionCommands() {
+            throw new IllegalStateException("Utility class");
+        }
+
         /**
          * Menu - File - Exit
          */
-        public static String MENU_FILE_EXIT = "MENU_FILE_EXIT";
+        public static final String MENU_FILE_EXIT = "MENU_FILE_EXIT";
         /**
          * Menu - Help - About
          */
-        public static String MENU_HELP_ABOUT = "MENU_HELP_ABOUT";
+        public static final String MENU_HELP_ABOUT = "MENU_HELP_ABOUT";
 
         /**
          * Switch to Data Hiding - Embed panel
          */
-        public static String SWITCH_DH_EMBED = "SWITCH_DH_EMBED";
+        public static final String SWITCH_DH_EMBED = "SWITCH_DH_EMBED";
         /**
          * Switch to Data Hiding - Extract panel
          */
-        public static String SWITCH_DH_EXTRACT = "SWITCH_DH_EXTRACT";
+        public static final String SWITCH_DH_EXTRACT = "SWITCH_DH_EXTRACT";
         /**
          * Switch to Watermarking - GenSig panel
          */
-        public static String SWITCH_WM_GENSIG = "SWITCH_WM_GENSIG";
+        public static final String SWITCH_WM_GENSIG = "SWITCH_WM_GENSIG";
         /**
          * Switch to Watermarking - Embed panel
          */
-        public static String SWITCH_WM_EMBED = "SWITCH_WM_EMBED";
+        public static final String SWITCH_WM_EMBED = "SWITCH_WM_EMBED";
         /**
          * Switch to Watermarking - Verify panel
          */
-        public static String SWITCH_WM_VERIFY = "SWITCH_WM_VERIFY";
+        public static final String SWITCH_WM_VERIFY = "SWITCH_WM_VERIFY";
 
         /**
          * Browse action for DH-Embed-MessageFile
          */
-        public static String BROWSE_DH_EMB_MSGFILE = "BROWSE_DH_EMB_MSGFILE";
+        public static final String BROWSE_DH_EMB_MSGFILE = "BROWSE_DH_EMB_MSGFILE";
         /**
          * Browse action for DH-Embed-CoverFile
          */
-        public static String BROWSE_DH_EMB_CVRFILE = "BROWSE_DH_EMB_CVRFILE";
+        public static final String BROWSE_DH_EMB_CVRFILE = "BROWSE_DH_EMB_CVRFILE";
         /**
          * Browse action for DH-Embed-StegoFile
          */
-        public static String BROWSE_DH_EMB_STGFILE = "BROWSE_DH_EMB_STGFILE";
+        public static final String BROWSE_DH_EMB_STGFILE = "BROWSE_DH_EMB_STGFILE";
         /**
          * Execute DH-Embed
          */
-        public static String RUN_DH_EMBED = "RUN_DH_EMBED";
+        public static final String RUN_DH_EMBED = "RUN_DH_EMBED";
 
         /**
          * Browse action for DH-Extract-StegoFile
          */
-        public static String BROWSE_DH_EXT_STGFILE = "BROWSE_DH_EXT_STGFILE";
+        public static final String BROWSE_DH_EXT_STGFILE = "BROWSE_DH_EXT_STGFILE";
         /**
          * Browse action for DH-Extract-OutputFolder
          */
-        public static String BROWSE_DH_EXT_OUTDIR = "BROWSE_DH_EXT_OUTDIR";
+        public static final String BROWSE_DH_EXT_OUTDIR = "BROWSE_DH_EXT_OUTDIR";
         /**
          * Execute DH-Extract
          */
-        public static String RUN_DH_EXTRACT = "RUN_DH_EXTRACT";
+        public static final String RUN_DH_EXTRACT = "RUN_DH_EXTRACT";
 
         /**
          * Browse action for WM-GenSig-SigFile
          */
-        public static String BROWSE_WM_GSG_SIGFILE = "BROWSE_WM_GSG_SIGFILE";
+        public static final String BROWSE_WM_GSG_SIGFILE = "BROWSE_WM_GSG_SIGFILE";
         /**
          * Execute WM-GenSig
          */
-        public static String RUN_WM_GENSIG = "RUN_WM_GENSIG";
+        public static final String RUN_WM_GENSIG = "RUN_WM_GENSIG";
 
         /**
          * Browse action for WM-Embed-InputFile
          */
-        public static String BROWSE_WM_EMB_INPFILE = "BROWSE_WM_EMB_INPFILE";
+        public static final String BROWSE_WM_EMB_INPFILE = "BROWSE_WM_EMB_INPFILE";
         /**
          * Browse action for WM-Embed-SignatureFile
          */
-        public static String BROWSE_WM_EMB_SIGFILE = "BROWSE_WM_EMB_SIGFILE";
+        public static final String BROWSE_WM_EMB_SIGFILE = "BROWSE_WM_EMB_SIGFILE";
         /**
          * Browse action for WM-Embed-OutputFile
          */
-        public static String BROWSE_WM_EMB_OUTFILE = "BROWSE_WM_EMB_OUTFILE";
+        public static final String BROWSE_WM_EMB_OUTFILE = "BROWSE_WM_EMB_OUTFILE";
         /**
          * Execute WM-Embed
          */
-        public static String RUN_WM_EMBED = "RUN_WM_EMBED";
+        public static final String RUN_WM_EMBED = "RUN_WM_EMBED";
 
         /**
          * Browse action for WM-Verify-InputFile
          */
-        public static String BROWSE_WM_VER_INPFILE = "BROWSE_WM_VER_INPFILE";
+        public static final String BROWSE_WM_VER_INPFILE = "BROWSE_WM_VER_INPFILE";
         /**
          * Browse action for WM-Verify-SignatureFile
          */
-        public static String BROWSE_WM_VER_SIGFILE = "BROWSE_WM_VER_SIGFILE";
+        public static final String BROWSE_WM_VER_SIGFILE = "BROWSE_WM_VER_SIGFILE";
         /**
          * Execute WM-Verify
          */
-        public static String RUN_WM_VERIFY = "RUN_WM_VERIFY";
+        public static final String RUN_WM_VERIFY = "RUN_WM_VERIFY";
     }
 
     class GradientPanel extends JPanel {

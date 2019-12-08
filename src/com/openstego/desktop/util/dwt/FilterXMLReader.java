@@ -67,14 +67,8 @@ public class FilterXMLReader {
             }
 
             return filterGHMap;
-        } catch (ParserConfigurationException pcEx) {
-            Logger.getLogger("com.openstego.desktop.util.dwt").log(Level.SEVERE, pcEx.getMessage(), pcEx);
-            throw new IllegalArgumentException("Invalid Filter XML file");
-        } catch (SAXException saxEx) {
-            Logger.getLogger("com.openstego.desktop.util.dwt").log(Level.SEVERE, saxEx.getMessage(), saxEx);
-            throw new IllegalArgumentException("Invalid Filter XML file");
-        } catch (IOException ioEx) {
-            Logger.getLogger("com.openstego.desktop.util.dwt").log(Level.SEVERE, ioEx.getMessage(), ioEx);
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            Logger.getLogger("com.openstego.desktop.util.dwt").log(Level.SEVERE, e.getMessage(), e);
             throw new IllegalArgumentException("Invalid Filter XML file");
         }
     }
@@ -104,7 +98,7 @@ public class FilterXMLReader {
 
                 // Create the object
                 filter = getFilter(innerEl);
-                filter.setHiPass(!((i & 1) == 1));
+                filter.setHiPass((i & 1) != 1);
 
                 // Set the object in filterGH
                 if (i == 0) {

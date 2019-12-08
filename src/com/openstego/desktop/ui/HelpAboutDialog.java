@@ -51,7 +51,7 @@ public class HelpAboutDialog extends JDialog {
      */
     public JEditorPane getContent() {
         if (this.content == null) {
-            StringBuffer buf = new StringBuffer();
+            StringBuilder buf = new StringBuilder();
 
             buf.append("<html>");
             buf.append("  <table width=100% cellspacing=0 cellpadding=0 style='font:serif;'>");
@@ -167,6 +167,13 @@ public class HelpAboutDialog extends JDialog {
      * Helper class to launch browser. This code is copied from: http://www.centerkey.com/java/browser/
      */
     static class BareBonesBrowserLaunch {
+        /**
+         * Private constructor to prevent instantiation
+         */
+        private BareBonesBrowserLaunch() {
+            throw new IllegalStateException("Utility class");
+        }
+
         private static final String[] browsers = { "firefox", "google-chrome", "opera", "epiphany", "konqueror", "conkeror", "midori", "kazehakase",
                 "mozilla" };
 
@@ -174,16 +181,14 @@ public class HelpAboutDialog extends JDialog {
             try {
                 // Attempt to use Desktop library from JDK 1.6+
                 Class<?> d = Class.forName("java.awt.Desktop");
-                d.getDeclaredMethod("browse", new Class[] { java.net.URI.class }).invoke(d.getDeclaredMethod("getDesktop").invoke(null),
-                    new Object[] { java.net.URI.create(url) });
+                d.getDeclaredMethod("browse", java.net.URI.class).invoke(d.getDeclaredMethod("getDesktop").invoke(null), java.net.URI.create(url));
                 // Above code mimics: java.awt.Desktop.getDesktop().browse()
             } catch (Exception ignore) {
                 // Library not available or failed
                 String osName = System.getProperty("os.name");
                 try {
                     if (osName.startsWith("Mac OS")) {
-                        Class.forName("com.apple.eio.FileManager").getDeclaredMethod("openURL", new Class[] { String.class }).invoke(null,
-                            new Object[] { url });
+                        Class.forName("com.apple.eio.FileManager").getDeclaredMethod("openURL", String.class).invoke(null, new Object[] { url });
                     } else if (osName.startsWith("Windows")) {
                         Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + url);
                     } else {

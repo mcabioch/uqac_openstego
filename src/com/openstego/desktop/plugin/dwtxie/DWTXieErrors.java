@@ -13,6 +13,13 @@ import com.openstego.desktop.OpenStegoException;
  */
 public class DWTXieErrors {
     /**
+     * Private constructor to prevent instantiation
+     */
+    private DWTXieErrors() {
+        throw new IllegalStateException("Utility class");
+    }
+
+    /**
      * Error Code - No cover file given
      */
     public static final int ERR_NO_COVER_FILE = 1;
@@ -22,11 +29,18 @@ public class DWTXieErrors {
      */
     public static final int ERR_SIG_NOT_VALID = 2;
 
-    /*
+    /**
+     * Static variable to keep track if we added error codes or not
+     */
+    private static boolean initialized = false;
+
+    /**
      * Initialize the error code - message key map
      */
-    static {
-        OpenStegoException.addErrorCode(DWTXiePlugin.NAMESPACE, ERR_NO_COVER_FILE, "err.cover.missing");
-        OpenStegoException.addErrorCode(DWTXiePlugin.NAMESPACE, ERR_SIG_NOT_VALID, "err.signature.invalid");
+    public static void addErrorCodes() {
+        if (!initialized) {
+            OpenStegoException.addErrorCode(DWTXiePlugin.NAMESPACE, ERR_NO_COVER_FILE, "err.cover.missing");
+            OpenStegoException.addErrorCode(DWTXiePlugin.NAMESPACE, ERR_SIG_NOT_VALID, "err.signature.invalid");
+        }
     }
 }

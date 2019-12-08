@@ -37,12 +37,12 @@ public class OpenStegoCrypto {
     /**
      * 8-byte Salt for Password-based cryptography
      */
-    private final byte[] SALT = { (byte) 0x28, (byte) 0x5F, (byte) 0x71, (byte) 0xC9, (byte) 0x1E, (byte) 0x35, (byte) 0x0A, (byte) 0x62 };
+    private static final byte[] SALT = { (byte) 0x28, (byte) 0x5F, (byte) 0x71, (byte) 0xC9, (byte) 0x1E, (byte) 0x35, (byte) 0x0A, (byte) 0x62 };
 
     /**
      * Iteration count for Password-based cryptography
      */
-    private final int ITER_COUNT = 7;
+    private static final int ITER_COUNT = 7;
 
     /**
      * Secret key for encryption
@@ -75,7 +75,7 @@ public class OpenStegoCrypto {
             }
 
             // Create the key
-            keySpec = new PBEKeySpec(password.toCharArray(), this.SALT, this.ITER_COUNT);
+            keySpec = new PBEKeySpec(password.toCharArray(), OpenStegoCrypto.SALT, OpenStegoCrypto.ITER_COUNT);
             this.secretKey = SecretKeyFactory.getInstance(algorithm).generateSecret(keySpec);
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
@@ -92,7 +92,7 @@ public class OpenStegoCrypto {
     public byte[] encrypt(byte[] input) throws OpenStegoException {
         try {
             Cipher encryptCipher = Cipher.getInstance(this.secretKey.getAlgorithm());
-            AlgorithmParameterSpec algoParamSpec = new PBEParameterSpec(this.SALT, this.ITER_COUNT);
+            AlgorithmParameterSpec algoParamSpec = new PBEParameterSpec(OpenStegoCrypto.SALT, OpenStegoCrypto.ITER_COUNT);
             encryptCipher.init(Cipher.ENCRYPT_MODE, this.secretKey, algoParamSpec);
 
             byte[] algoParams = encryptCipher.getParameters().getEncoded();

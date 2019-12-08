@@ -44,7 +44,7 @@ public class ImageUtil {
     /**
      * Default image type in case not provided
      */
-    public static String DEFAULT_IMAGE_TYPE = "png";
+    public static final String DEFAULT_IMAGE_TYPE = "png";
 
     /**
      * Method to generate a random image filled with noise.
@@ -201,12 +201,6 @@ public class ImageUtil {
                 b = (image.getRGB(j, i) >> 0) & 0xFF;
 
                 // Convert RGB to YUV colorspace
-                // y[i][j] = (int) ((0.257 * r) + (0.504 * g) + (0.098 * b) + 16);
-                // u[i][j] = (int) (-(0.148 * r) - (0.291 * g) + (0.439 * b) + 128);
-                // v[i][j] = (int) ((0.439 * r) - (0.368 * g) - (0.071 * b) + 128);
-                // y[i][j] = (int) ((0.2990 * r) + (0.5870 * g) + (0.1140 * b));
-                // u[i][j] = (int) ((-0.1687 * r) - (0.3313 * g) + (0.5000 * b) + 128);
-                // v[i][j] = (int) ((0.5000 * r) - (0.4187 * g) - (0.0813 * b) + 128);
                 y[i][j] = (int) ((0.299 * r) + (0.587 * g) + (0.114 * b));
                 u[i][j] = (int) ((-0.147 * r) - (0.289 * g) + (0.436 * b));
                 v[i][j] = (int) ((0.615 * r) - (0.515 * g) - (0.100 * b));
@@ -285,12 +279,6 @@ public class ImageUtil {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 // Convert YUV back to RGB
-                // r = pixelRange(1.164 * (y[i][j] - 16) + 1.596 * (v[i][j] - 128));
-                // g = pixelRange(1.164 * (y[i][j] - 16) - 0.391 * (u[i][j] - 128) - 0.813 * (v[i][j] - 128));
-                // b = pixelRange(1.164 * (y[i][j] - 16) + 2.018 * (u[i][j] - 128));
-                // r = pixelRange(y[i][j] + 1.40200 * (v[i][j] - 128));
-                // g = pixelRange(y[i][j] - 0.34414 * (u[i][j] - 128) - 0.71414 * (v[i][j] - 128));
-                // b = pixelRange(y[i][j] + 1.77200 * (u[i][j] - 128));
                 r = pixelRange(y[i][j] + 1.140 * v[i][j]);
                 g = pixelRange(y[i][j] - 0.395 * u[i][j] - 0.581 * v[i][j]);
                 b = pixelRange(y[i][j] + 2.032 * u[i][j]);
@@ -310,7 +298,15 @@ public class ImageUtil {
      * @return Limited value
      */
     public static int pixelRange(int p) {
-        return ((p > 255) ? 255 : (p < 0) ? 0 : p);
+        if (p > 255) {
+            return 255;
+        }
+
+        if (p < 0) {
+            return 0;
+        }
+
+        return p;
     }
 
     /**
@@ -320,7 +316,7 @@ public class ImageUtil {
      * @return Limited value
      */
     public static int pixelRange(double p) {
-        return ((p > 255) ? 255 : (p < 0) ? 0 : (int) p);
+        return pixelRange(p);
     }
 
     /**
@@ -382,7 +378,6 @@ public class ImageUtil {
         int min = 0;
         int max = 0;
         int diff = 0;
-        // double error = 0.0;
         BufferedImage diffImage = null;
 
         leftW = leftImage.getImage().getWidth();
@@ -400,7 +395,6 @@ public class ImageUtil {
         for (int i = 0; i < leftW; i++) {
             for (int j = 0; j < leftH; j++) {
                 diff = Math.abs(leftImage.getImage().getRGB(i, j) - rightImage.getImage().getRGB(i, j));
-                // error += diff * diff;
                 if (diff < min) {
                     min = diff;
                 }

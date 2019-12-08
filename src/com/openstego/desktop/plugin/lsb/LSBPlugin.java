@@ -37,14 +37,14 @@ public class LSBPlugin extends DHImagePluginTemplate {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "LSB";
+    public static final String NAMESPACE = "LSB";
 
     /**
      * Default constructor
      */
     public LSBPlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.LSBPluginLabels");
-        new LSBErrors(); // Initialize error codes
+        LSBErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**

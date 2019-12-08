@@ -44,7 +44,7 @@ public class CmdLineParser {
         while (i < args.length) {
             arg = args[i];
             value = null;
-            index = arg.indexOf("=");
+            index = arg.indexOf('=');
 
             // If arg is of the form "name=value", split it
             if (index >= 0) {
@@ -62,7 +62,7 @@ public class CmdLineParser {
             // Standard option
             {
                 // If non-standard option is already parsed then standard option should not be provided now
-                if (!this.nonStdMixedWithStdOptions && this.nonStdArgList.size() > 0) {
+                if (!this.nonStdMixedWithStdOptions && !this.nonStdArgList.isEmpty()) {
                     this.nonStdMixedWithStdOptions = true;
                 }
 

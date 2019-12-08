@@ -56,7 +56,7 @@ public class CmdLineOption {
      * @param takesArgVal Flag to indicate whether the option takes argument or not
      * @throws IllegalArgumentException If option type is TYPE_COMMAND and takesArgVal is specified as true
      */
-    public CmdLineOption(String name, String altName, int type, boolean takesArgVal) throws IllegalArgumentException {
+    public CmdLineOption(String name, String altName, int type, boolean takesArgVal) {
         this.name = name;
         this.altName = altName;
         this.type = type;

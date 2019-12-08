@@ -192,7 +192,7 @@ public class CommonUtil {
      * @return String containing modified wildcard characters
      */
     private static String replaceWildcards(String input) {
-        StringBuffer buffer = new StringBuffer();
+        StringBuilder buffer = new StringBuilder();
         char[] chars = input.toCharArray();
 
         for (int i = 0; i < chars.length; i++) {

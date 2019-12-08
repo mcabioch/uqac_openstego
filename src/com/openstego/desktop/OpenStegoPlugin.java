@@ -69,11 +69,11 @@ public abstract class OpenStegoPlugin {
      * @return Display lable for purpose(s) of the plugin
      */
     public final String getPurposesLabel() {
-        StringBuffer sbf = new StringBuffer();
+        StringBuilder sbf = new StringBuilder();
         LabelUtil labelUtil = LabelUtil.getInstance(OpenStego.NAMESPACE);
         List<Purpose> purposes = getPurposes();
 
-        if (purposes == null || purposes.size() == 0) {
+        if (purposes == null || purposes.isEmpty()) {
             return "";
         }
 
@@ -260,8 +260,8 @@ public abstract class OpenStegoPlugin {
      */
     public final OpenStegoConfig createConfig() throws OpenStegoException {
         try {
-            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor(new Class[0]);
-            this.config = constructor.newInstance(new Object[0]);
+            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor();
+            this.config = constructor.newInstance(new Object());
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
         }
@@ -277,8 +277,8 @@ public abstract class OpenStegoPlugin {
      */
     public final OpenStegoConfig createConfig(Map<String, String> propMap) throws OpenStegoException {
         try {
-            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor(new Class[] { Map.class });
-            this.config = constructor.newInstance(new Object[] { propMap });
+            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor(Map.class);
+            this.config = constructor.newInstance(propMap);
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
         }
@@ -294,8 +294,8 @@ public abstract class OpenStegoPlugin {
      */
     public final OpenStegoConfig createConfig(CmdLineOptions options) throws OpenStegoException {
         try {
-            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor(new Class[] { CmdLineOptions.class });
-            this.config = constructor.newInstance(new Object[] { options });
+            Constructor<? extends OpenStegoConfig> constructor = getConfigClass().getConstructor(CmdLineOptions.class);
+            this.config = constructor.newInstance(options);
         } catch (Exception ex) {
             throw new OpenStegoException(ex);
         }

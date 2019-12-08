@@ -43,7 +43,7 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
     /**
      * Constant for Namespace to use for this plugin
      */
-    public final static String NAMESPACE = "DWTDUGAD";
+    public static final String NAMESPACE = "DWTDUGAD";
 
     private static final String SIG_MARKER = "DGSG";
     private static final String WM_MARKER = "DGWM";
@@ -53,7 +53,7 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
      */
     public DWTDugadPlugin() {
         LabelUtil.addNamespace(NAMESPACE, "com.openstego.desktop.resource.DWTDugadPluginLabels");
-        new DWTDugadErrors(); // Initialize error codes
+        DWTDugadErrors.addErrorCodes(); // Initialize error codes
     }
 
     /**
@@ -234,21 +234,17 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
      * @throws IOException
      */
     private List<Integer> computeOkN(ObjectInputStream ois, int ok, int n, double alpha) throws IOException {
-        int m = 0;
-        double z = 0.0;
-        double v = 0.0;
+        int m;
+        double z;
+        double v;
 
-        try {
-            m = ois.readInt();
-            z = ois.readDouble();
-            v = ois.readDouble();
-            if (m != 0) {
-                ok += (z > v * alpha / 1.0) ? 1 : 0;
-            } else {
-                n--;
-            }
-        } catch (IOException ioEx) {
-            throw ioEx;
+        m = ois.readInt();
+        z = ois.readDouble();
+        v = ois.readDouble();
+        if (m != 0) {
+            ok += (z > v * alpha / 1.0) ? 1 : 0;
+        } else {
+            n--;
         }
 
         return Arrays.asList(ok, n);
@@ -403,7 +399,9 @@ public class DWTDugadPlugin extends WMImagePluginTemplate {
          * @param rand Randomizer to use for generating watermark data
          */
         public Signature(Random rand) {
-            double x, x1, x2;
+            double x;
+            double x1;
+            double x2;
             this.watermark = new double[this.watermarkLength];
 
             for (int i = 0; i < this.watermarkLength; i += 2) {

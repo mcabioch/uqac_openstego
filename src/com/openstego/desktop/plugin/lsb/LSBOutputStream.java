@@ -99,9 +99,9 @@ public class LSBOutputStream extends OutputStream {
         this.config = config;
         BufferedImage newImg = new BufferedImage(this.imgWidth, this.imgHeight, BufferedImage.TYPE_INT_RGB);
         this.image = new ImageHolder(newImg, image.getMetadata());
-        for (int x = 0; x < this.imgWidth; x++) {
-            for (int y = 0; y < this.imgHeight; y++) {
-                newImg.setRGB(x, y, image.getImage().getRGB(x, y));
+        for (int x1 = 0; x1 < this.imgWidth; x1++) {
+            for (int y1 = 0; y1 < this.imgHeight; y1++) {
+                newImg.setRGB(x1, y1, image.getImage().getRGB(x1, y1));
             }
         }
 

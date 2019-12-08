@@ -177,9 +177,6 @@ public class DWTUtil {
             tempTree.setVertical(waveletTransformWp(verticalImg, i + 1, level, filterGHList, method));
             tempTree.setDiagonal(waveletTransformWp(diagonalImg, i + 1, level, filterGHList, method));
 
-            horizontalImg = null;
-            verticalImg = null;
-            diagonalImg = null;
             tempImg = null;
 
             if (i != (level - 1)) {

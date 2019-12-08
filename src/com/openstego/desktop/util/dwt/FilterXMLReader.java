@@ -9,6 +9,8 @@ package com.openstego.desktop.util.dwt;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -66,7 +68,7 @@ public class FilterXMLReader {
 
             return filterGHMap;
         } catch (ParserConfigurationException | SAXException | IOException e) {
-            e.printStackTrace();
+            Logger.getLogger("com.openstego.desktop.util.dwt").log(Level.SEVERE, e.getMessage(), e);
             throw new IllegalArgumentException("Invalid Filter XML file");
         }
     }

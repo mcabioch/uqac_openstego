@@ -22,6 +22,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -275,7 +277,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                 try {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
-                    exc.printStackTrace();
+                    Logger.getLogger("com.openstego.desktop.ui").log(Level.SEVERE, exc.getMessage(), exc);
                     Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
@@ -354,7 +356,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                 try {
                     outputFileName = (String) get();
                 } catch (InterruptedException exc) {
-                    exc.printStackTrace();
+                    Logger.getLogger("com.openstego.desktop.ui").log(Level.SEVERE, exc.getMessage(), exc);
                     Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
@@ -546,7 +548,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                 try {
                     val = (Integer[]) get();
                 } catch (InterruptedException exc) {
-                    exc.printStackTrace();
+                    Logger.getLogger("com.openstego.desktop.ui").log(Level.SEVERE, exc.getMessage(), exc);
                     Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
@@ -646,7 +648,7 @@ public class OpenStegoUI extends OpenStegoFrame {
                 try {
                     tblData = (Object[][]) get();
                 } catch (InterruptedException exc) {
-                    exc.printStackTrace();
+                    Logger.getLogger("com.openstego.desktop.ui").log(Level.SEVERE, exc.getMessage(), exc);
                     Thread.currentThread().interrupt();
                     return;
                 } catch (ExecutionException exc) {
@@ -838,7 +840,7 @@ public class OpenStegoUI extends OpenStegoFrame {
             msg = writer.toString();
         }
 
-        ex.printStackTrace();
+        Logger.getLogger("com.openstego.desktop.ui").log(Level.SEVERE, ex.getMessage(), ex);
         JOptionPane.showMessageDialog(this, msg, labelUtil.getString("gui.msg.title.err"), JOptionPane.ERROR_MESSAGE);
     }
 

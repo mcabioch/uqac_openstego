@@ -7,7 +7,7 @@
 package com.openstego.desktop.plugin.lsb;
 
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 
 import com.openstego.desktop.OpenStegoConfig;
 import com.openstego.desktop.OpenStegoException;
@@ -75,11 +75,7 @@ public class LSBDataHeader {
         if (fileName == null) {
             this.fileName = new byte[0];
         } else {
-            try {
-                this.fileName = fileName.getBytes("UTF-8");
-            } catch (UnsupportedEncodingException unEx) {
-                this.fileName = fileName.getBytes();
-            }
+            this.fileName = fileName.getBytes(StandardCharsets.UTF_8);
         }
     }
 
@@ -183,7 +179,6 @@ public class LSBDataHeader {
 
         if (this.fileName.length > 0) {
             System.arraycopy(this.fileName, 0, out, currIndex, this.fileName.length);
-            currIndex += this.fileName.length;
         }
 
         return out;
@@ -224,11 +219,8 @@ public class LSBDataHeader {
     public String getFileName() {
         String name = null;
 
-        try {
-            name = new String(this.fileName, "UTF-8");
-        } catch (UnsupportedEncodingException unEx) {
-            name = new String(this.fileName);
-        }
+        name = new String(this.fileName, StandardCharsets.UTF_8);
+
         return name;
     }
 

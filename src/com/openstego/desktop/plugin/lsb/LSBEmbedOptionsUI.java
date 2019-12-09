@@ -16,7 +16,6 @@ import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 import com.openstego.desktop.OpenStegoConfig;
@@ -95,12 +94,8 @@ public class LSBEmbedOptionsUI extends PluginEmbedOptionsUI {
         this.maxBitsComboBox.setPreferredSize(new Dimension(40, 20));
         add(this.maxBitsComboBox, gridBagConstraints);
 
-        ChangeListener changeListener = new ChangeListener() {
-            @Override
-            public void stateChanged(ChangeEvent changeEvent) {
-                useRandomImgChanged();
-            }
-        };
+        ChangeListener changeListener = (changeEvent) -> useRandomImgChanged();
+
         this.randomImgCheckBox.addChangeListener(changeListener);
         useRandomImgChanged();
     }

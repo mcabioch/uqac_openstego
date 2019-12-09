@@ -11,7 +11,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.util.Arrays;
 
@@ -25,7 +24,6 @@ import javax.swing.JEditorPane;
 import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 import javax.swing.event.HyperlinkEvent;
-import javax.swing.event.HyperlinkListener;
 
 import com.openstego.desktop.OpenStego;
 import com.openstego.desktop.util.LabelUtil;
@@ -84,16 +82,13 @@ public class HelpAboutDialog extends JDialog {
             this.content.setBackground(getBackground());
             this.content.setPreferredSize(new Dimension(450, 320));
 
-            this.content.addHyperlinkListener(new HyperlinkListener() {
-                @Override
-                public void hyperlinkUpdate(HyperlinkEvent e) {
-                    if (e.getEventType() == HyperlinkEvent.EventType.ACTIVATED) {
-                        JEditorPane pane = (JEditorPane) e.getSource();
-                        if (e.getURL() == null) {
-                            BareBonesBrowserLaunch.openURL(labelUtil.getString("homepage"), pane);
-                        } else {
-                            BareBonesBrowserLaunch.openURL(e.getURL().toString(), pane);
-                        }
+            this.content.addHyperlinkListener(e -> {
+                if (e.getEventType() == HyperlinkEvent.EventType.ACTIVATED) {
+                    JEditorPane pane = (JEditorPane) e.getSource();
+                    if (e.getURL() == null) {
+                        BareBonesBrowserLaunch.openURL(labelUtil.getString("homepage"), pane);
+                    } else {
+                        BareBonesBrowserLaunch.openURL(e.getURL().toString(), pane);
                     }
                 }
             });
@@ -109,11 +104,8 @@ public class HelpAboutDialog extends JDialog {
     public JButton getOkButton() {
         if (this.okButton == null) {
             this.okButton = new JButton("OK");
-            this.okButton.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    setVisible(false);
-                }
+            this.okButton.addActionListener(e -> {
+                setVisible(false);
             });
         }
         return this.okButton;
